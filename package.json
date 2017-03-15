@@ -20,10 +20,10 @@
   "homepage": "https://github.com/cozy/cozy-ui",
   "devDependencies": {
     "coffee-script": "^1.9.3",
-    "stylus": "^0.52.0"
+    "stylus": "^0.54.5"
   },
   "dependencies": {
     "md5": "^2.0.0",
-    "normalize.css": "^3.0.3"
+    "normalize.css": "^5.0.0"
   }
 }

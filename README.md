@@ -1,6 +1,8 @@
 Cozy Ui
 =======
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/cozy/cozy-ui.svg)](https://greenkeeper.io/)
+
 A clean Ui SDK designed to build [Cozy](https://cozy.io/) apps.
 
 If you plan to build a webapp to run on Cozy, you'll probably want to use a

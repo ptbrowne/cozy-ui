@@ -9,8 +9,7 @@ const ModalTitle = ({ title }) =>
     <h2 className={styles['coz-modal-title']}>{title}</h2>
   )
 
-const ModalCross = ({ withCross, secondaryAction, secondaryText }) =>
-  withCross &&
+const ModalCross = ({ secondaryAction, secondaryText }) =>
   (
     <button
       className={classNames('coz-btn', 'coz-btn--close', styles['coz-btn-modal-close'])}
@@ -21,7 +20,6 @@ const ModalCross = ({ withCross, secondaryAction, secondaryText }) =>
 )
 
 const ModalDescription = ({ description }) =>
-  description &&
   (
     <div className={classNames(styles['coz-modal-content'], styles['coz-description'])}>
       {description}
@@ -80,7 +78,18 @@ class Modal extends Component {
   }
 
   render () {
-    const { children, title, withCross } = this.props
+    const {
+      children,
+      title,
+      withCross,
+      description,
+      primaryAction,
+      primaryText,
+      primaryType,
+      secondaryAction,
+      secondaryText,
+      secondaryType
+    } = this.props
     return (
       <div className={styles['coz-modal-container']}>
         <div className={styles['coz-overlay']}>
@@ -88,11 +97,17 @@ class Modal extends Component {
             className={styles['coz-modal-wrapper']}
             onClick={withCross && this.handleOutsideClick}>
             <div className={styles['coz-modal']}>
-              {title && <ModalTitle {...this.props} />}
-              <ModalCross {...this.props} />
-              <ModalDescription {...this.props} />
-              { children }
-              <ModalButtons {...this.props} />
+              {title && <ModalTitle title={ title } />}
+              {withCross && <ModalCross secondaryAction={secondaryAction} secondaryText={secondaryText} />}
+              {description && <ModalDescription description={description} />}
+              {children}
+              <ModalButtons
+                primaryText={primaryText}
+                primaryAction={primaryAction}
+                primaryType={primaryType}
+                secondaryText={secondaryText}
+                secondaryAction={secondaryAction}
+                secondaryType={secondaryType} />
             </div>
           </div>
         </div>

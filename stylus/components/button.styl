@@ -119,6 +119,20 @@ $button--highlight
         &::after
             @extend  $icon-spinner-white
 
+$button--no-outline
+    background transparent
+    color dodger-blue
+    border 0
+    padding 0
+    font-weight bold
+    min-height auto
+
+    &:not([disabled]):not([aria-disabled=true]):hover,
+    &:active,
+    &:focus
+        background transparent
+        outline 0
+
 $button--share
     padding-left         em(44px, 16px)
     background-image     embedurl('../assets/icons/ui/icon-share-grey08.svg')

@@ -82,6 +82,7 @@ body
 
 // BUTTONS
 @import '../components/button'
+
 :global .coz-btn
     @extend $button
 
@@ -96,6 +97,9 @@ body
 
     &.coz-btn--danger-outline
         @extend $button--danger-outline
+
+    &.coz-btn--no-outline
+        @extend $button--no-outline
 
     &.coz-btn--highlight
         @extend $button--highlight
@@ -132,7 +136,6 @@ body
 
     &.coz-btn-alert--success
         @extend $button-alert--success
-
 
 // LINKS
 :global .coz-link--upload

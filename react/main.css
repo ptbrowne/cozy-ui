@@ -11776,6 +11776,57 @@ body {
   height: 5px;
 }
 
+.PercentageBar--12TWu {
+  background-color: var(--paleGrey);
+  border: 1px solid var(--silver);
+  height: 1.5rem;
+  border-radius: 4px;
+}
+.PercentageBar--12TWu .PercentageBar__line--1DAnN {
+  height: 100%;
+  border-radius: 4px;
+}
+
+.ThresholdBar--R_ADM {
+  position: relative;
+  height: 4px;
+  --okBg: var(--malachite);
+  --errBg: var(--pomegranate);
+}
+.ThresholdBar__bg--3EmkC {
+  height: 100%;
+  border-radius: 2px;
+  overflow: hidden;
+}
+.ThresholdBar__inner--8PPM_ {
+  height: 100%;
+}
+.ThresholdBar__tick--2D_0Q {
+  height: 12px;
+  z-index: 1;
+  background: #000;
+  width: 2px;
+  position: absolute;
+  top: -4px;
+  transform: left 0.125s ease;
+}
+.ThresholdBar__bg--3EmkC,
+.ThresholdBar__inner--8PPM_ {
+  transform: background 0.125s ease;
+}
+.ThresholdBar__bg--3EmkC {
+  background: var(--paleGrey);
+}
+.ThresholdBar--exceeded--22r2C .ThresholdBar__bg--3EmkC {
+  background: var(--errBg);
+}
+.ThresholdBar__inner--8PPM_ {
+  background: var(--okBg);
+}
+.ThresholdBar--exceeded--22r2C .ThresholdBar__inner--8PPM_ {
+  background: transparent;
+}
+
 .u-p-0 {
   padding: 0 !important;
 }
@@ -19713,6 +19764,7 @@ body {
 .c-inputgroup--12OVJ {
   display: inline-flex;
   flex-direction: row;
+  box-sizing: border-box;
   align-items: stretch;
   width: 100%;
   max-width: 32rem;
@@ -22049,6 +22101,10 @@ body {
 .PageLayout--1ptQY {
   display: flex;
   flex-direction: column;
+}
+
+.NarrowContent--Zq8oI {
+  max-width: 32rem;
 }
 
 .c-overlay--31iWd {
@@ -25678,7 +25734,7 @@ iframe {
   --tabsBackgroundColor: var(--primaryColor);
 }
 .coz-tabs--24QL5 .coz-tab--2mOye {
-  flex: 0 0;
+  flex: 0 0 auto;
   padding: 0.625rem 1rem;
   text-transform: uppercase;
   font-size: 0.75rem;
@@ -29347,5 +29403,12 @@ body {
   padding: 0.5rem;
   padding-bottom: calc(0.5rem + env(safe-area-inset-bottom));
   box-shadow: 0 -2px 2px 0 rgba(0,0,0,0.06);
+}
+
+.iconGrid--7nBAB {
+  display: grid;
+  grid-template-columns: repeat(2, 16px);
+  grid-template-rows: repeat(2, 16px);
+  grid-gap: rem(1);
 }
 

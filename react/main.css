@@ -1582,6 +1582,16 @@ body {
 .u-c-not-allowed {
   cursor: not-allowed;
 }
+.u-debug--1nW7j {
+  background: rgba(0,0,0,0.075);
+  border: 1px solid #f00;
+}
+.u-debug--1nW7j .u-debug--1nW7j {
+  border-color: #00f;
+}
+.u-debug--1nW7j .u-debug--1nW7j .u-debug--1nW7j {
+  border-color: #008000;
+}
 .u-miw-1 {
   min-width: 1rem !important;
 }
@@ -8499,7 +8509,7 @@ body {
   box-sizing: border-box;
   width: 100vw;
   height: 100%;
-  overflow-y: scroll;
+  overflow-y: auto;
   padding: 3rem;
 }
 @media (max-width: 48rem) {
@@ -25400,6 +25410,21 @@ body {
   }
 }
 
+.with-transition--1dzf9 {
+  transition: transform 0.1s ease-out;
+}
+.BottomDrawer-content--2xiuD {
+  z-index: $file-action-menu;
+  position: fixed;
+  bottom: 0.563rem;
+  bottom: env(safe-area-inset-bottom);
+  left: 0;
+  width: calc(100% - 1rem);
+  margin: 0 1rem;
+  padding-bottom: 0.313rem;
+  box-sizing: border-box;
+}
+
 :root {
 /*
     Grey
@@ -26640,11 +26665,11 @@ body {
 .Infos--2ZZVs {
   position: relative;
   border-radius: 8px;
-  padding: 2rem 1.5rem;
+  padding: 1rem 1.5rem;
 }
 @media (max-width: 48rem) {
   .Infos--2ZZVs {
-    padding: 1rem;
+    padding: 0.75rem 1rem;
   }
 }
 .Infos--2ZZVs.Infos--primary--3i4ll {
@@ -26817,23 +26842,30 @@ body {
 }
 .InfosCarrousel-navigation--3s_hu {
   position: absolute;
-  bottom: 0;
-  right: 0;
+  bottom: 0.5rem;
+  right: 0.5rem;
   display: flex;
   align-items: center;
+}
+@media (max-width: 48rem) {
+  .InfosCarrousel-navigation--3s_hu {
+    bottom: 0.25rem;
+    right: 0.25rem;
+  }
 }
 .InfosCarrousel-arrow--1kpYd {
   background: none;
   border: 0;
-  min-width: 32px;
-  padding: 8px 16px;
+  cursor: pointer;
 }
 .InfosCarrousel-arrow--1kpYd:disabled {
   opacity: 0.24;
+  cursor: default;
 }
 .InfosCarrousel-separator--AvH5m {
   border-left: 1px solid var(--silver);
   height: 1rem;
+  margin: 0 0.5rem;
 }
 
 .context-header--QuTup {
@@ -27153,22 +27185,18 @@ iframe {
 .c-actionmenu--22Fp1 [role=button]:hover {
   text-decoration: none;
 }
-.c-actionmenu--22Fp1 {
-  z-index: 60;
-  position: fixed;
-  bottom: 0.563rem;
-  bottom: env(safe-area-inset-bottom);
-  left: 0;
-  width: calc(100% - 1rem);
-  margin: 0 0.5rem;
-  padding-bottom: 0.313rem;
-  box-sizing: border-box;
-}
-.c-actionmenu--22Fp1.with-transition--1xeFH {
-  transition: transform 0.1s ease-out;
+.c-actionmenu-container--JhthU {
+  position: relative;
 }
 .c-actionmenu--22Fp1 hr {
   margin-top: 0;
+}
+.c-actionmenu--inline--1SXZa {
+  position: absolute;
+  bottom: auto;
+  left: auto;
+  width: auto;
+  min-width: 13.75rem;
 }
 .c-actionmenu-header--2rcGc {
   box-sizing: border-box;

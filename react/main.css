@@ -26833,39 +26833,54 @@ body {
 .InfosCarrousel--3rCyB {
   position: relative;
 }
-.InfosCarrousel--3rCyB.InfosCarrousel--primary--2ku-O .InfosCarrousel-arrow--1kpYd,
-.InfosCarrousel--3rCyB.InfosCarrousel--secondary--1ro3l .InfosCarrousel-arrow--1kpYd {
-  color: var(--coolGrey);
-}
-.InfosCarrousel--3rCyB.InfosCarrousel--danger--1Cdvd .InfosCarrousel-arrow--1kpYd {
-  color: var(--pomegranate);
-}
 .InfosCarrousel-navigation--3s_hu {
   position: absolute;
-  bottom: 0.5rem;
-  right: 0.5rem;
   display: flex;
   align-items: center;
+  height: 2.5rem;
+  bottom: 1rem;
+  right: 1rem;
+  box-sizing: border-box;
 }
 @media (max-width: 48rem) {
   .InfosCarrousel-navigation--3s_hu {
-    bottom: 0.25rem;
-    right: 0.25rem;
+    height: 2.5rem;
+    bottom: 0.75rem;
+    right: 0.75rem;
   }
-}
-.InfosCarrousel-arrow--1kpYd {
-  background: none;
-  border: 0;
-  cursor: pointer;
-}
-.InfosCarrousel-arrow--1kpYd:disabled {
-  opacity: 0.24;
-  cursor: default;
 }
 .InfosCarrousel-separator--AvH5m {
   border-left: 1px solid var(--silver);
   height: 1rem;
   margin: 0 0.5rem;
+}
+
+.IconButton--1LWwV {
+  background: none;
+  border: 0;
+  cursor: pointer;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--coolGrey);
+  height: 3rem;
+  width: 3rem;
+  border-radius: 3rem;
+  box-sizing: border-box;
+}
+.IconButton--1LWwV:hover:not(:disabled) {
+  background: rgba(0,0,0,0.06);
+}
+.IconButton--1LWwV:active:not(:disabled) {
+  color: var(--slateGrey);
+  background: rgba(0,0,0,0.12);
+  outline: 0;
+}
+.IconButton--1LWwV:disabled {
+  opacity: 0.24;
+  cursor: default;
 }
 
 .context-header--QuTup {

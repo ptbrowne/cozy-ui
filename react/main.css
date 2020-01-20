@@ -11539,6 +11539,34 @@ body {
   line-height: 1;
 }
 
+.IconButton--1LWwV {
+  background: none;
+  border: 0;
+  cursor: pointer;
+  padding: 0;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--coolGrey);
+  height: 3rem;
+  width: 3rem;
+  border-radius: 3rem;
+  box-sizing: border-box;
+}
+.IconButton--1LWwV:hover:not(:disabled) {
+  background: rgba(0,0,0,0.06);
+}
+.IconButton--1LWwV:active:not(:disabled) {
+  color: var(--slateGrey);
+  background: rgba(0,0,0,0.12);
+  outline: 0;
+}
+.IconButton--1LWwV:disabled {
+  opacity: 0.24;
+  cursor: default;
+}
+
 :root {
 /*
     Grey
@@ -26853,34 +26881,6 @@ body {
   border-left: 1px solid var(--silver);
   height: 1rem;
   margin: 0 0.5rem;
-}
-
-.IconButton--1LWwV {
-  background: none;
-  border: 0;
-  cursor: pointer;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: var(--coolGrey);
-  height: 3rem;
-  width: 3rem;
-  border-radius: 3rem;
-  box-sizing: border-box;
-}
-.IconButton--1LWwV:hover:not(:disabled) {
-  background: rgba(0,0,0,0.06);
-}
-.IconButton--1LWwV:active:not(:disabled) {
-  color: var(--slateGrey);
-  background: rgba(0,0,0,0.12);
-  outline: 0;
-}
-.IconButton--1LWwV:disabled {
-  opacity: 0.24;
-  cursor: default;
 }
 
 .context-header--QuTup {

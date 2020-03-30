@@ -31370,20 +31370,33 @@ body {
   background-color: var(--white);
   display: flex;
   flex-direction: column;
-  transition: 0.5s;
-  opacity: 0;
-  visibility: hidden;
-  transform: translateY(18.75rem);
+  max-width: 90%;
+  width: 30rem;
+}
+.upload-queue__threshold-bar--tTYal {
+  min-width: 10rem;
+  margin-right: 1rem;
+}
+.upload-queue__progress-caption--1-vXY {
+  height: 0;
+  margin-top: -1rem;
+}
+.upload-queue__upload-progress--1q-uS {
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 .upload-queue--popover--2z1a4 {
   position: fixed;
   bottom: 0.5rem;
   right: 1.5rem;
   height: 13.125rem;
-  width: 30rem;
-  max-width: 90%;
+  transform: translateY(18.75rem);
+  transition: 0.5s;
+  opacity: 0;
+  visibility: hidden;
 }
-.upload-queue--visible--DjVRs {
+.upload-queue--popover--2z1a4.upload-queue--visible--DjVRs {
   opacity: 1;
   visibility: visible;
   transform: translate(0);
@@ -31455,11 +31468,14 @@ progress.upload-queue-progress--1CmN-::-moz-progress-bar {
   align-items: center;
   flex: 0 0 auto;
   width: 100%;
-  max-width: calc(100vw - 13.75rem);
   border-bottom: 0.0625rem solid var(--silver);
+  max-width: calc(100vw - 13.75rem);
 }
 .upload-queue-item--j7jPs .item-file--1kfDn {
   flex: 0 0 85%;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
   user-select: none;
   box-sizing: border-box;
   color: var(--charcoalGrey);
@@ -31481,22 +31497,32 @@ progress.upload-queue-progress--1CmN-::-moz-progress-bar {
 }
 @media (max-width: 63.938rem) {
   .upload-queue--1VtNK {
-    top: 3rem;
-    bottom: auto;
-    right: 0;
-    left: 0;
-    transform: none;
-    z-index: 3;
-    width: 100%;
-    max-width: 100%;
-    height: auto;
-    max-height: 0;
     border-radius: 0;
     border: 0;
     background-color: var(--white);
     box-shadow: none;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    transform: none;
   }
-  .upload-queue--1VtNK:before {
+  .upload-queue-header--c9Vf2 {
+    background: 0;
+    color: var(--dodgerBlue);
+    text-transform: uppercase;
+  }
+  .upload-queue-content--3MPHo {
+    display: none;
+  }
+  .upload-queue--popover--2z1a4 {
+    top: 3rem;
+    bottom: auto;
+    right: 0;
+    left: 0;
+    z-index: 3;
+    max-height: 0;
+  }
+  .upload-queue--popover--2z1a4:before {
     position: fixed;
     top: 2.9375rem;
     z-index: 20;
@@ -31505,16 +31531,11 @@ progress.upload-queue-progress--1CmN-::-moz-progress-bar {
     content: '';
     background: var(--white);
   }
-  .upload-queue--visible--DjVRs {
+  .upload-queue--popover--2z1a4.upload-queue--visible--DjVRs {
     max-height: 30%;
   }
-  .upload-queue-content--3MPHo {
+  .upload-queue--popover--2z1a4 .upload-queue-content--3MPHo {
     display: none;
-  }
-  .upload-queue-header--c9Vf2 {
-    background: 0;
-    color: var(--dodgerBlue);
-    text-transform: uppercase;
   }
 }
 

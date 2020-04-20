@@ -25584,6 +25584,45 @@ body {
   --tabsBackground: transparent;
 }
 
+.Breadcrumb--lSOZg {
+  display: flex;
+  align-items: center;
+}
+.Breadcrumb__previousButton--Jcvx7 margin-right spacing_values.l--3eYan,
+.Breadcrumb__previousButton--Jcvx7 cursor pointer,
+.Breadcrumb__previousButton--Jcvx7.default--37qub {
+  margin-top: 0.5rem;
+}
+.Breadcrumb__previousButton--Jcvx7.primary--1vzxI {
+  margin-top: 1rem;
+}
+.Breadcrumb__items--2ozfJ {
+  flex-grow: 1;
+}
+.Breadcrumb__items--2ozfJ.default--37qub {
+  color: var(--charcoalGrey);
+}
+.Breadcrumb__items--2ozfJ.primary--1vzxI {
+  color: var(--primaryContrastTextColor);
+}
+.Breadcrumb__previousItems--IzmVu {
+  display: flex;
+}
+.BreadcrumbItem--3D49M {
+  font-size: 0.875rem;
+  line-height: 1;
+}
+.BreadcrumbItem--current--3PTwt {
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 1.67;
+}
+.BreadcrumbSeparator--I81AU {
+  display: inline-block;
+  margin-left: 0.5rem/4;
+  margin-right: 0.5rem/4;
+}
+
 :root {
 /*
     Grey

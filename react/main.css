@@ -8934,6 +8934,7 @@ body {
 }
 .c-actionbtn--162t6[disabled]:hover,
 .c-actionbtn--162t6[aria-disabled=true]:hover {
+  border-color: var(--primaryColor);
   background-color: var(--primaryColor);
 }
 .c-actionbtn--162t6.c-actionbtn--compact--37yb2 {
@@ -9743,6 +9744,7 @@ body {
 .c-btn--regular--2HUly[disabled]:hover,
 .c-btn---2Vnj[aria-disabled=true]:hover,
 .c-btn--regular--2HUly[aria-disabled=true]:hover {
+  border-color: var(--primaryColor);
   background-color: var(--primaryColor);
 }
 .c-btn--regular-inverted--21IsW {
@@ -9761,6 +9763,7 @@ body {
 }
 .c-btn--regular-inverted--21IsW[disabled]:hover,
 .c-btn--regular-inverted--21IsW[aria-disabled=true]:hover {
+  border-color: var(--primaryColor);
   background-color: var(--white);
 }
 .c-btn--ghost--1HC3L {
@@ -9780,6 +9783,7 @@ body {
 }
 .c-btn--ghost--1HC3L[disabled]:hover,
 .c-btn--ghost--1HC3L[aria-disabled=true]:hover {
+  border-color: var(--frenchPass);
   background-color: var(--zircon);
 }
 .c-btn--highlight--2jRfu {
@@ -9798,6 +9802,7 @@ body {
 }
 .c-btn--highlight--2jRfu[disabled]:hover,
 .c-btn--highlight--2jRfu[aria-disabled=true]:hover {
+  border-color: var(--emerald);
   background-color: var(--emerald);
 }
 .c-btn--alpha--2ECZi,
@@ -9830,6 +9835,7 @@ body {
 .c-btn--alpha--2ECZi[aria-disabled=true]:hover,
 .c-btn--action--36KFm[aria-disabled=true]:hover,
 .c-btn--close--3f0AP[aria-disabled=true]:hover {
+  border-color: var(--white);
   background-color: transparent;
 }
 .c-btn--danger--17T_C {
@@ -9848,6 +9854,7 @@ body {
 }
 .c-btn--danger--17T_C[disabled]:hover,
 .c-btn--danger--17T_C[aria-disabled=true]:hover {
+  border-color: var(--pomegranate);
   background-color: var(--pomegranate);
 }
 .c-btn--secondary--3Br_N {
@@ -9866,6 +9873,7 @@ body {
 }
 .c-btn--secondary--3Br_N[disabled]:hover,
 .c-btn--secondary--3Br_N[aria-disabled=true]:hover {
+  border-color: var(--silver);
   background-color: var(--white);
 }
 .c-btn--secondary-inverted--midL7 {
@@ -9884,6 +9892,7 @@ body {
 }
 .c-btn--secondary-inverted--midL7[disabled]:hover,
 .c-btn--secondary-inverted--midL7[aria-disabled=true]:hover {
+  border-color: var(--white);
   background-color: var(--primaryColor);
 }
 .c-btn--danger-outline--1mO1B {
@@ -9902,6 +9911,7 @@ body {
 }
 .c-btn--danger-outline--1mO1B[disabled]:hover,
 .c-btn--danger-outline--1mO1B[aria-disabled=true]:hover {
+  border-color: var(--yourPink);
   background-color: var(--white);
 }
 .c-btn--text--2Vp-2 {
@@ -9920,6 +9930,7 @@ body {
 }
 .c-btn--text--2Vp-2[disabled]:hover,
 .c-btn--text--2Vp-2[aria-disabled=true]:hover {
+  border-color: transparent;
   background-color: transparent;
 }
 .c-btn--text--2Vp-2:hover,
@@ -10113,10 +10124,6 @@ body {
 }
 .c-btn--subtle--OknKf.c-btn--secondary--3Br_N svg {
   color: var(--coolGrey);
-}
-
-.ErrorMessage--PWDaA {
-  color: var(--pomegranate);
 }
 
 :root {
@@ -10361,6 +10368,10 @@ body {
 .c-DropdownButton-Icon--ohvD2 {
   margin-top: 0.25rem;
   margin-left: 0.25rem;
+}
+
+.ErrorMessage--PWDaA {
+  color: var(--pomegranate);
 }
 
 :root {
@@ -27306,6 +27317,7 @@ body {
 }
 .c-btn-client--jTKz7[disabled]:hover,
 .c-btn-client--jTKz7[aria-disabled=true]:hover {
+  border-color: var(--primaryColor);
   background-color: var(--primaryColor);
 }
 .c-btn-client--jTKz7 {
@@ -27324,6 +27336,7 @@ body {
 }
 .c-btn-client--jTKz7[disabled]:hover,
 .c-btn-client--jTKz7[aria-disabled=true]:hover {
+  border-color: var(--silver);
   background-color: var(--white);
 }
 .c-btn-client--jTKz7 {
@@ -28044,6 +28057,7 @@ body {
 .c-banner-client--38nZA .c-banner-text--2kNbn[disabled]:hover,
 .c-banner-client--38nZA .c-btn-clientMobile--2arb4[aria-disabled=true]:hover,
 .c-banner-client--38nZA .c-banner-text--2kNbn[aria-disabled=true]:hover {
+  border-color: var(--primaryColor);
   background-color: var(--primaryColor);
 }
 .c-banner-client--38nZA .c-btn-clientMobile--2arb4,
@@ -28069,6 +28083,7 @@ body {
 .c-banner-client--38nZA .c-banner-text--2kNbn[disabled]:hover,
 .c-banner-client--38nZA .c-btn-clientMobile--2arb4[aria-disabled=true]:hover,
 .c-banner-client--38nZA .c-banner-text--2kNbn[aria-disabled=true]:hover {
+  border-color: var(--silver);
   background-color: var(--white);
 }
 .c-banner-client--38nZA .c-btn-clientMobile--2arb4,

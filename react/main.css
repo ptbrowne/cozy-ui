@@ -29191,10 +29191,10 @@ body {
 .CozyTheme--inverted--1ygHa {
   background: var(--primaryColor);
   --barIconColor: #fff;
-  --barIconColorDisabled: rgba(255,255,255,0.85);
+  --barIconColorDisabled: rgba(255,255,255,0.88);
   --regularButtonPrimaryColor: var(--primaryContrastTextColor);
   --regularButtonSecondaryColor: var(--primaryContrastTextColor);
-  --regularButtonActiveColor: var(--paleGrey);
+  --regularButtonActiveColor: rgba(255,255,255,0.88);
   --regularButtonConstrastColor: var(--primaryColor);
   --secondaryButtonPrimaryColor: var(--primaryColor);
   --secondaryButtonSecondaryColor: var(--white);

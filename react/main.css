@@ -1110,16 +1110,6 @@ body {
     font-style: italic !important;
   }
 }
-:root {
-  --regularButtonPrimaryColor: var(--primaryColor);
-  --regularButtonSecondaryColor: var(--primaryColor);
-  --regularButtonActiveColor: var(--primaryColorDark);
-  --regularButtonConstrastColor: var(--primaryContrastTextColor);
-  --secondaryButtonPrimaryColor: var(--white);
-  --secondaryButtonSecondaryColor: var(--silver);
-  --secondaryButtonActiveColor: var(--silver);
-  --secondaryButtonContrastColor: var(--black);
-}
 @media (pointer: coarse) {
 }
 [data-input=radio],
@@ -6808,16 +6798,6 @@ body {
     font-style: italic !important;
   }
 }
-:root {
-  --regularButtonPrimaryColor: var(--primaryColor);
-  --regularButtonSecondaryColor: var(--primaryColor);
-  --regularButtonActiveColor: var(--primaryColorDark);
-  --regularButtonConstrastColor: var(--primaryContrastTextColor);
-  --secondaryButtonPrimaryColor: var(--white);
-  --secondaryButtonSecondaryColor: var(--silver);
-  --secondaryButtonActiveColor: var(--silver);
-  --secondaryButtonContrastColor: var(--black);
-}
 @media (pointer: coarse) {
 }
 [data-input=radio],
@@ -7107,12 +7087,25 @@ body {
 
     Styleguide Settings.theme.primary
     */
+}
+:root,
+.CozyTheme--normal--3KdKA {
   --primaryColor: var(--dodgerBlue);
   --primaryColorDark: var(--scienceBlue);
   --primaryColorLight: #5c9df5;
   --primaryColorLighter: #4b93f7;
   --primaryColorLightest: #9fc4fb;
+  --primaryTextColor: var(--charcoalGrey);
+  --secondaryTextColor: var(--coolGrey);
   --primaryContrastTextColor: var(--white);
+  --regularButtonPrimaryColor: var(--primaryColor);
+  --regularButtonSecondaryColor: var(--primaryColor);
+  --regularButtonActiveColor: var(--primaryColorDark);
+  --regularButtonConstrastColor: var(--primaryContrastTextColor);
+  --secondaryButtonPrimaryColor: var(--white);
+  --secondaryButtonSecondaryColor: var(--silver);
+  --secondaryButtonActiveColor: var(--silver);
+  --secondaryButtonContrastColor: var(--black);
 }
 @-moz-keyframes spin--lXiub {
   from {
@@ -7723,16 +7716,6 @@ body {
   .u-fs-italic-m {
     font-style: italic !important;
   }
-}
-:root {
-  --regularButtonPrimaryColor: var(--primaryColor);
-  --regularButtonSecondaryColor: var(--primaryColor);
-  --regularButtonActiveColor: var(--primaryColorDark);
-  --regularButtonConstrastColor: var(--primaryContrastTextColor);
-  --secondaryButtonPrimaryColor: var(--white);
-  --secondaryButtonSecondaryColor: var(--silver);
-  --secondaryButtonActiveColor: var(--silver);
-  --secondaryButtonContrastColor: var(--black);
 }
 @media (pointer: coarse) {
 }
@@ -8911,16 +8894,6 @@ body {
     font-style: italic !important;
   }
 }
-:root {
-  --regularButtonPrimaryColor: var(--primaryColor);
-  --regularButtonSecondaryColor: var(--primaryColor);
-  --regularButtonActiveColor: var(--primaryColorDark);
-  --regularButtonConstrastColor: var(--primaryContrastTextColor);
-  --secondaryButtonPrimaryColor: var(--white);
-  --secondaryButtonSecondaryColor: var(--silver);
-  --secondaryButtonActiveColor: var(--silver);
-  --secondaryButtonContrastColor: var(--black);
-}
 .c-actionbtn--162t6 {
   position: relative;
   box-sizing: border-box;
@@ -9715,16 +9688,6 @@ body {
     font-style: italic !important;
   }
 }
-:root {
-  --regularButtonPrimaryColor: var(--primaryColor);
-  --regularButtonSecondaryColor: var(--primaryColor);
-  --regularButtonActiveColor: var(--primaryColorDark);
-  --regularButtonConstrastColor: var(--primaryContrastTextColor);
-  --secondaryButtonPrimaryColor: var(--white);
-  --secondaryButtonSecondaryColor: var(--silver);
-  --secondaryButtonActiveColor: var(--silver);
-  --secondaryButtonContrastColor: var(--black);
-}
 .c-btn---2Vnj,
 .c-btn--regular--2HUly {
   position: relative;
@@ -10279,12 +10242,25 @@ body {
 
     Styleguide Settings.theme.primary
     */
+}
+:root,
+.CozyTheme--normal--2VNeI {
   --primaryColor: var(--dodgerBlue);
   --primaryColorDark: var(--scienceBlue);
   --primaryColorLight: #5c9df5;
   --primaryColorLighter: #4b93f7;
   --primaryColorLightest: #9fc4fb;
+  --primaryTextColor: var(--charcoalGrey);
+  --secondaryTextColor: var(--coolGrey);
   --primaryContrastTextColor: var(--white);
+  --regularButtonPrimaryColor: var(--primaryColor);
+  --regularButtonSecondaryColor: var(--primaryColor);
+  --regularButtonActiveColor: var(--primaryColorDark);
+  --regularButtonConstrastColor: var(--primaryContrastTextColor);
+  --secondaryButtonPrimaryColor: var(--white);
+  --secondaryButtonSecondaryColor: var(--silver);
+  --secondaryButtonActiveColor: var(--silver);
+  --secondaryButtonContrastColor: var(--black);
 }
 .c-chip--2aPqg {
   box-sizing: border-box;
@@ -10527,12 +10503,25 @@ body {
 
     Styleguide Settings.theme.primary
     */
+}
+:root,
+.CozyTheme--normal--1UIGZ {
   --primaryColor: var(--dodgerBlue);
   --primaryColorDark: var(--scienceBlue);
   --primaryColorLight: #5c9df5;
   --primaryColorLighter: #4b93f7;
   --primaryColorLightest: #9fc4fb;
+  --primaryTextColor: var(--charcoalGrey);
+  --secondaryTextColor: var(--coolGrey);
   --primaryContrastTextColor: var(--white);
+  --regularButtonPrimaryColor: var(--primaryColor);
+  --regularButtonSecondaryColor: var(--primaryColor);
+  --regularButtonActiveColor: var(--primaryColorDark);
+  --regularButtonConstrastColor: var(--primaryContrastTextColor);
+  --secondaryButtonPrimaryColor: var(--white);
+  --secondaryButtonSecondaryColor: var(--silver);
+  --secondaryButtonActiveColor: var(--silver);
+  --secondaryButtonContrastColor: var(--black);
 }
 .c-card--YgP7B {
   border: 0.063rem solid var(--silver);
@@ -10746,12 +10735,25 @@ body {
 
     Styleguide Settings.theme.primary
     */
+}
+:root,
+.CozyTheme--normal--I_6Ur {
   --primaryColor: var(--dodgerBlue);
   --primaryColorDark: var(--scienceBlue);
   --primaryColorLight: #5c9df5;
   --primaryColorLighter: #4b93f7;
   --primaryColorLightest: #9fc4fb;
+  --primaryTextColor: var(--charcoalGrey);
+  --secondaryTextColor: var(--coolGrey);
   --primaryContrastTextColor: var(--white);
+  --regularButtonPrimaryColor: var(--primaryColor);
+  --regularButtonSecondaryColor: var(--primaryColor);
+  --regularButtonActiveColor: var(--primaryColorDark);
+  --regularButtonConstrastColor: var(--primaryContrastTextColor);
+  --secondaryButtonPrimaryColor: var(--white);
+  --secondaryButtonSecondaryColor: var(--silver);
+  --secondaryButtonActiveColor: var(--silver);
+  --secondaryButtonContrastColor: var(--black);
 }
 .c-inline-card--1sri1 {
   display: inline-block;
@@ -10967,12 +10969,25 @@ body {
 
     Styleguide Settings.theme.primary
     */
+}
+:root,
+.CozyTheme--normal--3khZB {
   --primaryColor: var(--dodgerBlue);
   --primaryColorDark: var(--scienceBlue);
   --primaryColorLight: #5c9df5;
   --primaryColorLighter: #4b93f7;
   --primaryColorLightest: #9fc4fb;
+  --primaryTextColor: var(--charcoalGrey);
+  --secondaryTextColor: var(--coolGrey);
   --primaryContrastTextColor: var(--white);
+  --regularButtonPrimaryColor: var(--primaryColor);
+  --regularButtonSecondaryColor: var(--primaryColor);
+  --regularButtonActiveColor: var(--primaryColorDark);
+  --regularButtonConstrastColor: var(--primaryContrastTextColor);
+  --secondaryButtonPrimaryColor: var(--white);
+  --secondaryButtonSecondaryColor: var(--silver);
+  --secondaryButtonActiveColor: var(--silver);
+  --secondaryButtonContrastColor: var(--black);
 }
 @-moz-keyframes spin--3Lqkt {
   from {
@@ -13930,16 +13945,6 @@ body {
     font-style: italic !important;
   }
 }
-:root {
-  --regularButtonPrimaryColor: var(--primaryColor);
-  --regularButtonSecondaryColor: var(--primaryColor);
-  --regularButtonActiveColor: var(--primaryColorDark);
-  --regularButtonConstrastColor: var(--primaryContrastTextColor);
-  --secondaryButtonPrimaryColor: var(--white);
-  --secondaryButtonSecondaryColor: var(--silver);
-  --secondaryButtonActiveColor: var(--silver);
-  --secondaryButtonContrastColor: var(--black);
-}
 @media (pointer: coarse) {
 }
 .c-input-checkbox--2CzvY {
@@ -14162,12 +14167,25 @@ body {
 
     Styleguide Settings.theme.primary
     */
+}
+:root,
+.CozyTheme--normal--1ZHOn {
   --primaryColor: var(--dodgerBlue);
   --primaryColorDark: var(--scienceBlue);
   --primaryColorLight: #5c9df5;
   --primaryColorLighter: #4b93f7;
   --primaryColorLightest: #9fc4fb;
+  --primaryTextColor: var(--charcoalGrey);
+  --secondaryTextColor: var(--coolGrey);
   --primaryContrastTextColor: var(--white);
+  --regularButtonPrimaryColor: var(--primaryColor);
+  --regularButtonSecondaryColor: var(--primaryColor);
+  --regularButtonActiveColor: var(--primaryColorDark);
+  --regularButtonConstrastColor: var(--primaryContrastTextColor);
+  --secondaryButtonPrimaryColor: var(--white);
+  --secondaryButtonSecondaryColor: var(--silver);
+  --secondaryButtonActiveColor: var(--silver);
+  --secondaryButtonContrastColor: var(--black);
 }
 .c-input-checkbox--svg--3YMZN span::after {
   display: none;
@@ -14801,16 +14819,6 @@ body {
   .u-fs-italic-m {
     font-style: italic !important;
   }
-}
-:root {
-  --regularButtonPrimaryColor: var(--primaryColor);
-  --regularButtonSecondaryColor: var(--primaryColor);
-  --regularButtonActiveColor: var(--primaryColorDark);
-  --regularButtonConstrastColor: var(--primaryContrastTextColor);
-  --secondaryButtonPrimaryColor: var(--white);
-  --secondaryButtonSecondaryColor: var(--silver);
-  --secondaryButtonActiveColor: var(--silver);
-  --secondaryButtonContrastColor: var(--black);
 }
 @media (pointer: coarse) {
 }
@@ -15481,21 +15489,11 @@ body {
     font-style: italic !important;
   }
 }
-:root {
-  --regularButtonPrimaryColor: var(--primaryColor);
-  --regularButtonSecondaryColor: var(--primaryColor);
-  --regularButtonActiveColor: var(--primaryColorDark);
-  --regularButtonConstrastColor: var(--primaryContrastTextColor);
-  --secondaryButtonPrimaryColor: var(--white);
-  --secondaryButtonSecondaryColor: var(--silver);
-  --secondaryButtonActiveColor: var(--silver);
-  --secondaryButtonContrastColor: var(--black);
-}
 @media (pointer: coarse) {
 }
 .c-label--o4ozG {
   text-transform: uppercase;
-  color: var(--coolGrey);
+  color: var(--secondaryTextColor);
   font-size: 0.813rem;
   font-weight: bold;
   line-height: 1rem;
@@ -16121,16 +16119,6 @@ body {
   .u-fs-italic-m {
     font-style: italic !important;
   }
-}
-:root {
-  --regularButtonPrimaryColor: var(--primaryColor);
-  --regularButtonSecondaryColor: var(--primaryColor);
-  --regularButtonActiveColor: var(--primaryColorDark);
-  --regularButtonConstrastColor: var(--primaryContrastTextColor);
-  --secondaryButtonPrimaryColor: var(--white);
-  --secondaryButtonSecondaryColor: var(--silver);
-  --secondaryButtonActiveColor: var(--silver);
-  --secondaryButtonContrastColor: var(--black);
 }
 @media (pointer: coarse) {
 }
@@ -16805,16 +16793,6 @@ body {
     font-style: italic !important;
   }
 }
-:root {
-  --regularButtonPrimaryColor: var(--primaryColor);
-  --regularButtonSecondaryColor: var(--primaryColor);
-  --regularButtonActiveColor: var(--primaryColorDark);
-  --regularButtonConstrastColor: var(--primaryContrastTextColor);
-  --secondaryButtonPrimaryColor: var(--white);
-  --secondaryButtonSecondaryColor: var(--silver);
-  --secondaryButtonActiveColor: var(--silver);
-  --secondaryButtonContrastColor: var(--black);
-}
 @media (pointer: coarse) {
 }
 .select--disabled--1W3en {
@@ -16971,12 +16949,25 @@ body {
 
     Styleguide Settings.theme.primary
     */
+}
+:root,
+.CozyTheme--normal--3RDVP {
   --primaryColor: var(--dodgerBlue);
   --primaryColorDark: var(--scienceBlue);
   --primaryColorLight: #5c9df5;
   --primaryColorLighter: #4b93f7;
   --primaryColorLightest: #9fc4fb;
+  --primaryTextColor: var(--charcoalGrey);
+  --secondaryTextColor: var(--coolGrey);
   --primaryContrastTextColor: var(--white);
+  --regularButtonPrimaryColor: var(--primaryColor);
+  --regularButtonSecondaryColor: var(--primaryColor);
+  --regularButtonActiveColor: var(--primaryColorDark);
+  --regularButtonConstrastColor: var(--primaryContrastTextColor);
+  --secondaryButtonPrimaryColor: var(--white);
+  --secondaryButtonSecondaryColor: var(--silver);
+  --secondaryButtonActiveColor: var(--silver);
+  --secondaryButtonContrastColor: var(--black);
 }
 .select-control__input--1xDlj {
   width: 0;
@@ -17676,16 +17667,6 @@ body {
   .u-fs-italic-m {
     font-style: italic !important;
   }
-}
-:root {
-  --regularButtonPrimaryColor: var(--primaryColor);
-  --regularButtonSecondaryColor: var(--primaryColor);
-  --regularButtonActiveColor: var(--primaryColorDark);
-  --regularButtonConstrastColor: var(--primaryContrastTextColor);
-  --secondaryButtonPrimaryColor: var(--white);
-  --secondaryButtonSecondaryColor: var(--silver);
-  --secondaryButtonActiveColor: var(--silver);
-  --secondaryButtonContrastColor: var(--black);
 }
 @media (pointer: coarse) {
 }
@@ -18394,16 +18375,6 @@ body {
   .u-fs-italic-m {
     font-style: italic !important;
   }
-}
-:root {
-  --regularButtonPrimaryColor: var(--primaryColor);
-  --regularButtonSecondaryColor: var(--primaryColor);
-  --regularButtonActiveColor: var(--primaryColorDark);
-  --regularButtonConstrastColor: var(--primaryContrastTextColor);
-  --secondaryButtonPrimaryColor: var(--white);
-  --secondaryButtonSecondaryColor: var(--silver);
-  --secondaryButtonActiveColor: var(--silver);
-  --secondaryButtonContrastColor: var(--black);
 }
 @media (pointer: coarse) {
 }
@@ -19272,16 +19243,6 @@ body {
     font-style: italic !important;
   }
 }
-:root {
-  --regularButtonPrimaryColor: var(--primaryColor);
-  --regularButtonSecondaryColor: var(--primaryColor);
-  --regularButtonActiveColor: var(--primaryColorDark);
-  --regularButtonConstrastColor: var(--primaryContrastTextColor);
-  --secondaryButtonPrimaryColor: var(--white);
-  --secondaryButtonSecondaryColor: var(--silver);
-  --secondaryButtonActiveColor: var(--silver);
-  --secondaryButtonContrastColor: var(--black);
-}
 @media (pointer: coarse) {
 }
 .c-inputgroup--12OVJ input[aria-disabled=true],
@@ -19989,16 +19950,6 @@ body {
     font-style: italic !important;
   }
 }
-:root {
-  --regularButtonPrimaryColor: var(--primaryColor);
-  --regularButtonSecondaryColor: var(--primaryColor);
-  --regularButtonActiveColor: var(--primaryColorDark);
-  --regularButtonConstrastColor: var(--primaryContrastTextColor);
-  --secondaryButtonPrimaryColor: var(--white);
-  --secondaryButtonSecondaryColor: var(--silver);
-  --secondaryButtonActiveColor: var(--silver);
-  --secondaryButtonContrastColor: var(--black);
-}
 @media (pointer: coarse) {
 }
 .c-input-radio--XJQt1 {
@@ -20234,12 +20185,25 @@ body {
 
     Styleguide Settings.theme.primary
     */
+}
+:root,
+.CozyTheme--normal--1uhrc {
   --primaryColor: var(--dodgerBlue);
   --primaryColorDark: var(--scienceBlue);
   --primaryColorLight: #5c9df5;
   --primaryColorLighter: #4b93f7;
   --primaryColorLightest: #9fc4fb;
+  --primaryTextColor: var(--charcoalGrey);
+  --secondaryTextColor: var(--coolGrey);
   --primaryContrastTextColor: var(--white);
+  --regularButtonPrimaryColor: var(--primaryColor);
+  --regularButtonSecondaryColor: var(--primaryColor);
+  --regularButtonActiveColor: var(--primaryColorDark);
+  --regularButtonConstrastColor: var(--primaryContrastTextColor);
+  --secondaryButtonPrimaryColor: var(--white);
+  --secondaryButtonSecondaryColor: var(--silver);
+  --secondaryButtonActiveColor: var(--silver);
+  --secondaryButtonContrastColor: var(--black);
 }
 .toggle--3zVsE {
   display: inline-block;
@@ -21068,16 +21032,6 @@ body {
     font-style: italic !important;
   }
 }
-:root {
-  --regularButtonPrimaryColor: var(--primaryColor);
-  --regularButtonSecondaryColor: var(--primaryColor);
-  --regularButtonActiveColor: var(--primaryColorDark);
-  --regularButtonConstrastColor: var(--primaryContrastTextColor);
-  --secondaryButtonPrimaryColor: var(--white);
-  --secondaryButtonSecondaryColor: var(--silver);
-  --secondaryButtonActiveColor: var(--silver);
-  --secondaryButtonContrastColor: var(--black);
-}
 @media (pointer: coarse) {
 }
 [data-input=radio],
@@ -21401,12 +21355,25 @@ body {
 
     Styleguide Settings.theme.primary
     */
+}
+:root,
+.CozyTheme--normal--1G-Us {
   --primaryColor: var(--dodgerBlue);
   --primaryColorDark: var(--scienceBlue);
   --primaryColorLight: #5c9df5;
   --primaryColorLighter: #4b93f7;
   --primaryColorLightest: #9fc4fb;
+  --primaryTextColor: var(--charcoalGrey);
+  --secondaryTextColor: var(--coolGrey);
   --primaryContrastTextColor: var(--white);
+  --regularButtonPrimaryColor: var(--primaryColor);
+  --regularButtonSecondaryColor: var(--primaryColor);
+  --regularButtonActiveColor: var(--primaryColorDark);
+  --regularButtonConstrastColor: var(--primaryContrastTextColor);
+  --secondaryButtonPrimaryColor: var(--white);
+  --secondaryButtonSecondaryColor: var(--silver);
+  --secondaryButtonActiveColor: var(--silver);
+  --secondaryButtonContrastColor: var(--black);
 }
 :root {
   --zIndex-below: -1;
@@ -21484,7 +21451,7 @@ body {
   color: var(--dodgerBlue);
 }
 :hover > .c-nav-icon--hrJUe {
-  color: var(--charcoalGrey);
+  color: var(--slateGrey);
 }
 @media (max-width: 63.938rem) {
   .c-nav-icon--hrJUe {
@@ -21560,6 +21527,8 @@ body {
 }
 .c-nav-item-secondary--k14rf {
   height: auto;
+}
+.c-nav-item-secondary--k14rf + .c-nav-item-secondary--k14rf {
   margin-top: 0.125rem;
 }
 @media (max-width: 63.938rem) {
@@ -21589,9 +21558,12 @@ body {
   border-radius: 4px 0 0 4px;
   box-shadow: none;
   font-size: 0.875rem;
-  color: var(--charcoalGrey);
+  color: var(--slateGrey);
   text-decoration: none;
   height: auto;
+}
+.c-nav-item-secondary--k14rf .c-nav-link--3mK6W:hover {
+  color: var(--charcoalGrey);
 }
 .c-nav-item-secondary--k14rf .c-nav-link--3mK6W.is-active--2D0jN {
   color: #fff;
@@ -24108,12 +24080,25 @@ body {
 
     Styleguide Settings.theme.primary
     */
+}
+:root,
+.CozyTheme--normal--2_Ftf {
   --primaryColor: var(--dodgerBlue);
   --primaryColorDark: var(--scienceBlue);
   --primaryColorLight: #5c9df5;
   --primaryColorLighter: #4b93f7;
   --primaryColorLightest: #9fc4fb;
+  --primaryTextColor: var(--charcoalGrey);
+  --secondaryTextColor: var(--coolGrey);
   --primaryContrastTextColor: var(--white);
+  --regularButtonPrimaryColor: var(--primaryColor);
+  --regularButtonSecondaryColor: var(--primaryColor);
+  --regularButtonActiveColor: var(--primaryColorDark);
+  --regularButtonConstrastColor: var(--primaryContrastTextColor);
+  --secondaryButtonPrimaryColor: var(--white);
+  --secondaryButtonSecondaryColor: var(--silver);
+  --secondaryButtonActiveColor: var(--silver);
+  --secondaryButtonContrastColor: var(--black);
 }
 .c-accordion--1VRom {
   padding: 0;
@@ -24849,16 +24834,6 @@ body {
     font-style: italic !important;
   }
 }
-:root {
-  --regularButtonPrimaryColor: var(--primaryColor);
-  --regularButtonSecondaryColor: var(--primaryColor);
-  --regularButtonActiveColor: var(--primaryColorDark);
-  --regularButtonConstrastColor: var(--primaryContrastTextColor);
-  --secondaryButtonPrimaryColor: var(--white);
-  --secondaryButtonSecondaryColor: var(--silver);
-  --secondaryButtonActiveColor: var(--silver);
-  --secondaryButtonContrastColor: var(--black);
-}
 @media (pointer: coarse) {
 }
 [data-input=radio],
@@ -25128,12 +25103,25 @@ body {
 
     Styleguide Settings.theme.primary
     */
+}
+:root,
+.CozyTheme--normal--3TP8j {
   --primaryColor: var(--dodgerBlue);
   --primaryColorDark: var(--scienceBlue);
   --primaryColorLight: #5c9df5;
   --primaryColorLighter: #4b93f7;
   --primaryColorLightest: #9fc4fb;
+  --primaryTextColor: var(--charcoalGrey);
+  --secondaryTextColor: var(--coolGrey);
   --primaryContrastTextColor: var(--white);
+  --regularButtonPrimaryColor: var(--primaryColor);
+  --regularButtonSecondaryColor: var(--primaryColor);
+  --regularButtonActiveColor: var(--primaryColorDark);
+  --regularButtonConstrastColor: var(--primaryContrastTextColor);
+  --secondaryButtonPrimaryColor: var(--white);
+  --secondaryButtonSecondaryColor: var(--silver);
+  --secondaryButtonActiveColor: var(--silver);
+  --secondaryButtonContrastColor: var(--black);
 }
 .Infos--2ZZVs {
   position: relative;
@@ -25298,12 +25286,25 @@ body {
 
     Styleguide Settings.theme.primary
     */
+}
+:root,
+.CozyTheme--normal--12Bhv {
   --primaryColor: var(--dodgerBlue);
   --primaryColorDark: var(--scienceBlue);
   --primaryColorLight: #5c9df5;
   --primaryColorLighter: #4b93f7;
   --primaryColorLightest: #9fc4fb;
+  --primaryTextColor: var(--charcoalGrey);
+  --secondaryTextColor: var(--coolGrey);
   --primaryContrastTextColor: var(--white);
+  --regularButtonPrimaryColor: var(--primaryColor);
+  --regularButtonSecondaryColor: var(--primaryColor);
+  --regularButtonActiveColor: var(--primaryColorDark);
+  --regularButtonConstrastColor: var(--primaryContrastTextColor);
+  --secondaryButtonPrimaryColor: var(--white);
+  --secondaryButtonSecondaryColor: var(--silver);
+  --secondaryButtonActiveColor: var(--silver);
+  --secondaryButtonContrastColor: var(--black);
 }
 .InfosCarrousel--3rCyB {
   position: relative;
@@ -25377,29 +25378,26 @@ body {
   margin: 0;
 }
 
-.default--2A1eX.Figure-currency--195-B {
-  color: var(--coolGrey);
+.Figure-currency--195-B {
+  color: var(--secondaryTextColor);
 }
-.default--2A1eX.Figure-content--positive--1qyd8 {
+.Figure-content--positive--1qyd8 {
   color: var(--emerald);
 }
-.default--2A1eX.Figure-content--positive--1qyd8 .Figure-currency--195-B {
+.Figure-content--positive--1qyd8 .Figure-currency--195-B {
   color: var(--emerald);
 }
-.default--2A1eX.Figure-content--negative--3ACbA {
+.Figure-content--negative--3ACbA {
   color: var(--pomegranate);
 }
-.default--2A1eX.Figure-content--negative--3ACbA .Figure-currency--195-B {
+.Figure-content--negative--3ACbA .Figure-currency--195-B {
   color: var(--pomegranate);
 }
-.default--2A1eX.Figure-content--warning--1Pn6n {
+.Figure-content--warning--1Pn6n {
   color: var(--texasRose);
 }
-.default--2A1eX.Figure-content--warning--1Pn6n .Figure-currency--195-B {
+.Figure-content--warning--1Pn6n .Figure-currency--195-B {
   color: var(--texasRose);
-}
-.primary--3C7dn {
-  color: var(--white);
 }
 .Figure-total--MZ7Xt {
   font-weight: 900;
@@ -25428,7 +25426,7 @@ body {
 }
 
 .FigureBlock--YyBoL {
-  color: var(--charcoalGrey);
+  color: var(--primaryTextColor);
 }
 .FigureBlock-figure--97C8E {
   font-size: 2rem;
@@ -25438,6 +25436,191 @@ body {
   .FigureBlock--YyBoL {
     font-size: 0.7em;
   }
+}
+
+.CozyTheme--inverted--1ygHa {
+  background: var(--primaryColor);
+  --primaryTextColor: var(--primaryContrastTextColor);
+  --secondaryTextColor: var(--primaryContrastTextColor);
+  --barIconColor: var(--primaryContrastTextColor);
+  --barIconColorDisabled: rgba(255,255,255,0.88);
+  --regularButtonPrimaryColor: var(--primaryContrastTextColor);
+  --regularButtonSecondaryColor: var(--primaryContrastTextColor);
+  --regularButtonActiveColor: rgba(255,255,255,0.88);
+  --regularButtonConstrastColor: var(--primaryColor);
+  --secondaryButtonPrimaryColor: var(--primaryColor);
+  --secondaryButtonSecondaryColor: var(--white);
+  --secondaryButtonActiveColor: rgba(255,255,255,0.24);
+  --secondaryButtonContrastColor: var(--white);
+}
+
+/*------------------------------------*  Palette
+  =====
+\*------------------------------------*/
+/*
+    Settings
+
+    Weight: -10
+
+    Styleguide Settings
+*/
+/*
+    Colors
+
+    Colors used in the user interface. You can directly use the var name assiociated with its hexadecimal.
+
+    Styleguide Settings.colors
+*/
+:root {
+/*
+    Grey
+
+    Stylus: white        -  #FFFFFF, CSS: var(--white)
+    Stylus: paleGrey     -  #F5F6F7, CSS: var(--paleGrey)
+    Stylus: silver       -  #D6D8Da, CSS: var(--silver)
+    Stylus: coolGrey     -  #95999D, CSS: var(--coolGrey)
+    Stylus: slateGrey    -  #5D6165, CSS: var(--slateGrey)
+    Stylus: charcoalGrey -  #32363F, CSS: var(--charcoalGrey)
+    Stylus: black        -  #000000, CSS: var(--black)
+
+    Weight: -1
+
+    Styleguide Settings.colors.grey
+    */
+  --white: #fff;
+  --paleGrey: #f5f6f7;
+  --silver: #d6d8da;
+  --coolGrey: #95999d;
+  --slateGrey: #5d6165;
+  --charcoalGrey: #32363f;
+  --black: #000;
+  --overlay: rgba(50,54,63,0.5);
+/*
+    Blue
+
+    Stylus: zircon       -  #F5FAFF, CSS: var(--zircon)
+    Stylus: hawkesBlue   -  #EEF5FE, CSS: var(--hawkesBlue)
+    Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
+    Stylus: azure        -  #1FA8F1, CSS: var(--azure)
+    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
+    Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
+    Stylus: puertoRico   -  #0DCBCF, CSS: var(--puertoRico)
+
+    Styleguide Settings.colors.blue
+    */
+  --zircon: #f5faff;
+  --hawkesBlue: #eef5fe;
+  --frenchPass: #c2dcff;
+  --azure: #1fa8f1;
+  --dodgerBlue: #297ef2;
+  --scienceBlue: #0b61d6;
+  --puertoRico: #0dcbcf;
+/*
+    Green
+
+    Stylus: grannyApple  - #DEF7E7, CSS: var(--grannyApple)
+    Stylus: weirdGreen   - #40DE8E, CSS: var(--weirdGreen)
+    Stylus: emerald      - #35CE68, CSS: var(--emerald)
+    Stylus: malachite    - #08b442, CSS: var(--malachite)
+    Stylus: seafoamGreen - #3DA67E, CSS: var(--seafoamGreen)
+
+    Styleguide Settings.colors.green
+    */
+  --grannyApple: #def7e7;
+  --weirdGreen: #40de8e;
+  --emerald: #35ce68;
+  --malachite: #08b442;
+  --seafoamGreen: #3da67e;
+/*
+    Orange
+
+    Stylus: brightSun     - #FFC644, CSS: var(--brightSun)
+    Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
+    Stylus: mango         - #FF962F, CSS: var(--mango)
+    Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
+    Stylus: blazeOrange   - #FC6D00, CSS: var(--blazeOrange)
+    Stylus: melon         - #FD7461, CSS: var(--melon)
+
+    Styleguide Settings.colors.orange
+    */
+  --brightSun: #ffc644;
+  --texasRose: #ffae5f;
+  --mango: #ff962f;
+  --pumpkinOrange: #ff7f1b;
+  --blazeOrange: #fc6d00;
+  --melon: #fd7461;
+/*
+    Red
+
+    Stylus: chablis      - #FFF2F2, CSS: var(--chablis)
+    Stylus: yourPink     - #FDCBCB, CSS: var(--yourPink)
+    Stylus: fuchsia      - #FC4C83, CSS: var(--fuchsia)
+    Stylus: pomegranate  - #F52D2D, CSS: var(--pomegranate)
+    Stylus: monza        - #DD0505, CSS: var(--monza)
+
+    Styleguide Settings.colors.red
+    */
+  --chablis: #fff2f2;
+  --yourPink: #fdcbcb;
+  --fuchsia: #fc4c83;
+  --pomegranate: #f52d2d;
+  --monza: #dd0505;
+/*
+    Purple
+
+    Stylus: lavender       - #C2ADF4, CSS: var(--lavender)
+    Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
+    Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
+    Stylus: portage        - #9169F2, CSS: var(--portage)
+    Stylus: lightishPurple - #B449E7, CSS: var(--lightishPurple)
+    Stylus: barney         - #922BC2, CSS: var(--barney)
+
+    Styleguide Settings.colors.purple
+    */
+  --lavender: #c2adf4;
+  --darkPeriwinkle: #6984ce;
+  --purpley: #7f6bee;
+  --portage: #9169f2;
+  --lightishPurple: #b449e7;
+  --barney: #922bc2;
+/*
+        Theme
+
+        Colors theme used in the user interface. You can directly use the var name assiociated with its hexadecimal.
+
+        Styleguide Settings.theme
+    */
+/*
+    Primary
+
+    Stylus: primaryColor             - #297EF2, CSS: var(--primaryColor)
+    Stylus: primaryColorDark         - #0B61D6, CSS: var(--primaryColorDark)
+    Stylus: primaryColorLight        - #5C9DF5, CSS: var(--primaryColorLight)
+    Stylus: primaryColorLighter      - #4B93F7, CSS: var(--primaryColorLighter)
+    Stylus: primaryColorLightest     - #9FC4FB, CSS: var(--primaryColorLightest)
+    Stylus: primaryContrastTextColor - #FFFFFF, CSS: var(--primaryContrastTextColor)
+
+    Styleguide Settings.theme.primary
+    */
+}
+:root,
+.CozyTheme--normal--3UmMb {
+  --primaryColor: var(--dodgerBlue);
+  --primaryColorDark: var(--scienceBlue);
+  --primaryColorLight: #5c9df5;
+  --primaryColorLighter: #4b93f7;
+  --primaryColorLightest: #9fc4fb;
+  --primaryTextColor: var(--charcoalGrey);
+  --secondaryTextColor: var(--coolGrey);
+  --primaryContrastTextColor: var(--white);
+  --regularButtonPrimaryColor: var(--primaryColor);
+  --regularButtonSecondaryColor: var(--primaryColor);
+  --regularButtonActiveColor: var(--primaryColorDark);
+  --regularButtonConstrastColor: var(--primaryContrastTextColor);
+  --secondaryButtonPrimaryColor: var(--white);
+  --secondaryButtonSecondaryColor: var(--silver);
+  --secondaryButtonActiveColor: var(--silver);
+  --secondaryButtonContrastColor: var(--black);
 }
 
 :root {
@@ -25699,6 +25882,12 @@ iframe {
 .c-actionmenu-item--gODqd:hover {
   background-color: var(--paleGrey);
 }
+.c-actionmenu-radio--Km9uj {
+  height: 1rem;
+  width: 1rem;
+  margin-top: 0.125rem;
+  margin-bottom: 0;
+}
 
 :root {
   --zIndex-below: -1;
@@ -25850,25 +26039,14 @@ body {
 .Breadcrumb--lSOZg {
   display: flex;
   align-items: center;
+  color: var(--primaryTextColor);
 }
 .Breadcrumb__previousButton--Jcvx7 {
   margin-right: 1rem;
   cursor: pointer;
 }
-.Breadcrumb--default--2qQEQ .Breadcrumb__previousButton--Jcvx7 {
-  color: var(--charcoalGrey);
-}
-.Breadcrumb--primary--1Xsf4 .Breadcrumb__previousButton--Jcvx7 {
-  color: var(--primaryContrastTextColor);
-}
 .Breadcrumb__items--2ozfJ {
   flex-grow: 1;
-}
-.Breadcrumb--default--2qQEQ .Breadcrumb__items--2ozfJ {
-  color: var(--charcoalGrey);
-}
-.Breadcrumb--primary--1Xsf4 .Breadcrumb__items--2ozfJ {
-  color: var(--primaryContrastTextColor);
 }
 .Breadcrumb__previousItems--IzmVu {
   display: flex;
@@ -26019,12 +26197,25 @@ body {
 
     Styleguide Settings.theme.primary
     */
+}
+:root,
+.CozyTheme--normal--3OxOO {
   --primaryColor: var(--dodgerBlue);
   --primaryColorDark: var(--scienceBlue);
   --primaryColorLight: #5c9df5;
   --primaryColorLighter: #4b93f7;
   --primaryColorLightest: #9fc4fb;
+  --primaryTextColor: var(--charcoalGrey);
+  --secondaryTextColor: var(--coolGrey);
   --primaryContrastTextColor: var(--white);
+  --regularButtonPrimaryColor: var(--primaryColor);
+  --regularButtonSecondaryColor: var(--primaryColor);
+  --regularButtonActiveColor: var(--primaryColorDark);
+  --regularButtonConstrastColor: var(--primaryContrastTextColor);
+  --secondaryButtonPrimaryColor: var(--white);
+  --secondaryButtonSecondaryColor: var(--silver);
+  --secondaryButtonActiveColor: var(--silver);
+  --secondaryButtonContrastColor: var(--black);
 }
 :root {
   --zIndex-below: -1;
@@ -26650,16 +26841,6 @@ body {
   .u-fs-italic-m {
     font-style: italic !important;
   }
-}
-:root {
-  --regularButtonPrimaryColor: var(--primaryColor);
-  --regularButtonSecondaryColor: var(--primaryColor);
-  --regularButtonActiveColor: var(--primaryColorDark);
-  --regularButtonConstrastColor: var(--primaryContrastTextColor);
-  --secondaryButtonPrimaryColor: var(--white);
-  --secondaryButtonSecondaryColor: var(--silver);
-  --secondaryButtonActiveColor: var(--silver);
-  --secondaryButtonContrastColor: var(--black);
 }
 .c-btn--alert-error--12LBy,
 .c-btn--alert-info--1BO12,
@@ -27399,16 +27580,6 @@ body {
     font-style: italic !important;
   }
 }
-:root {
-  --regularButtonPrimaryColor: var(--primaryColor);
-  --regularButtonSecondaryColor: var(--primaryColor);
-  --regularButtonActiveColor: var(--primaryColorDark);
-  --regularButtonConstrastColor: var(--primaryContrastTextColor);
-  --secondaryButtonPrimaryColor: var(--white);
-  --secondaryButtonSecondaryColor: var(--silver);
-  --secondaryButtonActiveColor: var(--silver);
-  --secondaryButtonContrastColor: var(--black);
-}
 .c-btn-client--jTKz7 {
   position: relative;
   box-sizing: border-box;
@@ -28133,16 +28304,6 @@ body {
     font-style: italic !important;
   }
 }
-:root {
-  --regularButtonPrimaryColor: var(--primaryColor);
-  --regularButtonSecondaryColor: var(--primaryColor);
-  --regularButtonActiveColor: var(--primaryColorDark);
-  --regularButtonConstrastColor: var(--primaryContrastTextColor);
-  --secondaryButtonPrimaryColor: var(--white);
-  --secondaryButtonSecondaryColor: var(--silver);
-  --secondaryButtonActiveColor: var(--silver);
-  --secondaryButtonContrastColor: var(--black);
-}
 .c-banner-client--38nZA .c-btn-clientMobile--2arb4,
 .c-banner-client--38nZA .c-banner-text--2kNbn {
   position: relative;
@@ -28492,12 +28653,25 @@ body {
 
     Styleguide Settings.theme.primary
     */
+}
+:root,
+.CozyTheme--normal--382qj {
   --primaryColor: var(--dodgerBlue);
   --primaryColorDark: var(--scienceBlue);
   --primaryColorLight: #5c9df5;
   --primaryColorLighter: #4b93f7;
   --primaryColorLightest: #9fc4fb;
+  --primaryTextColor: var(--charcoalGrey);
+  --secondaryTextColor: var(--coolGrey);
   --primaryContrastTextColor: var(--white);
+  --regularButtonPrimaryColor: var(--primaryColor);
+  --regularButtonSecondaryColor: var(--primaryColor);
+  --regularButtonActiveColor: var(--primaryColorDark);
+  --regularButtonConstrastColor: var(--primaryContrastTextColor);
+  --secondaryButtonPrimaryColor: var(--white);
+  --secondaryButtonSecondaryColor: var(--silver);
+  --secondaryButtonActiveColor: var(--silver);
+  --secondaryButtonContrastColor: var(--black);
 }
 :root {
   --zIndex-below: -1;
@@ -29189,20 +29363,6 @@ body {
 }
 .Token--special--3_rSu {
   color: var(--lightishPurple);
-}
-
-.CozyTheme--inverted--1ygHa {
-  background: var(--primaryColor);
-  --barIconColor: #fff;
-  --barIconColorDisabled: rgba(255,255,255,0.88);
-  --regularButtonPrimaryColor: var(--primaryContrastTextColor);
-  --regularButtonSecondaryColor: var(--primaryContrastTextColor);
-  --regularButtonActiveColor: rgba(255,255,255,0.88);
-  --regularButtonConstrastColor: var(--primaryColor);
-  --secondaryButtonPrimaryColor: var(--primaryColor);
-  --secondaryButtonSecondaryColor: var(--white);
-  --secondaryButtonActiveColor: rgba(255,255,255,0.24);
-  --secondaryButtonContrastColor: var(--white);
 }
 
 .gridItem-container--387sO {
@@ -31605,12 +31765,25 @@ body {
 
     Styleguide Settings.theme.primary
     */
+}
+:root,
+.CozyTheme--normal--x9CNZ {
   --primaryColor: var(--dodgerBlue);
   --primaryColorDark: var(--scienceBlue);
   --primaryColorLight: #5c9df5;
   --primaryColorLighter: #4b93f7;
   --primaryColorLightest: #9fc4fb;
+  --primaryTextColor: var(--charcoalGrey);
+  --secondaryTextColor: var(--coolGrey);
   --primaryContrastTextColor: var(--white);
+  --regularButtonPrimaryColor: var(--primaryColor);
+  --regularButtonSecondaryColor: var(--primaryColor);
+  --regularButtonActiveColor: var(--primaryColorDark);
+  --regularButtonConstrastColor: var(--primaryContrastTextColor);
+  --secondaryButtonPrimaryColor: var(--white);
+  --secondaryButtonSecondaryColor: var(--silver);
+  --secondaryButtonActiveColor: var(--silver);
+  --secondaryButtonContrastColor: var(--black);
 }
 :root {
   --zIndex-below: -1;

@@ -10566,6 +10566,9 @@ body {
   padding-top: 0;
   padding-bottom: 0;
 }
+.CompositeRow__body--3nEEv > * + * {
+  margin-top: 2px;
+}
 
 .c-circle--1DuMR {
   display: inline-flex;
@@ -20330,9 +20333,17 @@ body {
 .Row__selected--3LoOa {
   font-weight: bold;
 }
+.Row__caption--137a0 {
+  font-weight: normal;
+}
 .Modal__title--2bWBK {
   border-bottom: 1px solid var(--silver);
   margin-bottom: 0;
+  padding-top: 1rem;
+  font-size: 1.25rem;
+}
+.Modal__title--2bWBK h2 {
+  font-size: 1.25rem;
 }
 .Modal__content--1s5QK {
   padding: 0;

@@ -757,13 +757,13 @@ body {
   }
 }
 .u-error {
-  color: var(--pomegranate);
+  color: var(--errorColor);
 }
 .u-valid {
-  color: var(--emerald);
+  color: var(--validColor);
 }
 .u-warn {
-  color: var(--texasRose);
+  color: var(--warnColor);
 }
 .u-black {
   color: var(--black) !important;
@@ -5942,7 +5942,7 @@ body {
 .u-title-h3,
 .u-title-h4 {
   font-weight: bold;
-  color: var(--charcoalGrey);
+  color: var(--primaryTextColor);
 }
 .u-title-h1 {
   font-size: 1.5rem;
@@ -5975,13 +5975,13 @@ body {
 @media (max-width: 48rem) {
   .u-title-h4 {
     font-weight: bold;
-    color: var(--charcoalGrey);
+    color: var(--primaryTextColor);
   }
 }
 .u-text {
   font-size: 1rem;
   line-height: 1.3;
-  color: var(--charcoalGrey);
+  color: var(--primaryTextColor);
 }
 .u-caption {
   font-size: 0.75rem;
@@ -6445,13 +6445,13 @@ body {
   }
 }
 .u-error {
-  color: var(--pomegranate);
+  color: var(--errorColor);
 }
 .u-valid {
-  color: var(--emerald);
+  color: var(--validColor);
 }
 .u-warn {
-  color: var(--texasRose);
+  color: var(--warnColor);
 }
 .u-black {
   color: var(--black) !important;
@@ -7098,6 +7098,10 @@ body {
   --primaryTextColor: var(--charcoalGrey);
   --secondaryTextColor: var(--coolGrey);
   --primaryContrastTextColor: var(--white);
+  --invertedTabsActiveTextColor: var(--primaryContrastTextColor);
+  --invertedTabsInactiveTextColor: var(--primaryContrastTextColor);
+  --invertedTabsIndicatorColor: var(--primaryContrastTextColor);
+  --invertedTabsBackgroundColor: var(--primaryColor);
   --regularButtonPrimaryColor: var(--primaryColor);
   --regularButtonSecondaryColor: var(--primaryColor);
   --regularButtonActiveColor: var(--primaryColorDark);
@@ -7108,6 +7112,14 @@ body {
   --secondaryButtonContrastColor: var(--black);
   --iconColor: currentColor;
   --actionMenuIconColor: var(--slateGrey);
+  --errorColor: var(--pomegranate);
+  --validColor: var(--emerald);
+  --warnColor: var(--texasRose);
+  --buttonTextTransform: uppercase;
+  --buttonBorderRadius: 0.125rem;
+  --navTextColor: var(--slateGrey);
+  --navTextActiveColor: var(--slateGrey);
+  --navTextHoverColor: var(--charcoalGrey);
 }
 @-moz-keyframes spin--lXiub {
   from {
@@ -7366,13 +7378,13 @@ body {
   }
 }
 .u-error {
-  color: var(--pomegranate);
+  color: var(--errorColor);
 }
 .u-valid {
-  color: var(--emerald);
+  color: var(--validColor);
 }
 .u-warn {
-  color: var(--texasRose);
+  color: var(--warnColor);
 }
 .u-black {
   color: var(--black) !important;
@@ -8542,13 +8554,13 @@ body {
   }
 }
 .u-error {
-  color: var(--pomegranate);
+  color: var(--errorColor);
 }
 .u-valid {
-  color: var(--emerald);
+  color: var(--validColor);
 }
 .u-warn {
-  color: var(--texasRose);
+  color: var(--warnColor);
 }
 .u-black {
   color: var(--black) !important;
@@ -8903,7 +8915,7 @@ body {
   margin: 0 0.25rem;
   border-width: 0.063rem;
   border-style: solid;
-  border-radius: 0.125rem;
+  border-radius: var(--buttonBorderRadius);
   min-height: 2.5rem;
   min-width: 7rem;
   padding: 0.188rem 1rem;
@@ -8912,7 +8924,7 @@ body {
   font-size: 0.875rem;
   font-weight: bold;
   line-height: 1;
-  text-transform: uppercase;
+  text-transform: var(--buttonTextTransform);
   text-decoration: none;
   cursor: pointer;
   align-items: center;
@@ -9337,13 +9349,13 @@ body {
   }
 }
 .u-error {
-  color: var(--pomegranate);
+  color: var(--errorColor);
 }
 .u-valid {
-  color: var(--emerald);
+  color: var(--validColor);
 }
 .u-warn {
-  color: var(--texasRose);
+  color: var(--warnColor);
 }
 .u-black {
   color: var(--black) !important;
@@ -9698,7 +9710,7 @@ body {
   margin: 0 0.25rem;
   border-width: 0.063rem;
   border-style: solid;
-  border-radius: 0.125rem;
+  border-radius: var(--buttonBorderRadius);
   min-height: 2.5rem;
   min-width: 7rem;
   padding: 0.188rem 1rem;
@@ -9707,7 +9719,7 @@ body {
   font-size: 0.875rem;
   font-weight: bold;
   line-height: 1;
-  text-transform: uppercase;
+  text-transform: var(--buttonTextTransform);
   text-decoration: none;
   cursor: pointer;
   align-items: center;
@@ -9922,7 +9934,7 @@ body {
 }
 .c-btn--text--2Vp-2:hover,
 .c-btn--text--2Vp-2:focus {
-  color: var(--scienceBlue);
+  color: var(--primaryColorDark);
 }
 .c-btn--action--36KFm {
   border-color: transparent;
@@ -10048,7 +10060,7 @@ body {
 .c-btn--subtle--OknKf:hover,
 .c-btn--subtle--OknKf:focus,
 .c-btn--subtle--OknKf:visited {
-  color: var(--scienceBlue);
+  color: var(--primaryColorDark);
   background: transparent;
 }
 * + .c-btn--subtle--OknKf {
@@ -10255,6 +10267,10 @@ body {
   --primaryTextColor: var(--charcoalGrey);
   --secondaryTextColor: var(--coolGrey);
   --primaryContrastTextColor: var(--white);
+  --invertedTabsActiveTextColor: var(--primaryContrastTextColor);
+  --invertedTabsInactiveTextColor: var(--primaryContrastTextColor);
+  --invertedTabsIndicatorColor: var(--primaryContrastTextColor);
+  --invertedTabsBackgroundColor: var(--primaryColor);
   --regularButtonPrimaryColor: var(--primaryColor);
   --regularButtonSecondaryColor: var(--primaryColor);
   --regularButtonActiveColor: var(--primaryColorDark);
@@ -10265,6 +10281,14 @@ body {
   --secondaryButtonContrastColor: var(--black);
   --iconColor: currentColor;
   --actionMenuIconColor: var(--slateGrey);
+  --errorColor: var(--pomegranate);
+  --validColor: var(--emerald);
+  --warnColor: var(--texasRose);
+  --buttonTextTransform: uppercase;
+  --buttonBorderRadius: 0.125rem;
+  --navTextColor: var(--slateGrey);
+  --navTextActiveColor: var(--slateGrey);
+  --navTextHoverColor: var(--charcoalGrey);
 }
 .c-chip--2aPqg {
   box-sizing: border-box;
@@ -10501,6 +10525,10 @@ body {
   --primaryTextColor: var(--charcoalGrey);
   --secondaryTextColor: var(--coolGrey);
   --primaryContrastTextColor: var(--white);
+  --invertedTabsActiveTextColor: var(--primaryContrastTextColor);
+  --invertedTabsInactiveTextColor: var(--primaryContrastTextColor);
+  --invertedTabsIndicatorColor: var(--primaryContrastTextColor);
+  --invertedTabsBackgroundColor: var(--primaryColor);
   --regularButtonPrimaryColor: var(--primaryColor);
   --regularButtonSecondaryColor: var(--primaryColor);
   --regularButtonActiveColor: var(--primaryColorDark);
@@ -10511,6 +10539,14 @@ body {
   --secondaryButtonContrastColor: var(--black);
   --iconColor: currentColor;
   --actionMenuIconColor: var(--slateGrey);
+  --errorColor: var(--pomegranate);
+  --validColor: var(--emerald);
+  --warnColor: var(--texasRose);
+  --buttonTextTransform: uppercase;
+  --buttonBorderRadius: 0.125rem;
+  --navTextColor: var(--slateGrey);
+  --navTextActiveColor: var(--slateGrey);
+  --navTextHoverColor: var(--charcoalGrey);
 }
 .c-card--YgP7B {
   border: 0.063rem solid var(--silver);
@@ -10842,6 +10878,10 @@ body {
   --primaryTextColor: var(--charcoalGrey);
   --secondaryTextColor: var(--coolGrey);
   --primaryContrastTextColor: var(--white);
+  --invertedTabsActiveTextColor: var(--primaryContrastTextColor);
+  --invertedTabsInactiveTextColor: var(--primaryContrastTextColor);
+  --invertedTabsIndicatorColor: var(--primaryContrastTextColor);
+  --invertedTabsBackgroundColor: var(--primaryColor);
   --regularButtonPrimaryColor: var(--primaryColor);
   --regularButtonSecondaryColor: var(--primaryColor);
   --regularButtonActiveColor: var(--primaryColorDark);
@@ -10852,6 +10892,14 @@ body {
   --secondaryButtonContrastColor: var(--black);
   --iconColor: currentColor;
   --actionMenuIconColor: var(--slateGrey);
+  --errorColor: var(--pomegranate);
+  --validColor: var(--emerald);
+  --warnColor: var(--texasRose);
+  --buttonTextTransform: uppercase;
+  --buttonBorderRadius: 0.125rem;
+  --navTextColor: var(--slateGrey);
+  --navTextActiveColor: var(--slateGrey);
+  --navTextHoverColor: var(--charcoalGrey);
 }
 .c-inline-card--1sri1 {
   display: inline-block;
@@ -11019,6 +11067,10 @@ body {
   --primaryTextColor: var(--charcoalGrey);
   --secondaryTextColor: var(--coolGrey);
   --primaryContrastTextColor: var(--white);
+  --invertedTabsActiveTextColor: var(--primaryContrastTextColor);
+  --invertedTabsInactiveTextColor: var(--primaryContrastTextColor);
+  --invertedTabsIndicatorColor: var(--primaryContrastTextColor);
+  --invertedTabsBackgroundColor: var(--primaryColor);
   --regularButtonPrimaryColor: var(--primaryColor);
   --regularButtonSecondaryColor: var(--primaryColor);
   --regularButtonActiveColor: var(--primaryColorDark);
@@ -11029,6 +11081,14 @@ body {
   --secondaryButtonContrastColor: var(--black);
   --iconColor: currentColor;
   --actionMenuIconColor: var(--slateGrey);
+  --errorColor: var(--pomegranate);
+  --validColor: var(--emerald);
+  --warnColor: var(--texasRose);
+  --buttonTextTransform: uppercase;
+  --buttonBorderRadius: 0.125rem;
+  --navTextColor: var(--slateGrey);
+  --navTextActiveColor: var(--slateGrey);
+  --navTextHoverColor: var(--charcoalGrey);
 }
 @-moz-keyframes spin--3Lqkt {
   from {
@@ -13605,13 +13665,13 @@ body {
   }
 }
 .u-error {
-  color: var(--pomegranate);
+  color: var(--errorColor);
 }
 .u-valid {
-  color: var(--emerald);
+  color: var(--validColor);
 }
 .u-warn {
-  color: var(--texasRose);
+  color: var(--warnColor);
 }
 .u-black {
   color: var(--black) !important;
@@ -14191,6 +14251,10 @@ body {
   --primaryTextColor: var(--charcoalGrey);
   --secondaryTextColor: var(--coolGrey);
   --primaryContrastTextColor: var(--white);
+  --invertedTabsActiveTextColor: var(--primaryContrastTextColor);
+  --invertedTabsInactiveTextColor: var(--primaryContrastTextColor);
+  --invertedTabsIndicatorColor: var(--primaryContrastTextColor);
+  --invertedTabsBackgroundColor: var(--primaryColor);
   --regularButtonPrimaryColor: var(--primaryColor);
   --regularButtonSecondaryColor: var(--primaryColor);
   --regularButtonActiveColor: var(--primaryColorDark);
@@ -14201,6 +14265,14 @@ body {
   --secondaryButtonContrastColor: var(--black);
   --iconColor: currentColor;
   --actionMenuIconColor: var(--slateGrey);
+  --errorColor: var(--pomegranate);
+  --validColor: var(--emerald);
+  --warnColor: var(--texasRose);
+  --buttonTextTransform: uppercase;
+  --buttonBorderRadius: 0.125rem;
+  --navTextColor: var(--slateGrey);
+  --navTextActiveColor: var(--slateGrey);
+  --navTextHoverColor: var(--charcoalGrey);
 }
 .c-input-checkbox--svg--3YMZN span::after {
   display: none;
@@ -14576,13 +14648,13 @@ body {
   }
 }
 .u-error {
-  color: var(--pomegranate);
+  color: var(--errorColor);
 }
 .u-valid {
-  color: var(--emerald);
+  color: var(--validColor);
 }
 .u-warn {
-  color: var(--texasRose);
+  color: var(--warnColor);
 }
 .u-black {
   color: var(--black) !important;
@@ -15245,13 +15317,13 @@ body {
   }
 }
 .u-error {
-  color: var(--pomegranate);
+  color: var(--errorColor);
 }
 .u-valid {
-  color: var(--emerald);
+  color: var(--validColor);
 }
 .u-warn {
-  color: var(--texasRose);
+  color: var(--warnColor);
 }
 .u-black {
   color: var(--black) !important;
@@ -15876,13 +15948,13 @@ body {
   }
 }
 .u-error {
-  color: var(--pomegranate);
+  color: var(--errorColor);
 }
 .u-valid {
-  color: var(--emerald);
+  color: var(--validColor);
 }
 .u-warn {
-  color: var(--texasRose);
+  color: var(--warnColor);
 }
 .u-black {
   color: var(--black) !important;
@@ -16549,13 +16621,13 @@ body {
   }
 }
 .u-error {
-  color: var(--pomegranate);
+  color: var(--errorColor);
 }
 .u-valid {
-  color: var(--emerald);
+  color: var(--validColor);
 }
 .u-warn {
-  color: var(--texasRose);
+  color: var(--warnColor);
 }
 .u-black {
   color: var(--black) !important;
@@ -17069,6 +17141,10 @@ body {
   --primaryTextColor: var(--charcoalGrey);
   --secondaryTextColor: var(--coolGrey);
   --primaryContrastTextColor: var(--white);
+  --invertedTabsActiveTextColor: var(--primaryContrastTextColor);
+  --invertedTabsInactiveTextColor: var(--primaryContrastTextColor);
+  --invertedTabsIndicatorColor: var(--primaryContrastTextColor);
+  --invertedTabsBackgroundColor: var(--primaryColor);
   --regularButtonPrimaryColor: var(--primaryColor);
   --regularButtonSecondaryColor: var(--primaryColor);
   --regularButtonActiveColor: var(--primaryColorDark);
@@ -17079,6 +17155,14 @@ body {
   --secondaryButtonContrastColor: var(--black);
   --iconColor: currentColor;
   --actionMenuIconColor: var(--slateGrey);
+  --errorColor: var(--pomegranate);
+  --validColor: var(--emerald);
+  --warnColor: var(--texasRose);
+  --buttonTextTransform: uppercase;
+  --buttonBorderRadius: 0.125rem;
+  --navTextColor: var(--slateGrey);
+  --navTextActiveColor: var(--slateGrey);
+  --navTextHoverColor: var(--charcoalGrey);
 }
 .select-control__input--1xDlj {
   width: 0;
@@ -17426,13 +17510,13 @@ body {
   }
 }
 .u-error {
-  color: var(--pomegranate);
+  color: var(--errorColor);
 }
 .u-valid {
-  color: var(--emerald);
+  color: var(--validColor);
 }
 .u-warn {
-  color: var(--texasRose);
+  color: var(--warnColor);
 }
 .u-black {
   color: var(--black) !important;
@@ -18107,13 +18191,13 @@ body {
   }
 }
 .u-error {
-  color: var(--pomegranate);
+  color: var(--errorColor);
 }
 .u-valid {
-  color: var(--emerald);
+  color: var(--validColor);
 }
 .u-warn {
-  color: var(--texasRose);
+  color: var(--warnColor);
 }
 .u-black {
   color: var(--black) !important;
@@ -18978,13 +19062,13 @@ body {
   }
 }
 .u-error {
-  color: var(--pomegranate);
+  color: var(--errorColor);
 }
 .u-valid {
-  color: var(--emerald);
+  color: var(--validColor);
 }
 .u-warn {
-  color: var(--texasRose);
+  color: var(--warnColor);
 }
 .u-black {
   color: var(--black) !important;
@@ -19685,13 +19769,13 @@ body {
   }
 }
 .u-error {
-  color: var(--pomegranate);
+  color: var(--errorColor);
 }
 .u-valid {
-  color: var(--emerald);
+  color: var(--validColor);
 }
 .u-warn {
-  color: var(--texasRose);
+  color: var(--warnColor);
 }
 .u-black {
   color: var(--black) !important;
@@ -20329,6 +20413,10 @@ body {
   --primaryTextColor: var(--charcoalGrey);
   --secondaryTextColor: var(--coolGrey);
   --primaryContrastTextColor: var(--white);
+  --invertedTabsActiveTextColor: var(--primaryContrastTextColor);
+  --invertedTabsInactiveTextColor: var(--primaryContrastTextColor);
+  --invertedTabsIndicatorColor: var(--primaryContrastTextColor);
+  --invertedTabsBackgroundColor: var(--primaryColor);
   --regularButtonPrimaryColor: var(--primaryColor);
   --regularButtonSecondaryColor: var(--primaryColor);
   --regularButtonActiveColor: var(--primaryColorDark);
@@ -20339,6 +20427,14 @@ body {
   --secondaryButtonContrastColor: var(--black);
   --iconColor: currentColor;
   --actionMenuIconColor: var(--slateGrey);
+  --errorColor: var(--pomegranate);
+  --validColor: var(--emerald);
+  --warnColor: var(--texasRose);
+  --buttonTextTransform: uppercase;
+  --buttonBorderRadius: 0.125rem;
+  --navTextColor: var(--slateGrey);
+  --navTextActiveColor: var(--slateGrey);
+  --navTextHoverColor: var(--charcoalGrey);
 }
 .toggle--3zVsE {
   display: inline-block;
@@ -20762,13 +20858,13 @@ body {
   }
 }
 .u-error {
-  color: var(--pomegranate);
+  color: var(--errorColor);
 }
 .u-valid {
-  color: var(--emerald);
+  color: var(--validColor);
 }
 .u-warn {
-  color: var(--texasRose);
+  color: var(--warnColor);
 }
 .u-black {
   color: var(--black) !important;
@@ -21449,6 +21545,10 @@ body {
   --primaryTextColor: var(--charcoalGrey);
   --secondaryTextColor: var(--coolGrey);
   --primaryContrastTextColor: var(--white);
+  --invertedTabsActiveTextColor: var(--primaryContrastTextColor);
+  --invertedTabsInactiveTextColor: var(--primaryContrastTextColor);
+  --invertedTabsIndicatorColor: var(--primaryContrastTextColor);
+  --invertedTabsBackgroundColor: var(--primaryColor);
   --regularButtonPrimaryColor: var(--primaryColor);
   --regularButtonSecondaryColor: var(--primaryColor);
   --regularButtonActiveColor: var(--primaryColorDark);
@@ -21459,6 +21559,14 @@ body {
   --secondaryButtonContrastColor: var(--black);
   --iconColor: currentColor;
   --actionMenuIconColor: var(--slateGrey);
+  --errorColor: var(--pomegranate);
+  --validColor: var(--emerald);
+  --warnColor: var(--texasRose);
+  --buttonTextTransform: uppercase;
+  --buttonBorderRadius: 0.125rem;
+  --navTextColor: var(--slateGrey);
+  --navTextActiveColor: var(--slateGrey);
+  --navTextHoverColor: var(--charcoalGrey);
 }
 :root {
   --zIndex-below: -1;
@@ -21533,10 +21641,10 @@ body {
   display: block;
 }
 .is-active--2D0jN .c-nav-icon--hrJUe {
-  color: var(--dodgerBlue);
+  color: var(--primaryColor);
 }
 :hover > .c-nav-icon--hrJUe {
-  color: var(--slateGrey);
+  color: var(--navTextColor);
 }
 @media (max-width: 63.938rem) {
   .c-nav-icon--hrJUe {
@@ -21563,7 +21671,7 @@ body {
   padding-right: 1rem;
   line-height: 1.5;
   text-decoration: none;
-  color: var(--slateGrey);
+  color: var(--navTextColor);
   height: 100%;
   align-items: center;
   flex: 1;
@@ -21571,19 +21679,20 @@ body {
   background-position: 1.5rem center;
 }
 .c-nav-link--3mK6W:visited {
-  color: var(--slateGrey);
+  color: var(--navTextColor);
 }
 .c-nav-link--3mK6W:hover {
-  color: var(--charcoalGrey);
+  color: var(--navTextHoverColor);
 }
 .c-nav-link--3mK6W.active--1yH42,
 .c-nav-link--3mK6W.is-active--2D0jN {
-  box-shadow: inset 0.25rem 0 0 0 var(--dodgerBlue);
+  box-shadow: inset 0.25rem 0 0 0 var(--primaryColor);
   font-weight: bold;
+  color: var(--navTextActiveColor);
 }
 .c-nav-link--3mK6W.active--1yH42 .c-nav-icon--hrJUe,
 .c-nav-link--3mK6W.is-active--2D0jN .c-nav-icon--hrJUe {
-  color: var(--dodgerBlue);
+  color: var(--primaryColor);
 }
 @media (max-width: 63.938rem) {
   .c-nav-link--3mK6W {
@@ -21591,7 +21700,6 @@ body {
     height: auto;
     padding: 0;
     text-align: center;
-    color: var(--slateGrey);
     font-size: 0.625rem;
     line-height: 0.75rem;
     background-position: center top;
@@ -21602,12 +21710,12 @@ body {
   .c-nav-link--3mK6W:hover {
     box-shadow: none;
     font-weight: normal;
-    color: var(--charcoalGrey);
+    color: var(--navTextHoverColor);
   }
 }
 @media not all and (pointer: fine) {
   .c-nav-link--3mK6W:hover {
-    color: var(--slateGrey);
+    color: var(--navTextColor);
   }
 }
 .c-nav-item-secondary--k14rf {
@@ -21643,17 +21751,17 @@ body {
   border-radius: 4px 0 0 4px;
   box-shadow: none;
   font-size: 0.875rem;
-  color: var(--slateGrey);
+  color: var(--navTextColor);
   text-decoration: none;
   height: auto;
 }
 .c-nav-item-secondary--k14rf .c-nav-link--3mK6W:hover {
-  color: var(--charcoalGrey);
+  color: var(--navTextHoverColor);
 }
 .c-nav-item-secondary--k14rf .c-nav-link--3mK6W.is-active--2D0jN {
   color: #fff;
-  border-right: 1px solid var(--slateGrey);
-  background-color: var(--slateGrey);
+  border-right: 1px solid var(--navTextColor);
+  background-color: var(--navTextColor);
 }
 
 .NarrowContent--Zq8oI {
@@ -21813,6 +21921,10 @@ body {
   --primaryTextColor: var(--charcoalGrey);
   --secondaryTextColor: var(--coolGrey);
   --primaryContrastTextColor: var(--white);
+  --invertedTabsActiveTextColor: var(--primaryContrastTextColor);
+  --invertedTabsInactiveTextColor: var(--primaryContrastTextColor);
+  --invertedTabsIndicatorColor: var(--primaryContrastTextColor);
+  --invertedTabsBackgroundColor: var(--primaryColor);
   --regularButtonPrimaryColor: var(--primaryColor);
   --regularButtonSecondaryColor: var(--primaryColor);
   --regularButtonActiveColor: var(--primaryColorDark);
@@ -21823,6 +21935,14 @@ body {
   --secondaryButtonContrastColor: var(--black);
   --iconColor: currentColor;
   --actionMenuIconColor: var(--slateGrey);
+  --errorColor: var(--pomegranate);
+  --validColor: var(--emerald);
+  --warnColor: var(--texasRose);
+  --buttonTextTransform: uppercase;
+  --buttonBorderRadius: 0.125rem;
+  --navTextColor: var(--slateGrey);
+  --navTextActiveColor: var(--slateGrey);
+  --navTextHoverColor: var(--charcoalGrey);
 }
 .c-accordion--1VRom {
   padding: 0;
@@ -22363,13 +22483,13 @@ body {
   }
 }
 .u-error {
-  color: var(--pomegranate);
+  color: var(--errorColor);
 }
 .u-valid {
-  color: var(--emerald);
+  color: var(--validColor);
 }
 .u-warn {
-  color: var(--texasRose);
+  color: var(--warnColor);
 }
 .u-black {
   color: var(--black) !important;
@@ -22858,22 +22978,22 @@ body {
   color: var(--secondaryTextColor);
 }
 .Figure-content--positive--1qyd8 {
-  color: var(--emerald);
+  color: var(--validColor);
 }
 .Figure-content--positive--1qyd8 .Figure-currency--195-B {
-  color: var(--emerald);
+  color: var(--validColor);
 }
 .Figure-content--negative--3ACbA {
-  color: var(--pomegranate);
+  color: var(--errorColor);
 }
 .Figure-content--negative--3ACbA .Figure-currency--195-B {
-  color: var(--pomegranate);
+  color: var(--errorColor);
 }
 .Figure-content--warning--1Pn6n {
-  color: var(--texasRose);
+  color: var(--warnColor);
 }
 .Figure-content--warning--1Pn6n .Figure-currency--195-B {
-  color: var(--texasRose);
+  color: var(--warnColor);
 }
 .Figure-total--MZ7Xt {
   font-weight: 900;
@@ -22914,20 +23034,24 @@ body {
   }
 }
 
+:root {
+  --invertedBackgroundColor: var(--primaryColor);
+  --invertedContrastTextColor: var(--primaryContrastTextColor);
+}
 .CozyTheme--inverted--1ygHa {
-  background: var(--primaryColor);
-  --primaryTextColor: var(--primaryContrastTextColor);
-  --secondaryTextColor: var(--primaryContrastTextColor);
-  --barIconColor: var(--primaryContrastTextColor);
+  background: var(--invertedBackgroundColor);
+  --primaryTextColor: var(--invertedContrastTextColor);
+  --secondaryTextColor: var(--invertedContrastTextColor);
+  --barIconColor: var(--invertedContrastTextColor);
   --barIconColorDisabled: rgba(255,255,255,0.88);
-  --regularButtonPrimaryColor: var(--primaryContrastTextColor);
-  --regularButtonSecondaryColor: var(--primaryContrastTextColor);
+  --regularButtonPrimaryColor: var(--invertedContrastTextColor);
+  --regularButtonSecondaryColor: var(--invertedContrastTextColor);
   --regularButtonActiveColor: rgba(255,255,255,0.88);
-  --regularButtonConstrastColor: var(--primaryColor);
-  --secondaryButtonPrimaryColor: var(--primaryColor);
-  --secondaryButtonSecondaryColor: var(--white);
+  --regularButtonConstrastColor: var(--invertedBackgroundColor);
+  --secondaryButtonPrimaryColor: var(--invertedBackgroundColor);
+  --secondaryButtonSecondaryColor: var(--invertedContrastTextColor);
   --secondaryButtonActiveColor: rgba(255,255,255,0.24);
-  --secondaryButtonContrastColor: var(--white);
+  --secondaryButtonContrastColor: var(--invertedContrastTextColor);
 }
 
 /*------------------------------------*  Palette
@@ -23089,6 +23213,10 @@ body {
   --primaryTextColor: var(--charcoalGrey);
   --secondaryTextColor: var(--coolGrey);
   --primaryContrastTextColor: var(--white);
+  --invertedTabsActiveTextColor: var(--primaryContrastTextColor);
+  --invertedTabsInactiveTextColor: var(--primaryContrastTextColor);
+  --invertedTabsIndicatorColor: var(--primaryContrastTextColor);
+  --invertedTabsBackgroundColor: var(--primaryColor);
   --regularButtonPrimaryColor: var(--primaryColor);
   --regularButtonSecondaryColor: var(--primaryColor);
   --regularButtonActiveColor: var(--primaryColorDark);
@@ -23099,6 +23227,14 @@ body {
   --secondaryButtonContrastColor: var(--black);
   --iconColor: currentColor;
   --actionMenuIconColor: var(--slateGrey);
+  --errorColor: var(--pomegranate);
+  --validColor: var(--emerald);
+  --warnColor: var(--texasRose);
+  --buttonTextTransform: uppercase;
+  --buttonBorderRadius: 0.125rem;
+  --navTextColor: var(--slateGrey);
+  --navTextActiveColor: var(--slateGrey);
+  --navTextHoverColor: var(--charcoalGrey);
 }
 
 .c-filename-wrapper--3tVpA {
@@ -23254,6 +23390,10 @@ body {
   --primaryTextColor: var(--charcoalGrey);
   --secondaryTextColor: var(--coolGrey);
   --primaryContrastTextColor: var(--white);
+  --invertedTabsActiveTextColor: var(--primaryContrastTextColor);
+  --invertedTabsInactiveTextColor: var(--primaryContrastTextColor);
+  --invertedTabsIndicatorColor: var(--primaryContrastTextColor);
+  --invertedTabsBackgroundColor: var(--primaryColor);
   --regularButtonPrimaryColor: var(--primaryColor);
   --regularButtonSecondaryColor: var(--primaryColor);
   --regularButtonActiveColor: var(--primaryColorDark);
@@ -23264,6 +23404,14 @@ body {
   --secondaryButtonContrastColor: var(--black);
   --iconColor: currentColor;
   --actionMenuIconColor: var(--slateGrey);
+  --errorColor: var(--pomegranate);
+  --validColor: var(--emerald);
+  --warnColor: var(--texasRose);
+  --buttonTextTransform: uppercase;
+  --buttonBorderRadius: 0.125rem;
+  --navTextColor: var(--slateGrey);
+  --navTextActiveColor: var(--slateGrey);
+  --navTextHoverColor: var(--charcoalGrey);
 }
 .Infos--2ZZVs {
   position: relative;
@@ -23439,6 +23587,10 @@ body {
   --primaryTextColor: var(--charcoalGrey);
   --secondaryTextColor: var(--coolGrey);
   --primaryContrastTextColor: var(--white);
+  --invertedTabsActiveTextColor: var(--primaryContrastTextColor);
+  --invertedTabsInactiveTextColor: var(--primaryContrastTextColor);
+  --invertedTabsIndicatorColor: var(--primaryContrastTextColor);
+  --invertedTabsBackgroundColor: var(--primaryColor);
   --regularButtonPrimaryColor: var(--primaryColor);
   --regularButtonSecondaryColor: var(--primaryColor);
   --regularButtonActiveColor: var(--primaryColorDark);
@@ -23449,6 +23601,14 @@ body {
   --secondaryButtonContrastColor: var(--black);
   --iconColor: currentColor;
   --actionMenuIconColor: var(--slateGrey);
+  --errorColor: var(--pomegranate);
+  --validColor: var(--emerald);
+  --warnColor: var(--texasRose);
+  --buttonTextTransform: uppercase;
+  --buttonBorderRadius: 0.125rem;
+  --navTextColor: var(--slateGrey);
+  --navTextActiveColor: var(--slateGrey);
+  --navTextHoverColor: var(--charcoalGrey);
 }
 .InfosCarrousel--3rCyB {
   position: relative;
@@ -26072,10 +26232,10 @@ iframe {
   display: flex;
 }
 .coz-tabs--24QL5 .coz-tab-list--inverted--3VjXc {
-  --tabsActiveTextColor: var(--primaryContrastTextColor);
-  --tabsInactiveTextColor: var(--primaryContrastTextColor);
-  --tabsIndicatorColor: var(--primaryContrastTextColor);
-  --tabsBackgroundColor: var(--primaryColor);
+  --tabsActiveTextColor: var(--invertedTabsActiveTextColor);
+  --tabsInactiveTextColor: var(--invertedTabsInactiveTextColor);
+  --tabsIndicatorColor: var(--invertedTabsIndicatorColor);
+  --tabsBackgroundColor: var(--invertedTabsBackgroundColor);
 }
 .coz-tabs--24QL5 .coz-tab--2mOye {
   flex: 0 0 auto;
@@ -26261,6 +26421,10 @@ body {
   --primaryTextColor: var(--charcoalGrey);
   --secondaryTextColor: var(--coolGrey);
   --primaryContrastTextColor: var(--white);
+  --invertedTabsActiveTextColor: var(--primaryContrastTextColor);
+  --invertedTabsInactiveTextColor: var(--primaryContrastTextColor);
+  --invertedTabsIndicatorColor: var(--primaryContrastTextColor);
+  --invertedTabsBackgroundColor: var(--primaryColor);
   --regularButtonPrimaryColor: var(--primaryColor);
   --regularButtonSecondaryColor: var(--primaryColor);
   --regularButtonActiveColor: var(--primaryColorDark);
@@ -26271,6 +26435,14 @@ body {
   --secondaryButtonContrastColor: var(--black);
   --iconColor: currentColor;
   --actionMenuIconColor: var(--slateGrey);
+  --errorColor: var(--pomegranate);
+  --validColor: var(--emerald);
+  --warnColor: var(--texasRose);
+  --buttonTextTransform: uppercase;
+  --buttonBorderRadius: 0.125rem;
+  --navTextColor: var(--slateGrey);
+  --navTextActiveColor: var(--slateGrey);
+  --navTextHoverColor: var(--charcoalGrey);
 }
 :root {
   --zIndex-below: -1;
@@ -26544,13 +26716,13 @@ body {
   }
 }
 .u-error {
-  color: var(--pomegranate);
+  color: var(--errorColor);
 }
 .u-valid {
-  color: var(--emerald);
+  color: var(--validColor);
 }
 .u-warn {
-  color: var(--texasRose);
+  color: var(--warnColor);
 }
 .u-black {
   color: var(--black) !important;
@@ -27109,11 +27281,6 @@ body {
   }
 }
 
-.Sections--2QzV_ {
-  margin: 2rem 0.5rem 0 2rem;
-  margin-left: 1rem;
-  margin-right: 1rem;
-}
 .Sections__subtitle--1rLpT {
   margin-top: 1.5rem;
   margin-bottom: 1rem;
@@ -27125,12 +27292,6 @@ body {
 }
 .Sections__section--2onYy {
   margin-bottom: 4rem;
-}
-@media (max-width: 48rem) {
-  .Sections--2QzV_ {
-    margin-left: 1rem;
-    margin-right: 1rem;
-  }
 }
 
 .Dropdown__icon--19QZN {
@@ -27568,13 +27729,13 @@ body {
   }
 }
 .u-error {
-  color: var(--pomegranate);
+  color: var(--errorColor);
 }
 .u-valid {
-  color: var(--emerald);
+  color: var(--validColor);
 }
 .u-warn {
-  color: var(--texasRose);
+  color: var(--warnColor);
 }
 .u-black {
   color: var(--black) !important;
@@ -27929,7 +28090,7 @@ body {
   margin: 0 0.25rem;
   border-width: 0.063rem;
   border-style: solid;
-  border-radius: 0.125rem;
+  border-radius: var(--buttonBorderRadius);
   min-height: 2.5rem;
   min-width: 7rem;
   padding: 0.188rem 1rem;
@@ -27938,7 +28099,7 @@ body {
   font-size: 0.875rem;
   font-weight: bold;
   line-height: 1;
-  text-transform: uppercase;
+  text-transform: var(--buttonTextTransform);
   text-decoration: none;
   cursor: pointer;
   align-items: center;
@@ -28396,13 +28557,13 @@ body {
   }
 }
 .u-error {
-  color: var(--pomegranate);
+  color: var(--errorColor);
 }
 .u-valid {
-  color: var(--emerald);
+  color: var(--validColor);
 }
 .u-warn {
-  color: var(--texasRose);
+  color: var(--warnColor);
 }
 .u-black {
   color: var(--black) !important;
@@ -28756,7 +28917,7 @@ body {
   margin: 0 0.25rem;
   border-width: 0.063rem;
   border-style: solid;
-  border-radius: 0.125rem;
+  border-radius: var(--buttonBorderRadius);
   min-height: 2.5rem;
   min-width: 7rem;
   padding: 0.188rem 1rem;
@@ -28765,7 +28926,7 @@ body {
   font-size: 0.875rem;
   font-weight: bold;
   line-height: 1;
-  text-transform: uppercase;
+  text-transform: var(--buttonTextTransform);
   text-decoration: none;
   cursor: pointer;
   align-items: center;
@@ -29005,6 +29166,10 @@ body {
   --primaryTextColor: var(--charcoalGrey);
   --secondaryTextColor: var(--coolGrey);
   --primaryContrastTextColor: var(--white);
+  --invertedTabsActiveTextColor: var(--primaryContrastTextColor);
+  --invertedTabsInactiveTextColor: var(--primaryContrastTextColor);
+  --invertedTabsIndicatorColor: var(--primaryContrastTextColor);
+  --invertedTabsBackgroundColor: var(--primaryColor);
   --regularButtonPrimaryColor: var(--primaryColor);
   --regularButtonSecondaryColor: var(--primaryColor);
   --regularButtonActiveColor: var(--primaryColorDark);
@@ -29015,6 +29180,14 @@ body {
   --secondaryButtonContrastColor: var(--black);
   --iconColor: currentColor;
   --actionMenuIconColor: var(--slateGrey);
+  --errorColor: var(--pomegranate);
+  --validColor: var(--emerald);
+  --warnColor: var(--texasRose);
+  --buttonTextTransform: uppercase;
+  --buttonBorderRadius: 0.125rem;
+  --navTextColor: var(--slateGrey);
+  --navTextActiveColor: var(--slateGrey);
+  --navTextHoverColor: var(--charcoalGrey);
 }
 :root {
   --zIndex-below: -1;
@@ -29477,28 +29650,28 @@ body {
   color: var(--pomegranate);
 }
 .PasswordInput__strength--weak--dzrGl::-webkit-progress-value {
-  background-color: var(--pomegranate);
+  background-color: var(--errorColor);
 }
 .PasswordInput__strength--weak--dzrGl::-moz-progress-bar {
-  background-color: var(--pomegranate);
+  background-color: var(--errorColor);
 }
 .PasswordInput__strength--moderate--1ME_z {
   color: var(--texasRose);
 }
 .PasswordInput__strength--moderate--1ME_z::-webkit-progress-value {
-  background-color: var(--texasRose);
+  background-color: var(--warnColor);
 }
 .PasswordInput__strength--moderate--1ME_z::-moz-progress-bar {
-  background-color: var(--texasRose);
+  background-color: var(--warnColor);
 }
 .PasswordInput__strength--strong--3yuP0 {
   color: var(--emerald);
 }
 .PasswordInput__strength--strong--3yuP0::-webkit-progress-value {
-  background-color: var(--emerald);
+  background-color: var(--validColor);
 }
 .PasswordInput__strength--strong--3yuP0::-moz-progress-bar {
-  background-color: var(--emerald);
+  background-color: var(--validColor);
 }
 .PasswordInput__visibilityButton--2B6RJ {
   height: 100%;
@@ -31833,6 +32006,10 @@ body {
   --primaryTextColor: var(--charcoalGrey);
   --secondaryTextColor: var(--coolGrey);
   --primaryContrastTextColor: var(--white);
+  --invertedTabsActiveTextColor: var(--primaryContrastTextColor);
+  --invertedTabsInactiveTextColor: var(--primaryContrastTextColor);
+  --invertedTabsIndicatorColor: var(--primaryContrastTextColor);
+  --invertedTabsBackgroundColor: var(--primaryColor);
   --regularButtonPrimaryColor: var(--primaryColor);
   --regularButtonSecondaryColor: var(--primaryColor);
   --regularButtonActiveColor: var(--primaryColorDark);
@@ -31843,6 +32020,14 @@ body {
   --secondaryButtonContrastColor: var(--black);
   --iconColor: currentColor;
   --actionMenuIconColor: var(--slateGrey);
+  --errorColor: var(--pomegranate);
+  --validColor: var(--emerald);
+  --warnColor: var(--texasRose);
+  --buttonTextTransform: uppercase;
+  --buttonBorderRadius: 0.125rem;
+  --navTextColor: var(--slateGrey);
+  --navTextActiveColor: var(--slateGrey);
+  --navTextHoverColor: var(--charcoalGrey);
 }
 :root {
   --zIndex-below: -1;

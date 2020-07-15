@@ -22978,16 +22978,16 @@ body {
   color: var(--secondaryTextColor);
 }
 .Figure-content--positive--1qyd8 {
-  color: var(--validColor);
+  color: var(--emerald);
 }
 .Figure-content--positive--1qyd8 .Figure-currency--195-B {
-  color: var(--validColor);
+  color: var(--emerald);
 }
 .Figure-content--negative--3ACbA {
-  color: var(--errorColor);
+  color: var(--pomegranate);
 }
 .Figure-content--negative--3ACbA .Figure-currency--195-B {
-  color: var(--errorColor);
+  color: var(--pomegranate);
 }
 .Figure-content--warning--1Pn6n {
   color: var(--warnColor);

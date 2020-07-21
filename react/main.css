@@ -22090,16 +22090,14 @@ body {
 .c-nav-link--3mK6W:visited {
   color: var(--navTextColor);
 }
-.c-nav-link--3mK6W:hover {
+.c-nav-link--3mK6W:hover:not(.is-active--2D0jN) {
   color: var(--navTextHoverColor);
 }
-.c-nav-link--3mK6W.active--1yH42,
 .c-nav-link--3mK6W.is-active--2D0jN {
   box-shadow: inset 0.25rem 0 0 0 var(--primaryColor);
   font-weight: bold;
   color: var(--navTextActiveColor);
 }
-.c-nav-link--3mK6W.active--1yH42 .c-nav-icon--hrJUe,
 .c-nav-link--3mK6W.is-active--2D0jN .c-nav-icon--hrJUe {
   color: var(--primaryColor);
 }
@@ -22114,14 +22112,6 @@ body {
     background-position: center top;
     background-size: 1.5rem;
   }
-  .c-nav-link--3mK6W.active--1yH42,
-  .c-nav-link--3mK6W.is-active--2D0jN {
-    color: var(--navTextActiveColor);
-  }
-  .c-nav-link--3mK6W:hover {
-    color: var(--navTextHoverColor);
-  }
-  .c-nav-link--3mK6W.active--1yH42,
   .c-nav-link--3mK6W.is-active--2D0jN,
   .c-nav-link--3mK6W:hover {
     box-shadow: none;
@@ -22129,7 +22119,7 @@ body {
   }
 }
 @media not all and (pointer: fine) {
-  .c-nav-link--3mK6W:hover {
+  .c-nav-link--3mK6W:hover:not(.is-active--2D0jN) {
     color: var(--navTextColor);
   }
 }
@@ -22170,7 +22160,7 @@ body {
   text-decoration: none;
   height: auto;
 }
-.c-nav-item-secondary--k14rf .c-nav-link--3mK6W:hover {
+.c-nav-item-secondary--k14rf .c-nav-link--3mK6W:hover:not(.is-active--2D0jN) {
   color: var(--navTextHoverColor);
 }
 .c-nav-item-secondary--k14rf .c-nav-link--3mK6W.is-active--2D0jN {

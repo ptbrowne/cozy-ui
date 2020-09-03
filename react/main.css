@@ -6044,11 +6044,20 @@ body {
   line-height: 1.2;
   color: var(--coolGrey);
 }
+.u-subtitle {
+  font-size: 0.75rem;
+  line-height: 1.313;
+}
 .u-uppercase {
   text-transform: uppercase;
 }
 .u-lowercase {
   text-transform: lowercase;
+}
+.u-subtitle {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 html,
 body {
@@ -28217,12 +28226,6 @@ body {
   --tabsActiveTextColor: var(--primaryColor);
   --tabsInactiveTextColor: var(--coolGrey);
   --tabsBackground: transparent;
-}
-
-.Subtitle--GwmpJ {
-  font-size: 0.75rem;
-  text-transform: uppercase;
-  font-weight: bold;
 }
 
 :root {

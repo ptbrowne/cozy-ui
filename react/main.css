@@ -28219,6 +28219,12 @@ body {
   --tabsBackground: transparent;
 }
 
+.Subtitle--GwmpJ {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
 :root {
 /*
     Grey

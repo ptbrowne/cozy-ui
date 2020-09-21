@@ -6272,6 +6272,9 @@ body {
   height: auto;
   overflow: auto;
 }
+details {
+  background: #f00;
+}
 
 .BarButton--3z5Er {
   display: flex;

@@ -27459,19 +27459,6 @@ iframe {
   right: 0.5rem;
 }
 
-.c-list-text--3kc3E {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  min-height: 2.5rem;
-}
-.c-list-text--3kc3E .u-caption--2WxM5 {
-  margin-top: 0.188rem;
-}
-.c-list-text--3kc3E + .c-list-text--3kc3E {
-  margin-left: 2rem;
-}
-
 html {
   --zIndex-below: -1;
   --zIndex-app: 0;

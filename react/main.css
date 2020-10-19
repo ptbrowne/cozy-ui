@@ -882,6 +882,9 @@ body {
 .u-error {
   color: var(--errorColor) !important;
 }
+.u-danger {
+  color: var(--dangerColor) !important;
+}
 .u-errorBackgroundLight {
   color: var(--errorBackgroundLight) !important;
 }
@@ -1386,6 +1389,9 @@ body {
 .u-bg-error {
   background-color: var(--errorColor) !important;
 }
+.u-bg-danger {
+  background-color: var(--dangerColor) !important;
+}
 .u-bg-errorBackgroundLight {
   background-color: var(--errorBackgroundLight) !important;
 }
@@ -1661,6 +1667,7 @@ html,
   --errorBackgroundLight: var(--chablis);
   --validColor: var(--emerald);
   --warnColor: var(--texasRose);
+  --dangerColor: var(--pomegranate);
   --neutralBackground: var(--paleGrey);
   --buttonTextTransform: uppercase;
   --buttonBorderRadius: 0.125rem;
@@ -6846,6 +6853,9 @@ body {
 .u-error {
   color: var(--errorColor) !important;
 }
+.u-danger {
+  color: var(--dangerColor) !important;
+}
 .u-errorBackgroundLight {
   color: var(--errorBackgroundLight) !important;
 }
@@ -7458,6 +7468,7 @@ html,
   --errorBackgroundLight: var(--chablis);
   --validColor: var(--emerald);
   --warnColor: var(--texasRose);
+  --dangerColor: var(--pomegranate);
   --neutralBackground: var(--paleGrey);
   --buttonTextTransform: uppercase;
   --buttonBorderRadius: 0.125rem;
@@ -7846,6 +7857,9 @@ html,
 }
 .u-error {
   color: var(--errorColor) !important;
+}
+.u-danger {
+  color: var(--dangerColor) !important;
 }
 .u-errorBackgroundLight {
   color: var(--errorBackgroundLight) !important;
@@ -9097,6 +9111,9 @@ body {
 }
 .u-error {
   color: var(--errorColor) !important;
+}
+.u-danger {
+  color: var(--dangerColor) !important;
 }
 .u-errorBackgroundLight {
   color: var(--errorBackgroundLight) !important;
@@ -12139,6 +12156,7 @@ html,
   --errorBackgroundLight: var(--chablis);
   --validColor: var(--emerald);
   --warnColor: var(--texasRose);
+  --dangerColor: var(--pomegranate);
   --neutralBackground: var(--paleGrey);
   --buttonTextTransform: uppercase;
   --buttonBorderRadius: 0.125rem;
@@ -12400,6 +12418,7 @@ html,
   --errorBackgroundLight: var(--chablis);
   --validColor: var(--emerald);
   --warnColor: var(--texasRose);
+  --dangerColor: var(--pomegranate);
   --neutralBackground: var(--paleGrey);
   --buttonTextTransform: uppercase;
   --buttonBorderRadius: 0.125rem;
@@ -12718,6 +12737,7 @@ html,
   --errorBackgroundLight: var(--chablis);
   --validColor: var(--emerald);
   --warnColor: var(--texasRose);
+  --dangerColor: var(--pomegranate);
   --neutralBackground: var(--paleGrey);
   --buttonTextTransform: uppercase;
   --buttonBorderRadius: 0.125rem;
@@ -12910,6 +12930,7 @@ html,
   --errorBackgroundLight: var(--chablis);
   --validColor: var(--emerald);
   --warnColor: var(--texasRose);
+  --dangerColor: var(--pomegranate);
   --neutralBackground: var(--paleGrey);
   --buttonTextTransform: uppercase;
   --buttonBorderRadius: 0.125rem;
@@ -13453,6 +13474,9 @@ html,
 }
 .u-error {
   color: var(--errorColor) !important;
+}
+.u-danger {
+  color: var(--dangerColor) !important;
 }
 .u-errorBackgroundLight {
   color: var(--errorBackgroundLight) !important;
@@ -13999,6 +14023,7 @@ html,
   --errorBackgroundLight: var(--chablis);
   --validColor: var(--emerald);
   --warnColor: var(--texasRose);
+  --dangerColor: var(--pomegranate);
   --neutralBackground: var(--paleGrey);
   --buttonTextTransform: uppercase;
   --buttonBorderRadius: 0.125rem;
@@ -14505,6 +14530,9 @@ html {
 }
 .u-error {
   color: var(--errorColor) !important;
+}
+.u-danger {
+  color: var(--dangerColor) !important;
 }
 .u-errorBackgroundLight {
   color: var(--errorBackgroundLight) !important;
@@ -15240,6 +15268,9 @@ html {
 .u-error {
   color: var(--errorColor) !important;
 }
+.u-danger {
+  color: var(--dangerColor) !important;
+}
 .u-errorBackgroundLight {
   color: var(--errorBackgroundLight) !important;
 }
@@ -15935,6 +15966,9 @@ html {
 }
 .u-error {
   color: var(--errorColor) !important;
+}
+.u-danger {
+  color: var(--dangerColor) !important;
 }
 .u-errorBackgroundLight {
   color: var(--errorBackgroundLight) !important;
@@ -16674,6 +16708,9 @@ html {
 .u-error {
   color: var(--errorColor) !important;
 }
+.u-danger {
+  color: var(--dangerColor) !important;
+}
 .u-errorBackgroundLight {
   color: var(--errorBackgroundLight) !important;
 }
@@ -17153,6 +17190,7 @@ html,
   --errorBackgroundLight: var(--chablis);
   --validColor: var(--emerald);
   --warnColor: var(--texasRose);
+  --dangerColor: var(--pomegranate);
   --neutralBackground: var(--paleGrey);
   --buttonTextTransform: uppercase;
   --buttonBorderRadius: 0.125rem;
@@ -17630,6 +17668,9 @@ html,
 }
 .u-error {
   color: var(--errorColor) !important;
+}
+.u-danger {
+  color: var(--dangerColor) !important;
 }
 .u-errorBackgroundLight {
   color: var(--errorBackgroundLight) !important;
@@ -18376,6 +18417,9 @@ html,
 }
 .u-error {
   color: var(--errorColor) !important;
+}
+.u-danger {
+  color: var(--dangerColor) !important;
 }
 .u-errorBackgroundLight {
   color: var(--errorBackgroundLight) !important;
@@ -19296,6 +19340,9 @@ html {
 .u-error {
   color: var(--errorColor) !important;
 }
+.u-danger {
+  color: var(--dangerColor) !important;
+}
 .u-errorBackgroundLight {
   color: var(--errorBackgroundLight) !important;
 }
@@ -20068,6 +20115,9 @@ html {
 .u-error {
   color: var(--errorColor) !important;
 }
+.u-danger {
+  color: var(--dangerColor) !important;
+}
 .u-errorBackgroundLight {
   color: var(--errorBackgroundLight) !important;
 }
@@ -20708,6 +20758,7 @@ html,
   --errorBackgroundLight: var(--chablis);
   --validColor: var(--emerald);
   --warnColor: var(--texasRose);
+  --dangerColor: var(--pomegranate);
   --neutralBackground: var(--paleGrey);
   --buttonTextTransform: uppercase;
   --buttonBorderRadius: 0.125rem;
@@ -21223,6 +21274,9 @@ body {
 }
 .u-error {
   color: var(--errorColor) !important;
+}
+.u-danger {
+  color: var(--dangerColor) !important;
 }
 .u-errorBackgroundLight {
   color: var(--errorBackgroundLight) !important;
@@ -21870,6 +21924,7 @@ html,
   --errorBackgroundLight: var(--chablis);
   --validColor: var(--emerald);
   --warnColor: var(--texasRose);
+  --dangerColor: var(--pomegranate);
   --neutralBackground: var(--paleGrey);
   --buttonTextTransform: uppercase;
   --buttonBorderRadius: 0.125rem;
@@ -22245,6 +22300,7 @@ html,
   --errorBackgroundLight: var(--chablis);
   --validColor: var(--emerald);
   --warnColor: var(--texasRose);
+  --dangerColor: var(--pomegranate);
   --neutralBackground: var(--paleGrey);
   --buttonTextTransform: uppercase;
   --buttonBorderRadius: 0.125rem;
@@ -22915,6 +22971,9 @@ body {
 .u-error {
   color: var(--errorColor) !important;
 }
+.u-danger {
+  color: var(--dangerColor) !important;
+}
 .u-errorBackgroundLight {
   color: var(--errorBackgroundLight) !important;
 }
@@ -23578,6 +23637,7 @@ html,
   --errorBackgroundLight: var(--chablis);
   --validColor: var(--emerald);
   --warnColor: var(--texasRose);
+  --dangerColor: var(--pomegranate);
   --neutralBackground: var(--paleGrey);
   --buttonTextTransform: uppercase;
   --buttonBorderRadius: 0.125rem;
@@ -23778,6 +23838,7 @@ html,
   --errorBackgroundLight: var(--chablis);
   --validColor: var(--emerald);
   --warnColor: var(--texasRose);
+  --dangerColor: var(--pomegranate);
   --neutralBackground: var(--paleGrey);
   --buttonTextTransform: uppercase;
   --buttonBorderRadius: 0.125rem;
@@ -26614,6 +26675,9 @@ body {
 .u-error {
   color: var(--errorColor) !important;
 }
+.u-danger {
+  color: var(--dangerColor) !important;
+}
 .u-errorBackgroundLight {
   color: var(--errorBackgroundLight) !important;
 }
@@ -27892,6 +27956,7 @@ html,
   --errorBackgroundLight: var(--chablis);
   --validColor: var(--emerald);
   --warnColor: var(--texasRose);
+  --dangerColor: var(--pomegranate);
   --neutralBackground: var(--paleGrey);
   --buttonTextTransform: uppercase;
   --buttonBorderRadius: 0.125rem;
@@ -28295,6 +28360,9 @@ html {
 }
 .u-error {
   color: var(--errorColor) !important;
+}
+.u-danger {
+  color: var(--dangerColor) !important;
 }
 .u-errorBackgroundLight {
   color: var(--errorBackgroundLight) !important;
@@ -29353,6 +29421,9 @@ html {
 .u-error {
   color: var(--errorColor) !important;
 }
+.u-danger {
+  color: var(--dangerColor) !important;
+}
 .u-errorBackgroundLight {
   color: var(--errorBackgroundLight) !important;
 }
@@ -30246,6 +30317,9 @@ html {
 .u-error {
   color: var(--errorColor) !important;
 }
+.u-danger {
+  color: var(--dangerColor) !important;
+}
 .u-errorBackgroundLight {
   color: var(--errorBackgroundLight) !important;
 }
@@ -30814,6 +30888,7 @@ html,
   --errorBackgroundLight: var(--chablis);
   --validColor: var(--emerald);
   --warnColor: var(--texasRose);
+  --dangerColor: var(--pomegranate);
   --neutralBackground: var(--paleGrey);
   --buttonTextTransform: uppercase;
   --buttonBorderRadius: 0.125rem;
@@ -33657,6 +33732,7 @@ html,
   --errorBackgroundLight: var(--chablis);
   --validColor: var(--emerald);
   --warnColor: var(--texasRose);
+  --dangerColor: var(--pomegranate);
   --neutralBackground: var(--paleGrey);
   --buttonTextTransform: uppercase;
   --buttonBorderRadius: 0.125rem;

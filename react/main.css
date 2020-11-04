@@ -8729,6 +8729,19 @@ body {
   font-weight: bold;
   line-height: 1;
 }
+.c-avatar--text--2dvna {
+  color: #fff;
+}
+.c-avatar--disabled--xoLOy.c-avatar--image--jDBci {
+  background-color: #fff !important;
+}
+.c-avatar--disabled--xoLOy:not(.c-avatar--image--jDBci) {
+  background-color: var(--silver) !important;
+}
+.c-avatar--disabled--xoLOy .c-avatar-image--3yJnb {
+  filter: grayscale(1);
+  opacity: 0.3;
+}
 
 @-moz-keyframes spin--alZ_V {
   from {

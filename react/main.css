@@ -1640,11 +1640,16 @@ html {
 }
 html,
 .CozyTheme--normal--1XwXA {
-  --primaryColor: var(--dodgerBlue);
-  --primaryColorDark: var(--scienceBlue);
+  --primaryColor: #297ef2;
+  --primaryColorDark: #0b61d6;
   --primaryColorLight: #5c9df5;
   --primaryColorLighter: #4b93f7;
   --primaryColorLightest: #9fc4fb;
+  --secondaryColor: #fd7461;
+  --secondaryColorDark: #e3503b;
+  --secondaryColorLight: #ffdeda;
+  --secondaryColorLighter: #fd7461;
+  --secondaryColorLightest: #fecdc6;
   --primaryBackgroundLight: var(--zircon);
   --primaryTextColor: var(--charcoalGrey);
   --secondaryTextColor: var(--coolGrey);
@@ -7441,11 +7446,16 @@ html {
 }
 html,
 .CozyTheme--normal--3KdKA {
-  --primaryColor: var(--dodgerBlue);
-  --primaryColorDark: var(--scienceBlue);
+  --primaryColor: #297ef2;
+  --primaryColorDark: #0b61d6;
   --primaryColorLight: #5c9df5;
   --primaryColorLighter: #4b93f7;
   --primaryColorLightest: #9fc4fb;
+  --secondaryColor: #fd7461;
+  --secondaryColorDark: #e3503b;
+  --secondaryColorLight: #ffdeda;
+  --secondaryColorLighter: #fd7461;
+  --secondaryColorLightest: #fecdc6;
   --primaryBackgroundLight: var(--zircon);
   --primaryTextColor: var(--charcoalGrey);
   --secondaryTextColor: var(--coolGrey);
@@ -12199,11 +12209,16 @@ html {
 }
 html,
 .CozyTheme--normal--2VNeI {
-  --primaryColor: var(--dodgerBlue);
-  --primaryColorDark: var(--scienceBlue);
+  --primaryColor: #297ef2;
+  --primaryColorDark: #0b61d6;
   --primaryColorLight: #5c9df5;
   --primaryColorLighter: #4b93f7;
   --primaryColorLightest: #9fc4fb;
+  --secondaryColor: #fd7461;
+  --secondaryColorDark: #e3503b;
+  --secondaryColorLight: #ffdeda;
+  --secondaryColorLighter: #fd7461;
+  --secondaryColorLightest: #fecdc6;
   --primaryBackgroundLight: var(--zircon);
   --primaryTextColor: var(--charcoalGrey);
   --secondaryTextColor: var(--coolGrey);
@@ -12461,11 +12476,16 @@ html {
 }
 html,
 .CozyTheme--normal--1UIGZ {
-  --primaryColor: var(--dodgerBlue);
-  --primaryColorDark: var(--scienceBlue);
+  --primaryColor: #297ef2;
+  --primaryColorDark: #0b61d6;
   --primaryColorLight: #5c9df5;
   --primaryColorLighter: #4b93f7;
   --primaryColorLightest: #9fc4fb;
+  --secondaryColor: #fd7461;
+  --secondaryColorDark: #e3503b;
+  --secondaryColorLight: #ffdeda;
+  --secondaryColorLighter: #fd7461;
+  --secondaryColorLightest: #fecdc6;
   --primaryBackgroundLight: var(--zircon);
   --primaryTextColor: var(--charcoalGrey);
   --secondaryTextColor: var(--coolGrey);
@@ -12733,11 +12753,16 @@ html {
 }
 html,
 .CozyTheme--normal--I_6Ur {
-  --primaryColor: var(--dodgerBlue);
-  --primaryColorDark: var(--scienceBlue);
+  --primaryColor: #297ef2;
+  --primaryColorDark: #0b61d6;
   --primaryColorLight: #5c9df5;
   --primaryColorLighter: #4b93f7;
   --primaryColorLightest: #9fc4fb;
+  --secondaryColor: #fd7461;
+  --secondaryColorDark: #e3503b;
+  --secondaryColorLight: #ffdeda;
+  --secondaryColorLighter: #fd7461;
+  --secondaryColorLightest: #fecdc6;
   --primaryBackgroundLight: var(--zircon);
   --primaryTextColor: var(--charcoalGrey);
   --secondaryTextColor: var(--coolGrey);
@@ -12926,11 +12951,16 @@ html {
 }
 html,
 .CozyTheme--normal--3khZB {
-  --primaryColor: var(--dodgerBlue);
-  --primaryColorDark: var(--scienceBlue);
+  --primaryColor: #297ef2;
+  --primaryColorDark: #0b61d6;
   --primaryColorLight: #5c9df5;
   --primaryColorLighter: #4b93f7;
   --primaryColorLightest: #9fc4fb;
+  --secondaryColor: #fd7461;
+  --secondaryColorDark: #e3503b;
+  --secondaryColorLight: #ffdeda;
+  --secondaryColorLighter: #fd7461;
+  --secondaryColorLightest: #fecdc6;
   --primaryBackgroundLight: var(--zircon);
   --primaryTextColor: var(--charcoalGrey);
   --secondaryTextColor: var(--coolGrey);
@@ -14023,11 +14053,16 @@ html {
 }
 html,
 .CozyTheme--normal--1ZHOn {
-  --primaryColor: var(--dodgerBlue);
-  --primaryColorDark: var(--scienceBlue);
+  --primaryColor: #297ef2;
+  --primaryColorDark: #0b61d6;
   --primaryColorLight: #5c9df5;
   --primaryColorLighter: #4b93f7;
   --primaryColorLightest: #9fc4fb;
+  --secondaryColor: #fd7461;
+  --secondaryColorDark: #e3503b;
+  --secondaryColorLight: #ffdeda;
+  --secondaryColorLighter: #fd7461;
+  --secondaryColorLightest: #fecdc6;
   --primaryBackgroundLight: var(--zircon);
   --primaryTextColor: var(--charcoalGrey);
   --secondaryTextColor: var(--coolGrey);
@@ -17190,11 +17225,16 @@ html {
 }
 html,
 .CozyTheme--normal--3RDVP {
-  --primaryColor: var(--dodgerBlue);
-  --primaryColorDark: var(--scienceBlue);
+  --primaryColor: #297ef2;
+  --primaryColorDark: #0b61d6;
   --primaryColorLight: #5c9df5;
   --primaryColorLighter: #4b93f7;
   --primaryColorLightest: #9fc4fb;
+  --secondaryColor: #fd7461;
+  --secondaryColorDark: #e3503b;
+  --secondaryColorLight: #ffdeda;
+  --secondaryColorLighter: #fd7461;
+  --secondaryColorLightest: #fecdc6;
   --primaryBackgroundLight: var(--zircon);
   --primaryTextColor: var(--charcoalGrey);
   --secondaryTextColor: var(--coolGrey);
@@ -20775,11 +20815,16 @@ html {
 }
 html,
 .CozyTheme--normal--3UmMb {
-  --primaryColor: var(--dodgerBlue);
-  --primaryColorDark: var(--scienceBlue);
+  --primaryColor: #297ef2;
+  --primaryColorDark: #0b61d6;
   --primaryColorLight: #5c9df5;
   --primaryColorLighter: #4b93f7;
   --primaryColorLightest: #9fc4fb;
+  --secondaryColor: #fd7461;
+  --secondaryColorDark: #e3503b;
+  --secondaryColorLight: #ffdeda;
+  --secondaryColorLighter: #fd7461;
+  --secondaryColorLightest: #fecdc6;
   --primaryBackgroundLight: var(--zircon);
   --primaryTextColor: var(--charcoalGrey);
   --secondaryTextColor: var(--coolGrey);
@@ -21941,11 +21986,16 @@ html {
 }
 html,
 .CozyTheme--normal--1G-Us {
-  --primaryColor: var(--dodgerBlue);
-  --primaryColorDark: var(--scienceBlue);
+  --primaryColor: #297ef2;
+  --primaryColorDark: #0b61d6;
   --primaryColorLight: #5c9df5;
   --primaryColorLighter: #4b93f7;
   --primaryColorLightest: #9fc4fb;
+  --secondaryColor: #fd7461;
+  --secondaryColorDark: #e3503b;
+  --secondaryColorLight: #ffdeda;
+  --secondaryColorLighter: #fd7461;
+  --secondaryColorLightest: #fecdc6;
   --primaryBackgroundLight: var(--zircon);
   --primaryTextColor: var(--charcoalGrey);
   --secondaryTextColor: var(--coolGrey);
@@ -22317,11 +22367,16 @@ html {
 }
 html,
 .CozyTheme--normal--GUFJ5 {
-  --primaryColor: var(--dodgerBlue);
-  --primaryColorDark: var(--scienceBlue);
+  --primaryColor: #297ef2;
+  --primaryColorDark: #0b61d6;
   --primaryColorLight: #5c9df5;
   --primaryColorLighter: #4b93f7;
   --primaryColorLightest: #9fc4fb;
+  --secondaryColor: #fd7461;
+  --secondaryColorDark: #e3503b;
+  --secondaryColorLight: #ffdeda;
+  --secondaryColorLighter: #fd7461;
+  --secondaryColorLightest: #fecdc6;
   --primaryBackgroundLight: var(--zircon);
   --primaryTextColor: var(--charcoalGrey);
   --secondaryTextColor: var(--coolGrey);
@@ -23238,11 +23293,16 @@ html {
 }
 html,
 .CozyTheme--normal--2_Ftf {
-  --primaryColor: var(--dodgerBlue);
-  --primaryColorDark: var(--scienceBlue);
+  --primaryColor: #297ef2;
+  --primaryColorDark: #0b61d6;
   --primaryColorLight: #5c9df5;
   --primaryColorLighter: #4b93f7;
   --primaryColorLightest: #9fc4fb;
+  --secondaryColor: #fd7461;
+  --secondaryColorDark: #e3503b;
+  --secondaryColorLight: #ffdeda;
+  --secondaryColorLighter: #fd7461;
+  --secondaryColorLightest: #fecdc6;
   --primaryBackgroundLight: var(--zircon);
   --primaryTextColor: var(--charcoalGrey);
   --secondaryTextColor: var(--coolGrey);
@@ -24575,11 +24635,16 @@ html {
 }
 html,
 .CozyTheme--normal--3TP8j {
-  --primaryColor: var(--dodgerBlue);
-  --primaryColorDark: var(--scienceBlue);
+  --primaryColor: #297ef2;
+  --primaryColorDark: #0b61d6;
   --primaryColorLight: #5c9df5;
   --primaryColorLighter: #4b93f7;
   --primaryColorLightest: #9fc4fb;
+  --secondaryColor: #fd7461;
+  --secondaryColorDark: #e3503b;
+  --secondaryColorLight: #ffdeda;
+  --secondaryColorLighter: #fd7461;
+  --secondaryColorLightest: #fecdc6;
   --primaryBackgroundLight: var(--zircon);
   --primaryTextColor: var(--charcoalGrey);
   --secondaryTextColor: var(--coolGrey);
@@ -24776,11 +24841,16 @@ html {
 }
 html,
 .CozyTheme--normal--12Bhv {
-  --primaryColor: var(--dodgerBlue);
-  --primaryColorDark: var(--scienceBlue);
+  --primaryColor: #297ef2;
+  --primaryColorDark: #0b61d6;
   --primaryColorLight: #5c9df5;
   --primaryColorLighter: #4b93f7;
   --primaryColorLightest: #9fc4fb;
+  --secondaryColor: #fd7461;
+  --secondaryColorDark: #e3503b;
+  --secondaryColorLight: #ffdeda;
+  --secondaryColorLighter: #fd7461;
+  --secondaryColorLightest: #fecdc6;
   --primaryBackgroundLight: var(--zircon);
   --primaryTextColor: var(--charcoalGrey);
   --secondaryTextColor: var(--coolGrey);
@@ -27153,11 +27223,16 @@ html {
 }
 html,
 .CozyTheme--normal--3OxOO {
-  --primaryColor: var(--dodgerBlue);
-  --primaryColorDark: var(--scienceBlue);
+  --primaryColor: #297ef2;
+  --primaryColorDark: #0b61d6;
   --primaryColorLight: #5c9df5;
   --primaryColorLighter: #4b93f7;
   --primaryColorLightest: #9fc4fb;
+  --secondaryColor: #fd7461;
+  --secondaryColorDark: #e3503b;
+  --secondaryColorLight: #ffdeda;
+  --secondaryColorLighter: #fd7461;
+  --secondaryColorLightest: #fecdc6;
   --primaryBackgroundLight: var(--zircon);
   --primaryTextColor: var(--charcoalGrey);
   --secondaryTextColor: var(--coolGrey);
@@ -31797,11 +31872,16 @@ html {
 }
 html,
 .CozyTheme--normal--382qj {
-  --primaryColor: var(--dodgerBlue);
-  --primaryColorDark: var(--scienceBlue);
+  --primaryColor: #297ef2;
+  --primaryColorDark: #0b61d6;
   --primaryColorLight: #5c9df5;
   --primaryColorLighter: #4b93f7;
   --primaryColorLightest: #9fc4fb;
+  --secondaryColor: #fd7461;
+  --secondaryColorDark: #e3503b;
+  --secondaryColorLight: #ffdeda;
+  --secondaryColorLighter: #fd7461;
+  --secondaryColorLightest: #fecdc6;
   --primaryBackgroundLight: var(--zircon);
   --primaryTextColor: var(--charcoalGrey);
   --secondaryTextColor: var(--coolGrey);
@@ -34641,11 +34721,16 @@ html {
 }
 html,
 .CozyTheme--normal--x9CNZ {
-  --primaryColor: var(--dodgerBlue);
-  --primaryColorDark: var(--scienceBlue);
+  --primaryColor: #297ef2;
+  --primaryColorDark: #0b61d6;
   --primaryColorLight: #5c9df5;
   --primaryColorLighter: #4b93f7;
   --primaryColorLightest: #9fc4fb;
+  --secondaryColor: #fd7461;
+  --secondaryColorDark: #e3503b;
+  --secondaryColorLight: #ffdeda;
+  --secondaryColorLighter: #fd7461;
+  --secondaryColorLightest: #fecdc6;
   --primaryBackgroundLight: var(--zircon);
   --primaryTextColor: var(--charcoalGrey);
   --secondaryTextColor: var(--coolGrey);

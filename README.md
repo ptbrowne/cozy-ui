@@ -74,6 +74,15 @@ It is convenient when modifying a component to use the styleguide site.
 yarn watch:doc # Run the styleguide in watch mode
 ```
 
+### Add an Icon
+
+If you want to add a new icon to cozy-ui, you must follow these steps:
+
+* Add the SVG in the `assets/icons` folder
+* Generate the react component, simply by running `scripts/generate-svgr-icon.sh`
+* Update this README by adding your icon in the list
+* Update the tests by running `yarn test --updateSnapshot`
+
 ### Develop inside an app
 
 Sometimes, you want to develop on a component, from the context of an app.
@@ -106,9 +115,26 @@ yarn build:doc:react
 yarn deploy:doc --repo git@github.com:USERNAME/cozy-ui.git
 ```
 
+## Guidelines for component development
+
+* Use material UI whenever possible
+* Override material UI components inside theme.js when necessary
+* Avoid stylus to style new components
+* Prefer withStyles / useStyles from material UI
+* Use semantic variables for colors
+
+```patch
+withStyles(theme => ({
+    root: {
+-        backgroundColor: 'var(--paleGrey)',
++        backgroundColor: theme.palette.background.default
+    }
+}))
+```
+
 ## Unit testing
 
-Be aware that snapshots in unit tests use the transpilated version of cozy-ui. Therefore if you make changes and need to update the snapshots, you need to transpile first.
+Be aware that snapshots in unit tests use the transpiled version of cozy-ui. Therefore if you make changes and need to update the snapshots, you need to transpile first.
 
 ```bash
 yarn transpile && yarn test -u

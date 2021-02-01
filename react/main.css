@@ -13040,34 +13040,6 @@ html,
   margin-left: 0.25rem;
 }
 
-.IconButton--1LWwV {
-  background: none;
-  border: 0;
-  cursor: pointer;
-  padding: 0;
-  display: inline-flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: var(--secondaryTextColor);
-  height: 3rem;
-  width: 3rem;
-  border-radius: 3rem;
-  box-sizing: border-box;
-}
-.IconButton--1LWwV:hover:not(:disabled) {
-  background: rgba(0,0,0,0.06);
-}
-.IconButton--1LWwV:active:not(:disabled) {
-  color: var(--slateGrey);
-  background: rgba(0,0,0,0.12);
-  outline: 0;
-}
-.IconButton--1LWwV:disabled {
-  opacity: 0.24;
-  cursor: default;
-}
-
 .IconStack-wrapper--10dhG {
   position: relative;
   display: inline-block;
@@ -24852,9 +24824,9 @@ html,
 }
 .Info-close--1RVQP {
   position: absolute;
-  top: 0;
-  right: 0;
-  padding: 1rem;
+  top: 0.5rem;
+  right: 0.5rem;
+  padding: 0.75rem;
   cursor: pointer;
   border: 0;
   background: transparent;

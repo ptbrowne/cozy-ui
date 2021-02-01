@@ -24824,12 +24824,9 @@ html,
 }
 .Info-close--1RVQP {
   position: absolute;
-  top: 0.5rem;
-  right: 0.5rem;
+  top: 0;
+  right: 0;
   padding: 0.75rem;
-  cursor: pointer;
-  border: 0;
-  background: transparent;
 }
 
 html {

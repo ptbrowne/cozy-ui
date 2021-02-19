@@ -87,59 +87,49 @@
           the "root" element comes first in this loop, and can be detected using
           the "#if @first" block as seen below.
         -->
-            <header class="kss-section kss-section--depth-3" id="kssref-settings-colors-purple">
+            <header class="kss-section kss-section--depth-3" id="kssref-utilities-text-intentions">
 
             <article class="kss-section__content">
 
-              <a class="kss-section__permalink" href="#kssref-settings-colors-purple">
+              <a class="kss-section__permalink" href="#kssref-utilities-text-intentions">
                 <h3 class="kss-section__item kss-section__item--depth-3">
-                  <span class="kss-section__ref">1.2.5</span>
-                  <span class="kss-section__name">Purple</span>
+                  <span class="kss-section__ref">4.8.1</span>
+                  <span class="kss-section__name">Intentions</span>
                 </h3>
               </a>
 
+                <div class="kss-section__description"><p>Utilities to style texts that have an intention behind them.</p>
+</div>
 
-                <div class="kss-parameters__title">Parameters:</div>
-                <ul class="kss-parameters">
-                  <li class="kss-parameters__item">
-                    <div class="kss-parameters__name"><code>Stylus: lavender</code></div>
-                    <div class="kss-parameters__description">
-                      #C2ADF4, CSS: var(--lavender)
-                    </div>
-                  </li>
-                  <li class="kss-parameters__item">
-                    <div class="kss-parameters__name"><code>Stylus: darkPeriwinkle</code></div>
-                    <div class="kss-parameters__description">
-                      #6984CE, CSS: var(--darkPeriwinkle)
-                    </div>
-                  </li>
-                  <li class="kss-parameters__item">
-                    <div class="kss-parameters__name"><code>Stylus: purpley</code></div>
-                    <div class="kss-parameters__description">
-                      #7F6BEE, CSS: var(--purpley)
-                    </div>
-                  </li>
-                  <li class="kss-parameters__item">
-                    <div class="kss-parameters__name"><code>Stylus: portage</code></div>
-                    <div class="kss-parameters__description">
-                      #9169F2, CSS: var(--portage)
-                    </div>
-                  </li>
-                  <li class="kss-parameters__item">
-                    <div class="kss-parameters__name"><code>Stylus: lightishPurple</code></div>
-                    <div class="kss-parameters__description">
-                      #B449E7, CSS: var(--lightishPurple)
-                    </div>
-                  </li>
-                  <li class="kss-parameters__item">
-                    <div class="kss-parameters__name"><code>Stylus: barney</code></div>
-                    <div class="kss-parameters__description">
-                      #922BC2, CSS: var(--barney)
-                    </div>
-                  </li>
-                </ul>
             </article>
 
+              <article class="kss-section__modifiers">
+                <h1 class="kss-modifiers__heading">Examples</h1>
+
+                  <h2 class="kss-modifiers__name">Default styling</h2>
+
+                <div class="kss-modifiers__example"><p class="[modifier class]">A message with an intention</p></div>
+
+                  <h2 class="kss-modifiers__name">.u-valid</h2>
+
+                  <p class="kss-modifiers__description">Valid text, can be used to indicate a success</p>
+
+                  <div class="kss-modifiers__example"><p class="u-valid">A message with an intention</p></div>
+                  <h2 class="kss-modifiers__name">.u-warn</h2>
+
+                  <p class="kss-modifiers__description">Warning text, something seems to be wrong.</p>
+
+                  <div class="kss-modifiers__example"><p class="u-warn">A message with an intention</p></div>
+                  <h2 class="kss-modifiers__name">.u-error</h2>
+
+                  <p class="kss-modifiers__description">Error text, something is definitely wrong. Use with parcimony.</p>
+
+                  <div class="kss-modifiers__example"><p class="u-error">A message with an intention</p></div>
+              </article>
+
+                <article class="kss-section__markup">
+                  <pre><code class="language-markup">&lt;p class&#x3D;&quot;[modifier class]&quot;&gt;A message with an intention&lt;/p&gt;</code></pre>
+                </article>
 
             </header>
     </section>

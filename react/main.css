@@ -780,17 +780,86 @@ body {
 .u-overlay {
   color: var(--overlay) !important;
 }
+.u-zircon {
+  color: var(--zircon) !important;
+}
+.u-frenchPass {
+  color: var(--frenchPass) !important;
+}
 .u-dodgerBlue {
   color: var(--dodgerBlue) !important;
 }
-.u-lightishPurple {
-  color: var(--lightishPurple) !important;
+.u-scienceBlue {
+  color: var(--scienceBlue) !important;
+}
+.u-puertoRico {
+  color: var(--puertoRico) !important;
+}
+.u-grannyApple {
+  color: var(--grannyApple) !important;
+}
+.u-emerald {
+  color: var(--emerald) !important;
+}
+.u-malachite {
+  color: var(--malachite) !important;
+}
+.u-seafoamGreen {
+  color: var(--seafoamGreen) !important;
+}
+.u-brightSun {
+  color: var(--brightSun) !important;
+}
+.u-texasRose {
+  color: var(--texasRose) !important;
+}
+.u-chablis {
+  color: var(--chablis) !important;
+}
+.u-yourPink {
+  color: var(--yourPink) !important;
+}
+.u-fuchsia {
+  color: var(--fuchsia) !important;
+}
+.u-pomegranate {
+  color: var(--pomegranate) !important;
 }
 .u-monza {
   color: var(--monza) !important;
 }
-.u-pomegranate {
-  color: var(--pomegranate) !important;
+.u-portage {
+  color: var(--portage) !important;
+}
+.u-azure {
+  color: var(--azure) !important;
+}
+.u-melon {
+  color: var(--melon) !important;
+}
+.u-blazeOrange {
+  color: var(--blazeOrange) !important;
+}
+.u-mango {
+  color: var(--mango) !important;
+}
+.u-pumpkinOrange {
+  color: var(--pumpkinOrange) !important;
+}
+.u-lavender {
+  color: var(--lavender) !important;
+}
+.u-darkPeriwinkle {
+  color: var(--darkPeriwinkle) !important;
+}
+.u-purpley {
+  color: var(--purpley) !important;
+}
+.u-lightishPurple {
+  color: var(--lightishPurple) !important;
+}
+.u-barney {
+  color: var(--barney) !important;
 }
 .u-weirdGreen {
   color: var(--weirdGreen) !important;
@@ -1218,17 +1287,86 @@ body {
 .u-bg-overlay {
   background-color: var(--overlay) !important;
 }
+.u-bg-zircon {
+  background-color: var(--zircon) !important;
+}
+.u-bg-frenchPass {
+  background-color: var(--frenchPass) !important;
+}
 .u-bg-dodgerBlue {
   background-color: var(--dodgerBlue) !important;
 }
-.u-bg-lightishPurple {
-  background-color: var(--lightishPurple) !important;
+.u-bg-scienceBlue {
+  background-color: var(--scienceBlue) !important;
+}
+.u-bg-puertoRico {
+  background-color: var(--puertoRico) !important;
+}
+.u-bg-grannyApple {
+  background-color: var(--grannyApple) !important;
+}
+.u-bg-emerald {
+  background-color: var(--emerald) !important;
+}
+.u-bg-malachite {
+  background-color: var(--malachite) !important;
+}
+.u-bg-seafoamGreen {
+  background-color: var(--seafoamGreen) !important;
+}
+.u-bg-brightSun {
+  background-color: var(--brightSun) !important;
+}
+.u-bg-texasRose {
+  background-color: var(--texasRose) !important;
+}
+.u-bg-chablis {
+  background-color: var(--chablis) !important;
+}
+.u-bg-yourPink {
+  background-color: var(--yourPink) !important;
+}
+.u-bg-fuchsia {
+  background-color: var(--fuchsia) !important;
+}
+.u-bg-pomegranate {
+  background-color: var(--pomegranate) !important;
 }
 .u-bg-monza {
   background-color: var(--monza) !important;
 }
-.u-bg-pomegranate {
-  background-color: var(--pomegranate) !important;
+.u-bg-portage {
+  background-color: var(--portage) !important;
+}
+.u-bg-azure {
+  background-color: var(--azure) !important;
+}
+.u-bg-melon {
+  background-color: var(--melon) !important;
+}
+.u-bg-blazeOrange {
+  background-color: var(--blazeOrange) !important;
+}
+.u-bg-mango {
+  background-color: var(--mango) !important;
+}
+.u-bg-pumpkinOrange {
+  background-color: var(--pumpkinOrange) !important;
+}
+.u-bg-lavender {
+  background-color: var(--lavender) !important;
+}
+.u-bg-darkPeriwinkle {
+  background-color: var(--darkPeriwinkle) !important;
+}
+.u-bg-purpley {
+  background-color: var(--purpley) !important;
+}
+.u-bg-lightishPurple {
+  background-color: var(--lightishPurple) !important;
+}
+.u-bg-barney {
+  background-color: var(--barney) !important;
 }
 .u-bg-weirdGreen {
   background-color: var(--weirdGreen) !important;
@@ -1380,6 +1518,7 @@ html {
     Stylus: charcoalGrey -  #32363F, CSS: var(--charcoalGrey)
     Stylus: black        -  #000000, CSS: var(--black)
 
+    Weight: -1
 
     Styleguide Settings.colors.grey
     */
@@ -1395,34 +1534,56 @@ html {
     Blue
 
     Stylus: zircon       -  #F5FAFF, CSS: var(--zircon)
+    Stylus: hawkesBlue   -  #EEF5FE, CSS: var(--hawkesBlue)
+    Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
+    Stylus: azure        -  #1FA8F1, CSS: var(--azure)
     Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
     Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
+    Stylus: puertoRico   -  #0DCBCF, CSS: var(--puertoRico)
 
     Styleguide Settings.colors.blue
     */
   --zircon: #f5faff;
+  --hawkesBlue: #eef5fe;
+  --frenchPass: #c2dcff;
+  --azure: #1fa8f1;
   --dodgerBlue: #297ef2;
   --scienceBlue: #0b61d6;
+  --puertoRico: #0dcbcf;
 /*
     Green
 
+    Stylus: grannyApple  - #DEF7E7, CSS: var(--grannyApple)
     Stylus: weirdGreen   - #40DE8E, CSS: var(--weirdGreen)
     Stylus: emerald      - #35CE68, CSS: var(--emerald)
     Stylus: malachite    - #08b442, CSS: var(--malachite)
+    Stylus: seafoamGreen - #3DA67E, CSS: var(--seafoamGreen)
 
     Styleguide Settings.colors.green
     */
+  --grannyApple: #def7e7;
   --weirdGreen: #40de8e;
   --emerald: #35ce68;
   --malachite: #08b442;
+  --seafoamGreen: #3da67e;
 /*
     Orange
 
+    Stylus: brightSun     - #FFC644, CSS: var(--brightSun)
+    Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
     Stylus: mango         - #FF962F, CSS: var(--mango)
+    Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
+    Stylus: blazeOrange   - #FC6D00, CSS: var(--blazeOrange)
+    Stylus: melon         - #FD7461, CSS: var(--melon)
 
     Styleguide Settings.colors.orange
     */
+  --brightSun: #ffc644;
+  --texasRose: #ffae5f;
   --mango: #ff962f;
+  --pumpkinOrange: #ff7f1b;
+  --blazeOrange: #fc6d00;
+  --melon: #fd7461;
 /*
     Red
 
@@ -1439,9 +1600,31 @@ html {
   --fuchsia: #fc4c83;
   --pomegranate: #f52d2d;
   --monza: #dd0505;
-}
-html,
-.CozyTheme--normal--1XwXA {
+/*
+    Purple
+
+    Stylus: lavender       - #C2ADF4, CSS: var(--lavender)
+    Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
+    Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
+    Stylus: portage        - #9169F2, CSS: var(--portage)
+    Stylus: lightishPurple - #B449E7, CSS: var(--lightishPurple)
+    Stylus: barney         - #922BC2, CSS: var(--barney)
+
+    Styleguide Settings.colors.purple
+    */
+  --lavender: #c2adf4;
+  --darkPeriwinkle: #6984ce;
+  --purpley: #7f6bee;
+  --portage: #9169f2;
+  --lightishPurple: #b449e7;
+  --barney: #922bc2;
+/*
+        Theme
+
+        Colors theme used in the user interface. You can directly use the var name assiociated with its hexadecimal.
+
+        Styleguide Settings.theme
+    */
 /*
     Primary
 
@@ -1454,77 +1637,24 @@ html,
 
     Styleguide Settings.theme.primary
     */
+}
+html,
+.CozyTheme--normal--1XwXA {
   --primaryColor: #297ef2;
   --primaryColorDark: #0b61d6;
   --primaryColorLight: #5c9df5;
   --primaryColorLighter: #4b93f7;
   --primaryColorLightest: #9fc4fb;
-/*
-    Secondary
-
-    Stylus: secondaryColor   - #fd7461, CSS: var(--secondaryColor)
-    Stylus: secondaryColorDark   - #E3503B, CSS: var(--secondaryColorDark)
-    Stylus: secondaryColorLight   - #ffdeda, CSS: var(--secondaryColorLight)
-    Stylus: secondaryColorLighter   - #fd7461, CSS: var(--secondaryColorLighter)
-    Stylus: secondaryColorLightest   - #FECDC6, CSS: var(--secondaryColorLightest)
-
-    Styleguide Settings.theme.secondary
-    */
   --secondaryColor: #fd7461;
   --secondaryColorDark: #e3503b;
   --secondaryColorLight: #ffdeda;
   --secondaryColorLighter: #fd7461;
   --secondaryColorLightest: #fecdc6;
-/*
-    Background colors
-
-    Stylus: primaryBackgroundLight -  #F5FAFF, CSS: var(--primaryBackgroundLight)
-    Stylus: paperBackgroundColor -  #FFF, CSS: var(--paperBackgroundColor)
-    Stylus: defaultBackgroundColor -  #F5F6F7, CSS: var(--defaultBackgroundColor)
-
-    Styleguide Settings.theme.background
-    */
-  --primaryBackgroundLight: #f5faff;
-  --paperBackgroundColor: #fff;
-  --defaultBackgroundColor: #f5f6f7;
-/*
-    Text colors
-
-    Stylus: primaryTextColor -  #32363F, CSS: var(--primaryTextColor)
-    Stylus: secondaryTextColor - #95999D, CSS: var(--secondaryTextColor)
-    Stylus: primaryContrastTextColor -  #FFF, CSS: var(--primaryContrastTextColor)
-    Stylus: primaryContrastTextColor -  #FFF, CSS(--secondaryContrastTextColor)
-
-    Styleguide Settings.theme.text
-    */
-  --primaryTextColor: #32363f;
-  --secondaryTextColor: #95999d;
+  --primaryBackgroundLight: var(--zircon);
+  --primaryTextColor: var(--charcoalGrey);
+  --secondaryTextColor: var(--coolGrey);
   --primaryContrastTextColor: #fff;
   --secondaryContrastTextColor: #fff;
-/*
-    Components colors
-
-    Stylus: dividerColor -  #D6D8Da, CSS: var(--dividerColor)
-
-    Styleguide Settings.theme.components
-    */
-  --dividerColor: #d6d8da;
-/*
-    Intention colors
-
-    Stylus: validColor -  #35CE68, CSS: var(--validColor)
-    Stylus: warnColor -  #FF962F, CSS: var(--warnColor)
-    Stylus: dangerColor -  #F52D2D, CSS: var(--dangerColor)
-
-    Styleguide Settings.theme.intention
-    */
-  --validColor: #35ce68;
-  --warnColor: #ff962f;
-  --dangerColor: #f52d2d;
-/*
-    The CSS variables below are historic and we should strive not to
-    use them. Prefer to use directly semantic colors above.
-    */
   --spinnerColor: var(--primaryColor);
   --linkColor: var(--primaryColor);
   --linkTextDecoration: none;
@@ -1541,12 +1671,18 @@ html,
   --secondaryButtonSecondaryColor: var(--silver);
   --secondaryButtonActiveColor: var(--silver);
   --secondaryButtonContrastColor: var(--black);
+  --paperBackgroundColor: #fff;
+  --defaultBackgroundColor: var(--paleGrey);
+  --dividerColor: var(--silver);
   --dividerColor2: var(--coolGrey);
   --iconColor: currentColor;
   --textIconColor: var(--charcoalGrey);
   --actionMenuIconColor: var(--slateGrey);
   --errorColor: #f52d2d;
   --errorBackground: #fff2f2;
+  --validColor: #35ce68;
+  --warnColor: #ff962f;
+  --dangerColor: #f52d2d;
   --neutralBackground: var(--paleGrey);
   --buttonTextTransform: uppercase;
   --buttonBorderRadius: 0.125rem;
@@ -3117,6 +3253,9 @@ html,
 .u-elevation-1--3BDa_ {
   box-shadow: 0 4px 12px 0 rgba(0,0,0,0.08);
   border: 1px solid rgba(0,0,0,0.08);
+}
+.u-filter-gray-100--2E17o {
+  filter: grayscale(1);
 }
 .u-flex {
   display: flex;
@@ -6177,6 +6316,7 @@ html {
     Stylus: charcoalGrey -  #32363F, CSS: var(--charcoalGrey)
     Stylus: black        -  #000000, CSS: var(--black)
 
+    Weight: -1
 
     Styleguide Settings.colors.grey
     */
@@ -6192,34 +6332,56 @@ html {
     Blue
 
     Stylus: zircon       -  #F5FAFF, CSS: var(--zircon)
+    Stylus: hawkesBlue   -  #EEF5FE, CSS: var(--hawkesBlue)
+    Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
+    Stylus: azure        -  #1FA8F1, CSS: var(--azure)
     Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
     Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
+    Stylus: puertoRico   -  #0DCBCF, CSS: var(--puertoRico)
 
     Styleguide Settings.colors.blue
     */
   --zircon: #f5faff;
+  --hawkesBlue: #eef5fe;
+  --frenchPass: #c2dcff;
+  --azure: #1fa8f1;
   --dodgerBlue: #297ef2;
   --scienceBlue: #0b61d6;
+  --puertoRico: #0dcbcf;
 /*
     Green
 
+    Stylus: grannyApple  - #DEF7E7, CSS: var(--grannyApple)
     Stylus: weirdGreen   - #40DE8E, CSS: var(--weirdGreen)
     Stylus: emerald      - #35CE68, CSS: var(--emerald)
     Stylus: malachite    - #08b442, CSS: var(--malachite)
+    Stylus: seafoamGreen - #3DA67E, CSS: var(--seafoamGreen)
 
     Styleguide Settings.colors.green
     */
+  --grannyApple: #def7e7;
   --weirdGreen: #40de8e;
   --emerald: #35ce68;
   --malachite: #08b442;
+  --seafoamGreen: #3da67e;
 /*
     Orange
 
+    Stylus: brightSun     - #FFC644, CSS: var(--brightSun)
+    Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
     Stylus: mango         - #FF962F, CSS: var(--mango)
+    Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
+    Stylus: blazeOrange   - #FC6D00, CSS: var(--blazeOrange)
+    Stylus: melon         - #FD7461, CSS: var(--melon)
 
     Styleguide Settings.colors.orange
     */
+  --brightSun: #ffc644;
+  --texasRose: #ffae5f;
   --mango: #ff962f;
+  --pumpkinOrange: #ff7f1b;
+  --blazeOrange: #fc6d00;
+  --melon: #fd7461;
 /*
     Red
 
@@ -6236,9 +6398,31 @@ html {
   --fuchsia: #fc4c83;
   --pomegranate: #f52d2d;
   --monza: #dd0505;
-}
-html,
-.CozyTheme--normal--i2yJP {
+/*
+    Purple
+
+    Stylus: lavender       - #C2ADF4, CSS: var(--lavender)
+    Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
+    Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
+    Stylus: portage        - #9169F2, CSS: var(--portage)
+    Stylus: lightishPurple - #B449E7, CSS: var(--lightishPurple)
+    Stylus: barney         - #922BC2, CSS: var(--barney)
+
+    Styleguide Settings.colors.purple
+    */
+  --lavender: #c2adf4;
+  --darkPeriwinkle: #6984ce;
+  --purpley: #7f6bee;
+  --portage: #9169f2;
+  --lightishPurple: #b449e7;
+  --barney: #922bc2;
+/*
+        Theme
+
+        Colors theme used in the user interface. You can directly use the var name assiociated with its hexadecimal.
+
+        Styleguide Settings.theme
+    */
 /*
     Primary
 
@@ -6251,77 +6435,24 @@ html,
 
     Styleguide Settings.theme.primary
     */
+}
+html,
+.CozyTheme--normal--i2yJP {
   --primaryColor: #297ef2;
   --primaryColorDark: #0b61d6;
   --primaryColorLight: #5c9df5;
   --primaryColorLighter: #4b93f7;
   --primaryColorLightest: #9fc4fb;
-/*
-    Secondary
-
-    Stylus: secondaryColor   - #fd7461, CSS: var(--secondaryColor)
-    Stylus: secondaryColorDark   - #E3503B, CSS: var(--secondaryColorDark)
-    Stylus: secondaryColorLight   - #ffdeda, CSS: var(--secondaryColorLight)
-    Stylus: secondaryColorLighter   - #fd7461, CSS: var(--secondaryColorLighter)
-    Stylus: secondaryColorLightest   - #FECDC6, CSS: var(--secondaryColorLightest)
-
-    Styleguide Settings.theme.secondary
-    */
   --secondaryColor: #fd7461;
   --secondaryColorDark: #e3503b;
   --secondaryColorLight: #ffdeda;
   --secondaryColorLighter: #fd7461;
   --secondaryColorLightest: #fecdc6;
-/*
-    Background colors
-
-    Stylus: primaryBackgroundLight -  #F5FAFF, CSS: var(--primaryBackgroundLight)
-    Stylus: paperBackgroundColor -  #FFF, CSS: var(--paperBackgroundColor)
-    Stylus: defaultBackgroundColor -  #F5F6F7, CSS: var(--defaultBackgroundColor)
-
-    Styleguide Settings.theme.background
-    */
-  --primaryBackgroundLight: #f5faff;
-  --paperBackgroundColor: #fff;
-  --defaultBackgroundColor: #f5f6f7;
-/*
-    Text colors
-
-    Stylus: primaryTextColor -  #32363F, CSS: var(--primaryTextColor)
-    Stylus: secondaryTextColor - #95999D, CSS: var(--secondaryTextColor)
-    Stylus: primaryContrastTextColor -  #FFF, CSS: var(--primaryContrastTextColor)
-    Stylus: primaryContrastTextColor -  #FFF, CSS(--secondaryContrastTextColor)
-
-    Styleguide Settings.theme.text
-    */
-  --primaryTextColor: #32363f;
-  --secondaryTextColor: #95999d;
+  --primaryBackgroundLight: var(--zircon);
+  --primaryTextColor: var(--charcoalGrey);
+  --secondaryTextColor: var(--coolGrey);
   --primaryContrastTextColor: #fff;
   --secondaryContrastTextColor: #fff;
-/*
-    Components colors
-
-    Stylus: dividerColor -  #D6D8Da, CSS: var(--dividerColor)
-
-    Styleguide Settings.theme.components
-    */
-  --dividerColor: #d6d8da;
-/*
-    Intention colors
-
-    Stylus: validColor -  #35CE68, CSS: var(--validColor)
-    Stylus: warnColor -  #FF962F, CSS: var(--warnColor)
-    Stylus: dangerColor -  #F52D2D, CSS: var(--dangerColor)
-
-    Styleguide Settings.theme.intention
-    */
-  --validColor: #35ce68;
-  --warnColor: #ff962f;
-  --dangerColor: #f52d2d;
-/*
-    The CSS variables below are historic and we should strive not to
-    use them. Prefer to use directly semantic colors above.
-    */
   --spinnerColor: var(--primaryColor);
   --linkColor: var(--primaryColor);
   --linkTextDecoration: none;
@@ -6338,12 +6469,18 @@ html,
   --secondaryButtonSecondaryColor: var(--silver);
   --secondaryButtonActiveColor: var(--silver);
   --secondaryButtonContrastColor: var(--black);
+  --paperBackgroundColor: #fff;
+  --defaultBackgroundColor: var(--paleGrey);
+  --dividerColor: var(--silver);
   --dividerColor2: var(--coolGrey);
   --iconColor: currentColor;
   --textIconColor: var(--charcoalGrey);
   --actionMenuIconColor: var(--slateGrey);
   --errorColor: #f52d2d;
   --errorBackground: #fff2f2;
+  --validColor: #35ce68;
+  --warnColor: #ff962f;
+  --dangerColor: #f52d2d;
   --neutralBackground: var(--paleGrey);
   --buttonTextTransform: uppercase;
   --buttonBorderRadius: 0.125rem;
@@ -6403,11 +6540,7 @@ html,
 /*
     Colors
 
-    Colors used in the user interface.
-
-    ℹ️ In general, you are advised to use [theme colors](#kssref-settings-theme) when
-    building your components: this will ensure your components react correctly when
-    changing the theme.
+    Colors used in the user interface. You can directly use the var name assiociated with its hexadecimal.
 
     Styleguide Settings.colors
 */
@@ -6423,6 +6556,7 @@ html {
     Stylus: charcoalGrey -  #32363F, CSS: var(--charcoalGrey)
     Stylus: black        -  #000000, CSS: var(--black)
 
+    Weight: -1
 
     Styleguide Settings.colors.grey
     */
@@ -6438,34 +6572,56 @@ html {
     Blue
 
     Stylus: zircon       -  #F5FAFF, CSS: var(--zircon)
+    Stylus: hawkesBlue   -  #EEF5FE, CSS: var(--hawkesBlue)
+    Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
+    Stylus: azure        -  #1FA8F1, CSS: var(--azure)
     Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
     Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
+    Stylus: puertoRico   -  #0DCBCF, CSS: var(--puertoRico)
 
     Styleguide Settings.colors.blue
     */
   --zircon: #f5faff;
+  --hawkesBlue: #eef5fe;
+  --frenchPass: #c2dcff;
+  --azure: #1fa8f1;
   --dodgerBlue: #297ef2;
   --scienceBlue: #0b61d6;
+  --puertoRico: #0dcbcf;
 /*
     Green
 
+    Stylus: grannyApple  - #DEF7E7, CSS: var(--grannyApple)
     Stylus: weirdGreen   - #40DE8E, CSS: var(--weirdGreen)
     Stylus: emerald      - #35CE68, CSS: var(--emerald)
     Stylus: malachite    - #08b442, CSS: var(--malachite)
+    Stylus: seafoamGreen - #3DA67E, CSS: var(--seafoamGreen)
 
     Styleguide Settings.colors.green
     */
+  --grannyApple: #def7e7;
   --weirdGreen: #40de8e;
   --emerald: #35ce68;
   --malachite: #08b442;
+  --seafoamGreen: #3da67e;
 /*
     Orange
 
+    Stylus: brightSun     - #FFC644, CSS: var(--brightSun)
+    Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
     Stylus: mango         - #FF962F, CSS: var(--mango)
+    Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
+    Stylus: blazeOrange   - #FC6D00, CSS: var(--blazeOrange)
+    Stylus: melon         - #FD7461, CSS: var(--melon)
 
     Styleguide Settings.colors.orange
     */
+  --brightSun: #ffc644;
+  --texasRose: #ffae5f;
   --mango: #ff962f;
+  --pumpkinOrange: #ff7f1b;
+  --blazeOrange: #fc6d00;
+  --melon: #fd7461;
 /*
     Red
 
@@ -6482,22 +6638,31 @@ html {
   --fuchsia: #fc4c83;
   --pomegranate: #f52d2d;
   --monza: #dd0505;
-}
 /*
-    Theme
+    Purple
 
-    Semantic colors suitable for theming. We encourage users of cozy-ui to use semantic colors
-    instead of absolute colors to facilitate theming.
+    Stylus: lavender       - #C2ADF4, CSS: var(--lavender)
+    Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
+    Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
+    Stylus: portage        - #9169F2, CSS: var(--portage)
+    Stylus: lightishPurple - #B449E7, CSS: var(--lightishPurple)
+    Stylus: barney         - #922BC2, CSS: var(--barney)
 
-    We try to use a naming schema that is close to what is use in [Material-UI React's theming](https://material-ui.com/customization/palette/#palette-colors).
-    It is possible that we have some discrepancies. If you see something that seems out
-    of the ordinary and where you think we could reduce the difference with MUI, please
-    do not hesitate to [open an issue](https://github.com/cozy/cozy-ui/issues/new).
+    Styleguide Settings.colors.purple
+    */
+  --lavender: #c2adf4;
+  --darkPeriwinkle: #6984ce;
+  --purpley: #7f6bee;
+  --portage: #9169f2;
+  --lightishPurple: #b449e7;
+  --barney: #922bc2;
+/*
+        Theme
 
-    Styleguide Settings.theme
-*/
-html,
-.CozyTheme--normal--3UmMb {
+        Colors theme used in the user interface. You can directly use the var name assiociated with its hexadecimal.
+
+        Styleguide Settings.theme
+    */
 /*
     Primary
 
@@ -6510,77 +6675,24 @@ html,
 
     Styleguide Settings.theme.primary
     */
+}
+html,
+.CozyTheme--normal--3UmMb {
   --primaryColor: #297ef2;
   --primaryColorDark: #0b61d6;
   --primaryColorLight: #5c9df5;
   --primaryColorLighter: #4b93f7;
   --primaryColorLightest: #9fc4fb;
-/*
-    Secondary
-
-    Stylus: secondaryColor   - #fd7461, CSS: var(--secondaryColor)
-    Stylus: secondaryColorDark   - #E3503B, CSS: var(--secondaryColorDark)
-    Stylus: secondaryColorLight   - #ffdeda, CSS: var(--secondaryColorLight)
-    Stylus: secondaryColorLighter   - #fd7461, CSS: var(--secondaryColorLighter)
-    Stylus: secondaryColorLightest   - #FECDC6, CSS: var(--secondaryColorLightest)
-
-    Styleguide Settings.theme.secondary
-    */
   --secondaryColor: #fd7461;
   --secondaryColorDark: #e3503b;
   --secondaryColorLight: #ffdeda;
   --secondaryColorLighter: #fd7461;
   --secondaryColorLightest: #fecdc6;
-/*
-    Background colors
-
-    Stylus: primaryBackgroundLight -  #F5FAFF, CSS: var(--primaryBackgroundLight)
-    Stylus: paperBackgroundColor -  #FFF, CSS: var(--paperBackgroundColor)
-    Stylus: defaultBackgroundColor -  #F5F6F7, CSS: var(--defaultBackgroundColor)
-
-    Styleguide Settings.theme.background
-    */
-  --primaryBackgroundLight: #f5faff;
-  --paperBackgroundColor: #fff;
-  --defaultBackgroundColor: #f5f6f7;
-/*
-    Text colors
-
-    Stylus: primaryTextColor -  #32363F, CSS: var(--primaryTextColor)
-    Stylus: secondaryTextColor - #95999D, CSS: var(--secondaryTextColor)
-    Stylus: primaryContrastTextColor -  #FFF, CSS: var(--primaryContrastTextColor)
-    Stylus: primaryContrastTextColor -  #FFF, CSS(--secondaryContrastTextColor)
-
-    Styleguide Settings.theme.text
-    */
-  --primaryTextColor: #32363f;
-  --secondaryTextColor: #95999d;
+  --primaryBackgroundLight: var(--zircon);
+  --primaryTextColor: var(--charcoalGrey);
+  --secondaryTextColor: var(--coolGrey);
   --primaryContrastTextColor: #fff;
   --secondaryContrastTextColor: #fff;
-/*
-    Components colors
-
-    Stylus: dividerColor -  #D6D8Da, CSS: var(--dividerColor)
-
-    Styleguide Settings.theme.components
-    */
-  --dividerColor: #d6d8da;
-/*
-    Intention colors
-
-    Stylus: validColor -  #35CE68, CSS: var(--validColor)
-    Stylus: warnColor -  #FF962F, CSS: var(--warnColor)
-    Stylus: dangerColor -  #F52D2D, CSS: var(--dangerColor)
-
-    Styleguide Settings.theme.intention
-    */
-  --validColor: #35ce68;
-  --warnColor: #ff962f;
-  --dangerColor: #f52d2d;
-/*
-    The CSS variables below are historic and we should strive not to
-    use them. Prefer to use directly semantic colors above.
-    */
   --spinnerColor: var(--primaryColor);
   --linkColor: var(--primaryColor);
   --linkTextDecoration: none;
@@ -6597,12 +6709,18 @@ html,
   --secondaryButtonSecondaryColor: var(--silver);
   --secondaryButtonActiveColor: var(--silver);
   --secondaryButtonContrastColor: var(--black);
+  --paperBackgroundColor: #fff;
+  --defaultBackgroundColor: var(--paleGrey);
+  --dividerColor: var(--silver);
   --dividerColor2: var(--coolGrey);
   --iconColor: currentColor;
   --textIconColor: var(--charcoalGrey);
   --actionMenuIconColor: var(--slateGrey);
   --errorColor: #f52d2d;
   --errorBackground: #fff2f2;
+  --validColor: #35ce68;
+  --warnColor: #ff962f;
+  --dangerColor: #f52d2d;
   --neutralBackground: var(--paleGrey);
   --buttonTextTransform: uppercase;
   --buttonBorderRadius: 0.125rem;
@@ -6615,6 +6733,110 @@ html,
   --alertSuccessBackgroundColor: var(--validColor);
   --alertInfoColor: #fff;
   --alertInfoBackgroundColor: var(--slateGrey);
+}
+
+.icon--spin--ybfC1 {
+  animation: spin--2Vvw3 1s linear infinite;
+}
+@media (prefers-reduced-motion: reduce) {
+  .icon--spin--ybfC1 {
+    animation: none;
+  }
+}
+@-moz-keyframes spin--2Vvw3 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+@-webkit-keyframes spin--2Vvw3 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+@-o-keyframes spin--2Vvw3 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+@keyframes spin--2Vvw3 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+@-moz-keyframes shake--wT_3z {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+@-webkit-keyframes shake--wT_3z {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+@-o-keyframes shake--wT_3z {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+@keyframes shake--wT_3z {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+.icon--23x3R {
+  fill: var(--iconColor);
+  transform: translateZ(0);
+}
+.icon--preserveColor--3gBz6 {
+  fill: inherit;
 }
 
 @-moz-keyframes spin--alZ_V {
@@ -6897,17 +7119,86 @@ html,
 .u-overlay {
   color: var(--overlay) !important;
 }
+.u-zircon {
+  color: var(--zircon) !important;
+}
+.u-frenchPass {
+  color: var(--frenchPass) !important;
+}
 .u-dodgerBlue {
   color: var(--dodgerBlue) !important;
 }
-.u-lightishPurple {
-  color: var(--lightishPurple) !important;
+.u-scienceBlue {
+  color: var(--scienceBlue) !important;
+}
+.u-puertoRico {
+  color: var(--puertoRico) !important;
+}
+.u-grannyApple {
+  color: var(--grannyApple) !important;
+}
+.u-emerald {
+  color: var(--emerald) !important;
+}
+.u-malachite {
+  color: var(--malachite) !important;
+}
+.u-seafoamGreen {
+  color: var(--seafoamGreen) !important;
+}
+.u-brightSun {
+  color: var(--brightSun) !important;
+}
+.u-texasRose {
+  color: var(--texasRose) !important;
+}
+.u-chablis {
+  color: var(--chablis) !important;
+}
+.u-yourPink {
+  color: var(--yourPink) !important;
+}
+.u-fuchsia {
+  color: var(--fuchsia) !important;
+}
+.u-pomegranate {
+  color: var(--pomegranate) !important;
 }
 .u-monza {
   color: var(--monza) !important;
 }
-.u-pomegranate {
-  color: var(--pomegranate) !important;
+.u-portage {
+  color: var(--portage) !important;
+}
+.u-azure {
+  color: var(--azure) !important;
+}
+.u-melon {
+  color: var(--melon) !important;
+}
+.u-blazeOrange {
+  color: var(--blazeOrange) !important;
+}
+.u-mango {
+  color: var(--mango) !important;
+}
+.u-pumpkinOrange {
+  color: var(--pumpkinOrange) !important;
+}
+.u-lavender {
+  color: var(--lavender) !important;
+}
+.u-darkPeriwinkle {
+  color: var(--darkPeriwinkle) !important;
+}
+.u-purpley {
+  color: var(--purpley) !important;
+}
+.u-lightishPurple {
+  color: var(--lightishPurple) !important;
+}
+.u-barney {
+  color: var(--barney) !important;
 }
 .u-weirdGreen {
   color: var(--weirdGreen) !important;
@@ -7650,110 +7941,6 @@ html,
   color: var(--coolGrey);
 }
 
-.icon--spin--ybfC1 {
-  animation: spin--2Vvw3 1s linear infinite;
-}
-@media (prefers-reduced-motion: reduce) {
-  .icon--spin--ybfC1 {
-    animation: none;
-  }
-}
-@-moz-keyframes spin--2Vvw3 {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(359deg);
-  }
-}
-@-webkit-keyframes spin--2Vvw3 {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(359deg);
-  }
-}
-@-o-keyframes spin--2Vvw3 {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(359deg);
-  }
-}
-@keyframes spin--2Vvw3 {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(359deg);
-  }
-}
-@-moz-keyframes shake--wT_3z {
-  10%, 90% {
-    transform: translate3d(-1px, 0, 0);
-  }
-  20%, 80% {
-    transform: translate3d(2px, 0, 0);
-  }
-  30%, 50%, 70% {
-    transform: translate3d(-4px, 0, 0);
-  }
-  40%, 60% {
-    transform: translate3d(4px, 0, 0);
-  }
-}
-@-webkit-keyframes shake--wT_3z {
-  10%, 90% {
-    transform: translate3d(-1px, 0, 0);
-  }
-  20%, 80% {
-    transform: translate3d(2px, 0, 0);
-  }
-  30%, 50%, 70% {
-    transform: translate3d(-4px, 0, 0);
-  }
-  40%, 60% {
-    transform: translate3d(4px, 0, 0);
-  }
-}
-@-o-keyframes shake--wT_3z {
-  10%, 90% {
-    transform: translate3d(-1px, 0, 0);
-  }
-  20%, 80% {
-    transform: translate3d(2px, 0, 0);
-  }
-  30%, 50%, 70% {
-    transform: translate3d(-4px, 0, 0);
-  }
-  40%, 60% {
-    transform: translate3d(4px, 0, 0);
-  }
-}
-@keyframes shake--wT_3z {
-  10%, 90% {
-    transform: translate3d(-1px, 0, 0);
-  }
-  20%, 80% {
-    transform: translate3d(2px, 0, 0);
-  }
-  30%, 50%, 70% {
-    transform: translate3d(-4px, 0, 0);
-  }
-  40%, 60% {
-    transform: translate3d(4px, 0, 0);
-  }
-}
-.icon--23x3R {
-  fill: var(--iconColor);
-  transform: translateZ(0);
-}
-.icon--preserveColor--3gBz6 {
-  fill: inherit;
-}
-
 .BarButton--3z5Er {
   display: flex;
   align-items: center;
@@ -8121,17 +8308,86 @@ body {
 .u-overlay {
   color: var(--overlay) !important;
 }
+.u-zircon {
+  color: var(--zircon) !important;
+}
+.u-frenchPass {
+  color: var(--frenchPass) !important;
+}
 .u-dodgerBlue {
   color: var(--dodgerBlue) !important;
 }
-.u-lightishPurple {
-  color: var(--lightishPurple) !important;
+.u-scienceBlue {
+  color: var(--scienceBlue) !important;
+}
+.u-puertoRico {
+  color: var(--puertoRico) !important;
+}
+.u-grannyApple {
+  color: var(--grannyApple) !important;
+}
+.u-emerald {
+  color: var(--emerald) !important;
+}
+.u-malachite {
+  color: var(--malachite) !important;
+}
+.u-seafoamGreen {
+  color: var(--seafoamGreen) !important;
+}
+.u-brightSun {
+  color: var(--brightSun) !important;
+}
+.u-texasRose {
+  color: var(--texasRose) !important;
+}
+.u-chablis {
+  color: var(--chablis) !important;
+}
+.u-yourPink {
+  color: var(--yourPink) !important;
+}
+.u-fuchsia {
+  color: var(--fuchsia) !important;
+}
+.u-pomegranate {
+  color: var(--pomegranate) !important;
 }
 .u-monza {
   color: var(--monza) !important;
 }
-.u-pomegranate {
-  color: var(--pomegranate) !important;
+.u-portage {
+  color: var(--portage) !important;
+}
+.u-azure {
+  color: var(--azure) !important;
+}
+.u-melon {
+  color: var(--melon) !important;
+}
+.u-blazeOrange {
+  color: var(--blazeOrange) !important;
+}
+.u-mango {
+  color: var(--mango) !important;
+}
+.u-pumpkinOrange {
+  color: var(--pumpkinOrange) !important;
+}
+.u-lavender {
+  color: var(--lavender) !important;
+}
+.u-darkPeriwinkle {
+  color: var(--darkPeriwinkle) !important;
+}
+.u-purpley {
+  color: var(--purpley) !important;
+}
+.u-lightishPurple {
+  color: var(--lightishPurple) !important;
+}
+.u-barney {
+  color: var(--barney) !important;
 }
 .u-weirdGreen {
   color: var(--weirdGreen) !important;
@@ -8620,6 +8876,7 @@ html {
     Stylus: charcoalGrey -  #32363F, CSS: var(--charcoalGrey)
     Stylus: black        -  #000000, CSS: var(--black)
 
+    Weight: -1
 
     Styleguide Settings.colors.grey
     */
@@ -8635,34 +8892,56 @@ html {
     Blue
 
     Stylus: zircon       -  #F5FAFF, CSS: var(--zircon)
+    Stylus: hawkesBlue   -  #EEF5FE, CSS: var(--hawkesBlue)
+    Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
+    Stylus: azure        -  #1FA8F1, CSS: var(--azure)
     Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
     Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
+    Stylus: puertoRico   -  #0DCBCF, CSS: var(--puertoRico)
 
     Styleguide Settings.colors.blue
     */
   --zircon: #f5faff;
+  --hawkesBlue: #eef5fe;
+  --frenchPass: #c2dcff;
+  --azure: #1fa8f1;
   --dodgerBlue: #297ef2;
   --scienceBlue: #0b61d6;
+  --puertoRico: #0dcbcf;
 /*
     Green
 
+    Stylus: grannyApple  - #DEF7E7, CSS: var(--grannyApple)
     Stylus: weirdGreen   - #40DE8E, CSS: var(--weirdGreen)
     Stylus: emerald      - #35CE68, CSS: var(--emerald)
     Stylus: malachite    - #08b442, CSS: var(--malachite)
+    Stylus: seafoamGreen - #3DA67E, CSS: var(--seafoamGreen)
 
     Styleguide Settings.colors.green
     */
+  --grannyApple: #def7e7;
   --weirdGreen: #40de8e;
   --emerald: #35ce68;
   --malachite: #08b442;
+  --seafoamGreen: #3da67e;
 /*
     Orange
 
+    Stylus: brightSun     - #FFC644, CSS: var(--brightSun)
+    Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
     Stylus: mango         - #FF962F, CSS: var(--mango)
+    Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
+    Stylus: blazeOrange   - #FC6D00, CSS: var(--blazeOrange)
+    Stylus: melon         - #FD7461, CSS: var(--melon)
 
     Styleguide Settings.colors.orange
     */
+  --brightSun: #ffc644;
+  --texasRose: #ffae5f;
   --mango: #ff962f;
+  --pumpkinOrange: #ff7f1b;
+  --blazeOrange: #fc6d00;
+  --melon: #fd7461;
 /*
     Red
 
@@ -8679,9 +8958,31 @@ html {
   --fuchsia: #fc4c83;
   --pomegranate: #f52d2d;
   --monza: #dd0505;
-}
-html,
-.CozyTheme--normal--3KdKA {
+/*
+    Purple
+
+    Stylus: lavender       - #C2ADF4, CSS: var(--lavender)
+    Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
+    Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
+    Stylus: portage        - #9169F2, CSS: var(--portage)
+    Stylus: lightishPurple - #B449E7, CSS: var(--lightishPurple)
+    Stylus: barney         - #922BC2, CSS: var(--barney)
+
+    Styleguide Settings.colors.purple
+    */
+  --lavender: #c2adf4;
+  --darkPeriwinkle: #6984ce;
+  --purpley: #7f6bee;
+  --portage: #9169f2;
+  --lightishPurple: #b449e7;
+  --barney: #922bc2;
+/*
+        Theme
+
+        Colors theme used in the user interface. You can directly use the var name assiociated with its hexadecimal.
+
+        Styleguide Settings.theme
+    */
 /*
     Primary
 
@@ -8694,77 +8995,24 @@ html,
 
     Styleguide Settings.theme.primary
     */
+}
+html,
+.CozyTheme--normal--3KdKA {
   --primaryColor: #297ef2;
   --primaryColorDark: #0b61d6;
   --primaryColorLight: #5c9df5;
   --primaryColorLighter: #4b93f7;
   --primaryColorLightest: #9fc4fb;
-/*
-    Secondary
-
-    Stylus: secondaryColor   - #fd7461, CSS: var(--secondaryColor)
-    Stylus: secondaryColorDark   - #E3503B, CSS: var(--secondaryColorDark)
-    Stylus: secondaryColorLight   - #ffdeda, CSS: var(--secondaryColorLight)
-    Stylus: secondaryColorLighter   - #fd7461, CSS: var(--secondaryColorLighter)
-    Stylus: secondaryColorLightest   - #FECDC6, CSS: var(--secondaryColorLightest)
-
-    Styleguide Settings.theme.secondary
-    */
   --secondaryColor: #fd7461;
   --secondaryColorDark: #e3503b;
   --secondaryColorLight: #ffdeda;
   --secondaryColorLighter: #fd7461;
   --secondaryColorLightest: #fecdc6;
-/*
-    Background colors
-
-    Stylus: primaryBackgroundLight -  #F5FAFF, CSS: var(--primaryBackgroundLight)
-    Stylus: paperBackgroundColor -  #FFF, CSS: var(--paperBackgroundColor)
-    Stylus: defaultBackgroundColor -  #F5F6F7, CSS: var(--defaultBackgroundColor)
-
-    Styleguide Settings.theme.background
-    */
-  --primaryBackgroundLight: #f5faff;
-  --paperBackgroundColor: #fff;
-  --defaultBackgroundColor: #f5f6f7;
-/*
-    Text colors
-
-    Stylus: primaryTextColor -  #32363F, CSS: var(--primaryTextColor)
-    Stylus: secondaryTextColor - #95999D, CSS: var(--secondaryTextColor)
-    Stylus: primaryContrastTextColor -  #FFF, CSS: var(--primaryContrastTextColor)
-    Stylus: primaryContrastTextColor -  #FFF, CSS(--secondaryContrastTextColor)
-
-    Styleguide Settings.theme.text
-    */
-  --primaryTextColor: #32363f;
-  --secondaryTextColor: #95999d;
+  --primaryBackgroundLight: var(--zircon);
+  --primaryTextColor: var(--charcoalGrey);
+  --secondaryTextColor: var(--coolGrey);
   --primaryContrastTextColor: #fff;
   --secondaryContrastTextColor: #fff;
-/*
-    Components colors
-
-    Stylus: dividerColor -  #D6D8Da, CSS: var(--dividerColor)
-
-    Styleguide Settings.theme.components
-    */
-  --dividerColor: #d6d8da;
-/*
-    Intention colors
-
-    Stylus: validColor -  #35CE68, CSS: var(--validColor)
-    Stylus: warnColor -  #FF962F, CSS: var(--warnColor)
-    Stylus: dangerColor -  #F52D2D, CSS: var(--dangerColor)
-
-    Styleguide Settings.theme.intention
-    */
-  --validColor: #35ce68;
-  --warnColor: #ff962f;
-  --dangerColor: #f52d2d;
-/*
-    The CSS variables below are historic and we should strive not to
-    use them. Prefer to use directly semantic colors above.
-    */
   --spinnerColor: var(--primaryColor);
   --linkColor: var(--primaryColor);
   --linkTextDecoration: none;
@@ -8781,12 +9029,18 @@ html,
   --secondaryButtonSecondaryColor: var(--silver);
   --secondaryButtonActiveColor: var(--silver);
   --secondaryButtonContrastColor: var(--black);
+  --paperBackgroundColor: #fff;
+  --defaultBackgroundColor: var(--paleGrey);
+  --dividerColor: var(--silver);
   --dividerColor2: var(--coolGrey);
   --iconColor: currentColor;
   --textIconColor: var(--charcoalGrey);
   --actionMenuIconColor: var(--slateGrey);
   --errorColor: #f52d2d;
   --errorBackground: #fff2f2;
+  --validColor: #35ce68;
+  --warnColor: #ff962f;
+  --dangerColor: #f52d2d;
   --neutralBackground: var(--paleGrey);
   --buttonTextTransform: uppercase;
   --buttonBorderRadius: 0.125rem;
@@ -9080,17 +9334,86 @@ html,
 .u-overlay {
   color: var(--overlay) !important;
 }
+.u-zircon {
+  color: var(--zircon) !important;
+}
+.u-frenchPass {
+  color: var(--frenchPass) !important;
+}
 .u-dodgerBlue {
   color: var(--dodgerBlue) !important;
 }
-.u-lightishPurple {
-  color: var(--lightishPurple) !important;
+.u-scienceBlue {
+  color: var(--scienceBlue) !important;
+}
+.u-puertoRico {
+  color: var(--puertoRico) !important;
+}
+.u-grannyApple {
+  color: var(--grannyApple) !important;
+}
+.u-emerald {
+  color: var(--emerald) !important;
+}
+.u-malachite {
+  color: var(--malachite) !important;
+}
+.u-seafoamGreen {
+  color: var(--seafoamGreen) !important;
+}
+.u-brightSun {
+  color: var(--brightSun) !important;
+}
+.u-texasRose {
+  color: var(--texasRose) !important;
+}
+.u-chablis {
+  color: var(--chablis) !important;
+}
+.u-yourPink {
+  color: var(--yourPink) !important;
+}
+.u-fuchsia {
+  color: var(--fuchsia) !important;
+}
+.u-pomegranate {
+  color: var(--pomegranate) !important;
 }
 .u-monza {
   color: var(--monza) !important;
 }
-.u-pomegranate {
-  color: var(--pomegranate) !important;
+.u-portage {
+  color: var(--portage) !important;
+}
+.u-azure {
+  color: var(--azure) !important;
+}
+.u-melon {
+  color: var(--melon) !important;
+}
+.u-blazeOrange {
+  color: var(--blazeOrange) !important;
+}
+.u-mango {
+  color: var(--mango) !important;
+}
+.u-pumpkinOrange {
+  color: var(--pumpkinOrange) !important;
+}
+.u-lavender {
+  color: var(--lavender) !important;
+}
+.u-darkPeriwinkle {
+  color: var(--darkPeriwinkle) !important;
+}
+.u-purpley {
+  color: var(--purpley) !important;
+}
+.u-lightishPurple {
+  color: var(--lightishPurple) !important;
+}
+.u-barney {
+  color: var(--barney) !important;
 }
 .u-weirdGreen {
   color: var(--weirdGreen) !important;
@@ -9923,7 +10246,6 @@ body {
   margin: 0;
   height: 3rem;
   display: flex;
-  align-items: center;
   font-size: 1.125rem;
 }
 
@@ -12230,6 +12552,7 @@ html {
     Stylus: charcoalGrey -  #32363F, CSS: var(--charcoalGrey)
     Stylus: black        -  #000000, CSS: var(--black)
 
+    Weight: -1
 
     Styleguide Settings.colors.grey
     */
@@ -12245,34 +12568,56 @@ html {
     Blue
 
     Stylus: zircon       -  #F5FAFF, CSS: var(--zircon)
+    Stylus: hawkesBlue   -  #EEF5FE, CSS: var(--hawkesBlue)
+    Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
+    Stylus: azure        -  #1FA8F1, CSS: var(--azure)
     Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
     Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
+    Stylus: puertoRico   -  #0DCBCF, CSS: var(--puertoRico)
 
     Styleguide Settings.colors.blue
     */
   --zircon: #f5faff;
+  --hawkesBlue: #eef5fe;
+  --frenchPass: #c2dcff;
+  --azure: #1fa8f1;
   --dodgerBlue: #297ef2;
   --scienceBlue: #0b61d6;
+  --puertoRico: #0dcbcf;
 /*
     Green
 
+    Stylus: grannyApple  - #DEF7E7, CSS: var(--grannyApple)
     Stylus: weirdGreen   - #40DE8E, CSS: var(--weirdGreen)
     Stylus: emerald      - #35CE68, CSS: var(--emerald)
     Stylus: malachite    - #08b442, CSS: var(--malachite)
+    Stylus: seafoamGreen - #3DA67E, CSS: var(--seafoamGreen)
 
     Styleguide Settings.colors.green
     */
+  --grannyApple: #def7e7;
   --weirdGreen: #40de8e;
   --emerald: #35ce68;
   --malachite: #08b442;
+  --seafoamGreen: #3da67e;
 /*
     Orange
 
+    Stylus: brightSun     - #FFC644, CSS: var(--brightSun)
+    Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
     Stylus: mango         - #FF962F, CSS: var(--mango)
+    Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
+    Stylus: blazeOrange   - #FC6D00, CSS: var(--blazeOrange)
+    Stylus: melon         - #FD7461, CSS: var(--melon)
 
     Styleguide Settings.colors.orange
     */
+  --brightSun: #ffc644;
+  --texasRose: #ffae5f;
   --mango: #ff962f;
+  --pumpkinOrange: #ff7f1b;
+  --blazeOrange: #fc6d00;
+  --melon: #fd7461;
 /*
     Red
 
@@ -12289,9 +12634,31 @@ html {
   --fuchsia: #fc4c83;
   --pomegranate: #f52d2d;
   --monza: #dd0505;
-}
-html,
-.CozyTheme--normal--2VNeI {
+/*
+    Purple
+
+    Stylus: lavender       - #C2ADF4, CSS: var(--lavender)
+    Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
+    Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
+    Stylus: portage        - #9169F2, CSS: var(--portage)
+    Stylus: lightishPurple - #B449E7, CSS: var(--lightishPurple)
+    Stylus: barney         - #922BC2, CSS: var(--barney)
+
+    Styleguide Settings.colors.purple
+    */
+  --lavender: #c2adf4;
+  --darkPeriwinkle: #6984ce;
+  --purpley: #7f6bee;
+  --portage: #9169f2;
+  --lightishPurple: #b449e7;
+  --barney: #922bc2;
+/*
+        Theme
+
+        Colors theme used in the user interface. You can directly use the var name assiociated with its hexadecimal.
+
+        Styleguide Settings.theme
+    */
 /*
     Primary
 
@@ -12304,77 +12671,24 @@ html,
 
     Styleguide Settings.theme.primary
     */
+}
+html,
+.CozyTheme--normal--2VNeI {
   --primaryColor: #297ef2;
   --primaryColorDark: #0b61d6;
   --primaryColorLight: #5c9df5;
   --primaryColorLighter: #4b93f7;
   --primaryColorLightest: #9fc4fb;
-/*
-    Secondary
-
-    Stylus: secondaryColor   - #fd7461, CSS: var(--secondaryColor)
-    Stylus: secondaryColorDark   - #E3503B, CSS: var(--secondaryColorDark)
-    Stylus: secondaryColorLight   - #ffdeda, CSS: var(--secondaryColorLight)
-    Stylus: secondaryColorLighter   - #fd7461, CSS: var(--secondaryColorLighter)
-    Stylus: secondaryColorLightest   - #FECDC6, CSS: var(--secondaryColorLightest)
-
-    Styleguide Settings.theme.secondary
-    */
   --secondaryColor: #fd7461;
   --secondaryColorDark: #e3503b;
   --secondaryColorLight: #ffdeda;
   --secondaryColorLighter: #fd7461;
   --secondaryColorLightest: #fecdc6;
-/*
-    Background colors
-
-    Stylus: primaryBackgroundLight -  #F5FAFF, CSS: var(--primaryBackgroundLight)
-    Stylus: paperBackgroundColor -  #FFF, CSS: var(--paperBackgroundColor)
-    Stylus: defaultBackgroundColor -  #F5F6F7, CSS: var(--defaultBackgroundColor)
-
-    Styleguide Settings.theme.background
-    */
-  --primaryBackgroundLight: #f5faff;
-  --paperBackgroundColor: #fff;
-  --defaultBackgroundColor: #f5f6f7;
-/*
-    Text colors
-
-    Stylus: primaryTextColor -  #32363F, CSS: var(--primaryTextColor)
-    Stylus: secondaryTextColor - #95999D, CSS: var(--secondaryTextColor)
-    Stylus: primaryContrastTextColor -  #FFF, CSS: var(--primaryContrastTextColor)
-    Stylus: primaryContrastTextColor -  #FFF, CSS(--secondaryContrastTextColor)
-
-    Styleguide Settings.theme.text
-    */
-  --primaryTextColor: #32363f;
-  --secondaryTextColor: #95999d;
+  --primaryBackgroundLight: var(--zircon);
+  --primaryTextColor: var(--charcoalGrey);
+  --secondaryTextColor: var(--coolGrey);
   --primaryContrastTextColor: #fff;
   --secondaryContrastTextColor: #fff;
-/*
-    Components colors
-
-    Stylus: dividerColor -  #D6D8Da, CSS: var(--dividerColor)
-
-    Styleguide Settings.theme.components
-    */
-  --dividerColor: #d6d8da;
-/*
-    Intention colors
-
-    Stylus: validColor -  #35CE68, CSS: var(--validColor)
-    Stylus: warnColor -  #FF962F, CSS: var(--warnColor)
-    Stylus: dangerColor -  #F52D2D, CSS: var(--dangerColor)
-
-    Styleguide Settings.theme.intention
-    */
-  --validColor: #35ce68;
-  --warnColor: #ff962f;
-  --dangerColor: #f52d2d;
-/*
-    The CSS variables below are historic and we should strive not to
-    use them. Prefer to use directly semantic colors above.
-    */
   --spinnerColor: var(--primaryColor);
   --linkColor: var(--primaryColor);
   --linkTextDecoration: none;
@@ -12391,12 +12705,18 @@ html,
   --secondaryButtonSecondaryColor: var(--silver);
   --secondaryButtonActiveColor: var(--silver);
   --secondaryButtonContrastColor: var(--black);
+  --paperBackgroundColor: #fff;
+  --defaultBackgroundColor: var(--paleGrey);
+  --dividerColor: var(--silver);
   --dividerColor2: var(--coolGrey);
   --iconColor: currentColor;
   --textIconColor: var(--charcoalGrey);
   --actionMenuIconColor: var(--slateGrey);
   --errorColor: #f52d2d;
   --errorBackground: #fff2f2;
+  --validColor: #35ce68;
+  --warnColor: #ff962f;
+  --dangerColor: #f52d2d;
   --neutralBackground: var(--paleGrey);
   --buttonTextTransform: uppercase;
   --buttonBorderRadius: 0.125rem;
@@ -12515,6 +12835,7 @@ html {
     Stylus: charcoalGrey -  #32363F, CSS: var(--charcoalGrey)
     Stylus: black        -  #000000, CSS: var(--black)
 
+    Weight: -1
 
     Styleguide Settings.colors.grey
     */
@@ -12530,34 +12851,56 @@ html {
     Blue
 
     Stylus: zircon       -  #F5FAFF, CSS: var(--zircon)
+    Stylus: hawkesBlue   -  #EEF5FE, CSS: var(--hawkesBlue)
+    Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
+    Stylus: azure        -  #1FA8F1, CSS: var(--azure)
     Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
     Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
+    Stylus: puertoRico   -  #0DCBCF, CSS: var(--puertoRico)
 
     Styleguide Settings.colors.blue
     */
   --zircon: #f5faff;
+  --hawkesBlue: #eef5fe;
+  --frenchPass: #c2dcff;
+  --azure: #1fa8f1;
   --dodgerBlue: #297ef2;
   --scienceBlue: #0b61d6;
+  --puertoRico: #0dcbcf;
 /*
     Green
 
+    Stylus: grannyApple  - #DEF7E7, CSS: var(--grannyApple)
     Stylus: weirdGreen   - #40DE8E, CSS: var(--weirdGreen)
     Stylus: emerald      - #35CE68, CSS: var(--emerald)
     Stylus: malachite    - #08b442, CSS: var(--malachite)
+    Stylus: seafoamGreen - #3DA67E, CSS: var(--seafoamGreen)
 
     Styleguide Settings.colors.green
     */
+  --grannyApple: #def7e7;
   --weirdGreen: #40de8e;
   --emerald: #35ce68;
   --malachite: #08b442;
+  --seafoamGreen: #3da67e;
 /*
     Orange
 
+    Stylus: brightSun     - #FFC644, CSS: var(--brightSun)
+    Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
     Stylus: mango         - #FF962F, CSS: var(--mango)
+    Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
+    Stylus: blazeOrange   - #FC6D00, CSS: var(--blazeOrange)
+    Stylus: melon         - #FD7461, CSS: var(--melon)
 
     Styleguide Settings.colors.orange
     */
+  --brightSun: #ffc644;
+  --texasRose: #ffae5f;
   --mango: #ff962f;
+  --pumpkinOrange: #ff7f1b;
+  --blazeOrange: #fc6d00;
+  --melon: #fd7461;
 /*
     Red
 
@@ -12574,9 +12917,31 @@ html {
   --fuchsia: #fc4c83;
   --pomegranate: #f52d2d;
   --monza: #dd0505;
-}
-html,
-.CozyTheme--normal--1UIGZ {
+/*
+    Purple
+
+    Stylus: lavender       - #C2ADF4, CSS: var(--lavender)
+    Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
+    Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
+    Stylus: portage        - #9169F2, CSS: var(--portage)
+    Stylus: lightishPurple - #B449E7, CSS: var(--lightishPurple)
+    Stylus: barney         - #922BC2, CSS: var(--barney)
+
+    Styleguide Settings.colors.purple
+    */
+  --lavender: #c2adf4;
+  --darkPeriwinkle: #6984ce;
+  --purpley: #7f6bee;
+  --portage: #9169f2;
+  --lightishPurple: #b449e7;
+  --barney: #922bc2;
+/*
+        Theme
+
+        Colors theme used in the user interface. You can directly use the var name assiociated with its hexadecimal.
+
+        Styleguide Settings.theme
+    */
 /*
     Primary
 
@@ -12589,77 +12954,24 @@ html,
 
     Styleguide Settings.theme.primary
     */
+}
+html,
+.CozyTheme--normal--1UIGZ {
   --primaryColor: #297ef2;
   --primaryColorDark: #0b61d6;
   --primaryColorLight: #5c9df5;
   --primaryColorLighter: #4b93f7;
   --primaryColorLightest: #9fc4fb;
-/*
-    Secondary
-
-    Stylus: secondaryColor   - #fd7461, CSS: var(--secondaryColor)
-    Stylus: secondaryColorDark   - #E3503B, CSS: var(--secondaryColorDark)
-    Stylus: secondaryColorLight   - #ffdeda, CSS: var(--secondaryColorLight)
-    Stylus: secondaryColorLighter   - #fd7461, CSS: var(--secondaryColorLighter)
-    Stylus: secondaryColorLightest   - #FECDC6, CSS: var(--secondaryColorLightest)
-
-    Styleguide Settings.theme.secondary
-    */
   --secondaryColor: #fd7461;
   --secondaryColorDark: #e3503b;
   --secondaryColorLight: #ffdeda;
   --secondaryColorLighter: #fd7461;
   --secondaryColorLightest: #fecdc6;
-/*
-    Background colors
-
-    Stylus: primaryBackgroundLight -  #F5FAFF, CSS: var(--primaryBackgroundLight)
-    Stylus: paperBackgroundColor -  #FFF, CSS: var(--paperBackgroundColor)
-    Stylus: defaultBackgroundColor -  #F5F6F7, CSS: var(--defaultBackgroundColor)
-
-    Styleguide Settings.theme.background
-    */
-  --primaryBackgroundLight: #f5faff;
-  --paperBackgroundColor: #fff;
-  --defaultBackgroundColor: #f5f6f7;
-/*
-    Text colors
-
-    Stylus: primaryTextColor -  #32363F, CSS: var(--primaryTextColor)
-    Stylus: secondaryTextColor - #95999D, CSS: var(--secondaryTextColor)
-    Stylus: primaryContrastTextColor -  #FFF, CSS: var(--primaryContrastTextColor)
-    Stylus: primaryContrastTextColor -  #FFF, CSS(--secondaryContrastTextColor)
-
-    Styleguide Settings.theme.text
-    */
-  --primaryTextColor: #32363f;
-  --secondaryTextColor: #95999d;
+  --primaryBackgroundLight: var(--zircon);
+  --primaryTextColor: var(--charcoalGrey);
+  --secondaryTextColor: var(--coolGrey);
   --primaryContrastTextColor: #fff;
   --secondaryContrastTextColor: #fff;
-/*
-    Components colors
-
-    Stylus: dividerColor -  #D6D8Da, CSS: var(--dividerColor)
-
-    Styleguide Settings.theme.components
-    */
-  --dividerColor: #d6d8da;
-/*
-    Intention colors
-
-    Stylus: validColor -  #35CE68, CSS: var(--validColor)
-    Stylus: warnColor -  #FF962F, CSS: var(--warnColor)
-    Stylus: dangerColor -  #F52D2D, CSS: var(--dangerColor)
-
-    Styleguide Settings.theme.intention
-    */
-  --validColor: #35ce68;
-  --warnColor: #ff962f;
-  --dangerColor: #f52d2d;
-/*
-    The CSS variables below are historic and we should strive not to
-    use them. Prefer to use directly semantic colors above.
-    */
   --spinnerColor: var(--primaryColor);
   --linkColor: var(--primaryColor);
   --linkTextDecoration: none;
@@ -12676,12 +12988,18 @@ html,
   --secondaryButtonSecondaryColor: var(--silver);
   --secondaryButtonActiveColor: var(--silver);
   --secondaryButtonContrastColor: var(--black);
+  --paperBackgroundColor: #fff;
+  --defaultBackgroundColor: var(--paleGrey);
+  --dividerColor: var(--silver);
   --dividerColor2: var(--coolGrey);
   --iconColor: currentColor;
   --textIconColor: var(--charcoalGrey);
   --actionMenuIconColor: var(--slateGrey);
   --errorColor: #f52d2d;
   --errorBackground: #fff2f2;
+  --validColor: #35ce68;
+  --warnColor: #ff962f;
+  --dangerColor: #f52d2d;
   --neutralBackground: var(--paleGrey);
   --buttonTextTransform: uppercase;
   --buttonBorderRadius: 0.125rem;
@@ -12764,6 +13082,7 @@ html {
     Stylus: charcoalGrey -  #32363F, CSS: var(--charcoalGrey)
     Stylus: black        -  #000000, CSS: var(--black)
 
+    Weight: -1
 
     Styleguide Settings.colors.grey
     */
@@ -12779,34 +13098,56 @@ html {
     Blue
 
     Stylus: zircon       -  #F5FAFF, CSS: var(--zircon)
+    Stylus: hawkesBlue   -  #EEF5FE, CSS: var(--hawkesBlue)
+    Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
+    Stylus: azure        -  #1FA8F1, CSS: var(--azure)
     Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
     Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
+    Stylus: puertoRico   -  #0DCBCF, CSS: var(--puertoRico)
 
     Styleguide Settings.colors.blue
     */
   --zircon: #f5faff;
+  --hawkesBlue: #eef5fe;
+  --frenchPass: #c2dcff;
+  --azure: #1fa8f1;
   --dodgerBlue: #297ef2;
   --scienceBlue: #0b61d6;
+  --puertoRico: #0dcbcf;
 /*
     Green
 
+    Stylus: grannyApple  - #DEF7E7, CSS: var(--grannyApple)
     Stylus: weirdGreen   - #40DE8E, CSS: var(--weirdGreen)
     Stylus: emerald      - #35CE68, CSS: var(--emerald)
     Stylus: malachite    - #08b442, CSS: var(--malachite)
+    Stylus: seafoamGreen - #3DA67E, CSS: var(--seafoamGreen)
 
     Styleguide Settings.colors.green
     */
+  --grannyApple: #def7e7;
   --weirdGreen: #40de8e;
   --emerald: #35ce68;
   --malachite: #08b442;
+  --seafoamGreen: #3da67e;
 /*
     Orange
 
+    Stylus: brightSun     - #FFC644, CSS: var(--brightSun)
+    Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
     Stylus: mango         - #FF962F, CSS: var(--mango)
+    Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
+    Stylus: blazeOrange   - #FC6D00, CSS: var(--blazeOrange)
+    Stylus: melon         - #FD7461, CSS: var(--melon)
 
     Styleguide Settings.colors.orange
     */
+  --brightSun: #ffc644;
+  --texasRose: #ffae5f;
   --mango: #ff962f;
+  --pumpkinOrange: #ff7f1b;
+  --blazeOrange: #fc6d00;
+  --melon: #fd7461;
 /*
     Red
 
@@ -12823,9 +13164,31 @@ html {
   --fuchsia: #fc4c83;
   --pomegranate: #f52d2d;
   --monza: #dd0505;
-}
-html,
-.CozyTheme--normal--3khZB {
+/*
+    Purple
+
+    Stylus: lavender       - #C2ADF4, CSS: var(--lavender)
+    Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
+    Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
+    Stylus: portage        - #9169F2, CSS: var(--portage)
+    Stylus: lightishPurple - #B449E7, CSS: var(--lightishPurple)
+    Stylus: barney         - #922BC2, CSS: var(--barney)
+
+    Styleguide Settings.colors.purple
+    */
+  --lavender: #c2adf4;
+  --darkPeriwinkle: #6984ce;
+  --purpley: #7f6bee;
+  --portage: #9169f2;
+  --lightishPurple: #b449e7;
+  --barney: #922bc2;
+/*
+        Theme
+
+        Colors theme used in the user interface. You can directly use the var name assiociated with its hexadecimal.
+
+        Styleguide Settings.theme
+    */
 /*
     Primary
 
@@ -12838,77 +13201,24 @@ html,
 
     Styleguide Settings.theme.primary
     */
+}
+html,
+.CozyTheme--normal--3khZB {
   --primaryColor: #297ef2;
   --primaryColorDark: #0b61d6;
   --primaryColorLight: #5c9df5;
   --primaryColorLighter: #4b93f7;
   --primaryColorLightest: #9fc4fb;
-/*
-    Secondary
-
-    Stylus: secondaryColor   - #fd7461, CSS: var(--secondaryColor)
-    Stylus: secondaryColorDark   - #E3503B, CSS: var(--secondaryColorDark)
-    Stylus: secondaryColorLight   - #ffdeda, CSS: var(--secondaryColorLight)
-    Stylus: secondaryColorLighter   - #fd7461, CSS: var(--secondaryColorLighter)
-    Stylus: secondaryColorLightest   - #FECDC6, CSS: var(--secondaryColorLightest)
-
-    Styleguide Settings.theme.secondary
-    */
   --secondaryColor: #fd7461;
   --secondaryColorDark: #e3503b;
   --secondaryColorLight: #ffdeda;
   --secondaryColorLighter: #fd7461;
   --secondaryColorLightest: #fecdc6;
-/*
-    Background colors
-
-    Stylus: primaryBackgroundLight -  #F5FAFF, CSS: var(--primaryBackgroundLight)
-    Stylus: paperBackgroundColor -  #FFF, CSS: var(--paperBackgroundColor)
-    Stylus: defaultBackgroundColor -  #F5F6F7, CSS: var(--defaultBackgroundColor)
-
-    Styleguide Settings.theme.background
-    */
-  --primaryBackgroundLight: #f5faff;
-  --paperBackgroundColor: #fff;
-  --defaultBackgroundColor: #f5f6f7;
-/*
-    Text colors
-
-    Stylus: primaryTextColor -  #32363F, CSS: var(--primaryTextColor)
-    Stylus: secondaryTextColor - #95999D, CSS: var(--secondaryTextColor)
-    Stylus: primaryContrastTextColor -  #FFF, CSS: var(--primaryContrastTextColor)
-    Stylus: primaryContrastTextColor -  #FFF, CSS(--secondaryContrastTextColor)
-
-    Styleguide Settings.theme.text
-    */
-  --primaryTextColor: #32363f;
-  --secondaryTextColor: #95999d;
+  --primaryBackgroundLight: var(--zircon);
+  --primaryTextColor: var(--charcoalGrey);
+  --secondaryTextColor: var(--coolGrey);
   --primaryContrastTextColor: #fff;
   --secondaryContrastTextColor: #fff;
-/*
-    Components colors
-
-    Stylus: dividerColor -  #D6D8Da, CSS: var(--dividerColor)
-
-    Styleguide Settings.theme.components
-    */
-  --dividerColor: #d6d8da;
-/*
-    Intention colors
-
-    Stylus: validColor -  #35CE68, CSS: var(--validColor)
-    Stylus: warnColor -  #FF962F, CSS: var(--warnColor)
-    Stylus: dangerColor -  #F52D2D, CSS: var(--dangerColor)
-
-    Styleguide Settings.theme.intention
-    */
-  --validColor: #35ce68;
-  --warnColor: #ff962f;
-  --dangerColor: #f52d2d;
-/*
-    The CSS variables below are historic and we should strive not to
-    use them. Prefer to use directly semantic colors above.
-    */
   --spinnerColor: var(--primaryColor);
   --linkColor: var(--primaryColor);
   --linkTextDecoration: none;
@@ -12925,12 +13235,18 @@ html,
   --secondaryButtonSecondaryColor: var(--silver);
   --secondaryButtonActiveColor: var(--silver);
   --secondaryButtonContrastColor: var(--black);
+  --paperBackgroundColor: #fff;
+  --defaultBackgroundColor: var(--paleGrey);
+  --dividerColor: var(--silver);
   --dividerColor2: var(--coolGrey);
   --iconColor: currentColor;
   --textIconColor: var(--charcoalGrey);
   --actionMenuIconColor: var(--slateGrey);
   --errorColor: #f52d2d;
   --errorBackground: #fff2f2;
+  --validColor: #35ce68;
+  --warnColor: #ff962f;
+  --dangerColor: #f52d2d;
   --neutralBackground: var(--paleGrey);
   --buttonTextTransform: uppercase;
   --buttonBorderRadius: 0.125rem;
@@ -13338,17 +13654,86 @@ html,
 .u-overlay {
   color: var(--overlay) !important;
 }
+.u-zircon {
+  color: var(--zircon) !important;
+}
+.u-frenchPass {
+  color: var(--frenchPass) !important;
+}
 .u-dodgerBlue {
   color: var(--dodgerBlue) !important;
 }
-.u-lightishPurple {
-  color: var(--lightishPurple) !important;
+.u-scienceBlue {
+  color: var(--scienceBlue) !important;
+}
+.u-puertoRico {
+  color: var(--puertoRico) !important;
+}
+.u-grannyApple {
+  color: var(--grannyApple) !important;
+}
+.u-emerald {
+  color: var(--emerald) !important;
+}
+.u-malachite {
+  color: var(--malachite) !important;
+}
+.u-seafoamGreen {
+  color: var(--seafoamGreen) !important;
+}
+.u-brightSun {
+  color: var(--brightSun) !important;
+}
+.u-texasRose {
+  color: var(--texasRose) !important;
+}
+.u-chablis {
+  color: var(--chablis) !important;
+}
+.u-yourPink {
+  color: var(--yourPink) !important;
+}
+.u-fuchsia {
+  color: var(--fuchsia) !important;
+}
+.u-pomegranate {
+  color: var(--pomegranate) !important;
 }
 .u-monza {
   color: var(--monza) !important;
 }
-.u-pomegranate {
-  color: var(--pomegranate) !important;
+.u-portage {
+  color: var(--portage) !important;
+}
+.u-azure {
+  color: var(--azure) !important;
+}
+.u-melon {
+  color: var(--melon) !important;
+}
+.u-blazeOrange {
+  color: var(--blazeOrange) !important;
+}
+.u-mango {
+  color: var(--mango) !important;
+}
+.u-pumpkinOrange {
+  color: var(--pumpkinOrange) !important;
+}
+.u-lavender {
+  color: var(--lavender) !important;
+}
+.u-darkPeriwinkle {
+  color: var(--darkPeriwinkle) !important;
+}
+.u-purpley {
+  color: var(--purpley) !important;
+}
+.u-lightishPurple {
+  color: var(--lightishPurple) !important;
+}
+.u-barney {
+  color: var(--barney) !important;
 }
 .u-weirdGreen {
   color: var(--weirdGreen) !important;
@@ -13774,6 +14159,7 @@ html {
     Stylus: charcoalGrey -  #32363F, CSS: var(--charcoalGrey)
     Stylus: black        -  #000000, CSS: var(--black)
 
+    Weight: -1
 
     Styleguide Settings.colors.grey
     */
@@ -13789,34 +14175,56 @@ html {
     Blue
 
     Stylus: zircon       -  #F5FAFF, CSS: var(--zircon)
+    Stylus: hawkesBlue   -  #EEF5FE, CSS: var(--hawkesBlue)
+    Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
+    Stylus: azure        -  #1FA8F1, CSS: var(--azure)
     Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
     Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
+    Stylus: puertoRico   -  #0DCBCF, CSS: var(--puertoRico)
 
     Styleguide Settings.colors.blue
     */
   --zircon: #f5faff;
+  --hawkesBlue: #eef5fe;
+  --frenchPass: #c2dcff;
+  --azure: #1fa8f1;
   --dodgerBlue: #297ef2;
   --scienceBlue: #0b61d6;
+  --puertoRico: #0dcbcf;
 /*
     Green
 
+    Stylus: grannyApple  - #DEF7E7, CSS: var(--grannyApple)
     Stylus: weirdGreen   - #40DE8E, CSS: var(--weirdGreen)
     Stylus: emerald      - #35CE68, CSS: var(--emerald)
     Stylus: malachite    - #08b442, CSS: var(--malachite)
+    Stylus: seafoamGreen - #3DA67E, CSS: var(--seafoamGreen)
 
     Styleguide Settings.colors.green
     */
+  --grannyApple: #def7e7;
   --weirdGreen: #40de8e;
   --emerald: #35ce68;
   --malachite: #08b442;
+  --seafoamGreen: #3da67e;
 /*
     Orange
 
+    Stylus: brightSun     - #FFC644, CSS: var(--brightSun)
+    Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
     Stylus: mango         - #FF962F, CSS: var(--mango)
+    Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
+    Stylus: blazeOrange   - #FC6D00, CSS: var(--blazeOrange)
+    Stylus: melon         - #FD7461, CSS: var(--melon)
 
     Styleguide Settings.colors.orange
     */
+  --brightSun: #ffc644;
+  --texasRose: #ffae5f;
   --mango: #ff962f;
+  --pumpkinOrange: #ff7f1b;
+  --blazeOrange: #fc6d00;
+  --melon: #fd7461;
 /*
     Red
 
@@ -13833,9 +14241,31 @@ html {
   --fuchsia: #fc4c83;
   --pomegranate: #f52d2d;
   --monza: #dd0505;
-}
-html,
-.CozyTheme--normal--1ZHOn {
+/*
+    Purple
+
+    Stylus: lavender       - #C2ADF4, CSS: var(--lavender)
+    Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
+    Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
+    Stylus: portage        - #9169F2, CSS: var(--portage)
+    Stylus: lightishPurple - #B449E7, CSS: var(--lightishPurple)
+    Stylus: barney         - #922BC2, CSS: var(--barney)
+
+    Styleguide Settings.colors.purple
+    */
+  --lavender: #c2adf4;
+  --darkPeriwinkle: #6984ce;
+  --purpley: #7f6bee;
+  --portage: #9169f2;
+  --lightishPurple: #b449e7;
+  --barney: #922bc2;
+/*
+        Theme
+
+        Colors theme used in the user interface. You can directly use the var name assiociated with its hexadecimal.
+
+        Styleguide Settings.theme
+    */
 /*
     Primary
 
@@ -13848,77 +14278,24 @@ html,
 
     Styleguide Settings.theme.primary
     */
+}
+html,
+.CozyTheme--normal--1ZHOn {
   --primaryColor: #297ef2;
   --primaryColorDark: #0b61d6;
   --primaryColorLight: #5c9df5;
   --primaryColorLighter: #4b93f7;
   --primaryColorLightest: #9fc4fb;
-/*
-    Secondary
-
-    Stylus: secondaryColor   - #fd7461, CSS: var(--secondaryColor)
-    Stylus: secondaryColorDark   - #E3503B, CSS: var(--secondaryColorDark)
-    Stylus: secondaryColorLight   - #ffdeda, CSS: var(--secondaryColorLight)
-    Stylus: secondaryColorLighter   - #fd7461, CSS: var(--secondaryColorLighter)
-    Stylus: secondaryColorLightest   - #FECDC6, CSS: var(--secondaryColorLightest)
-
-    Styleguide Settings.theme.secondary
-    */
   --secondaryColor: #fd7461;
   --secondaryColorDark: #e3503b;
   --secondaryColorLight: #ffdeda;
   --secondaryColorLighter: #fd7461;
   --secondaryColorLightest: #fecdc6;
-/*
-    Background colors
-
-    Stylus: primaryBackgroundLight -  #F5FAFF, CSS: var(--primaryBackgroundLight)
-    Stylus: paperBackgroundColor -  #FFF, CSS: var(--paperBackgroundColor)
-    Stylus: defaultBackgroundColor -  #F5F6F7, CSS: var(--defaultBackgroundColor)
-
-    Styleguide Settings.theme.background
-    */
-  --primaryBackgroundLight: #f5faff;
-  --paperBackgroundColor: #fff;
-  --defaultBackgroundColor: #f5f6f7;
-/*
-    Text colors
-
-    Stylus: primaryTextColor -  #32363F, CSS: var(--primaryTextColor)
-    Stylus: secondaryTextColor - #95999D, CSS: var(--secondaryTextColor)
-    Stylus: primaryContrastTextColor -  #FFF, CSS: var(--primaryContrastTextColor)
-    Stylus: primaryContrastTextColor -  #FFF, CSS(--secondaryContrastTextColor)
-
-    Styleguide Settings.theme.text
-    */
-  --primaryTextColor: #32363f;
-  --secondaryTextColor: #95999d;
+  --primaryBackgroundLight: var(--zircon);
+  --primaryTextColor: var(--charcoalGrey);
+  --secondaryTextColor: var(--coolGrey);
   --primaryContrastTextColor: #fff;
   --secondaryContrastTextColor: #fff;
-/*
-    Components colors
-
-    Stylus: dividerColor -  #D6D8Da, CSS: var(--dividerColor)
-
-    Styleguide Settings.theme.components
-    */
-  --dividerColor: #d6d8da;
-/*
-    Intention colors
-
-    Stylus: validColor -  #35CE68, CSS: var(--validColor)
-    Stylus: warnColor -  #FF962F, CSS: var(--warnColor)
-    Stylus: dangerColor -  #F52D2D, CSS: var(--dangerColor)
-
-    Styleguide Settings.theme.intention
-    */
-  --validColor: #35ce68;
-  --warnColor: #ff962f;
-  --dangerColor: #f52d2d;
-/*
-    The CSS variables below are historic and we should strive not to
-    use them. Prefer to use directly semantic colors above.
-    */
   --spinnerColor: var(--primaryColor);
   --linkColor: var(--primaryColor);
   --linkTextDecoration: none;
@@ -13935,12 +14312,18 @@ html,
   --secondaryButtonSecondaryColor: var(--silver);
   --secondaryButtonActiveColor: var(--silver);
   --secondaryButtonContrastColor: var(--black);
+  --paperBackgroundColor: #fff;
+  --defaultBackgroundColor: var(--paleGrey);
+  --dividerColor: var(--silver);
   --dividerColor2: var(--coolGrey);
   --iconColor: currentColor;
   --textIconColor: var(--charcoalGrey);
   --actionMenuIconColor: var(--slateGrey);
   --errorColor: #f52d2d;
   --errorBackground: #fff2f2;
+  --validColor: #35ce68;
+  --warnColor: #ff962f;
+  --dangerColor: #f52d2d;
   --neutralBackground: var(--paleGrey);
   --buttonTextTransform: uppercase;
   --buttonBorderRadius: 0.125rem;
@@ -14045,31 +14428,16 @@ html,
   font-weight: bold;
 }
 
-html {
-  --zIndex-below: -1;
-  --zIndex-app: 0;
-  --zIndex-low: 1;
-  --zIndex-alertMobile: 10;
-  --zIndex-nav: 20;
-  --zIndex-bar: 21;
-  --zIndex-selection: 30;
-  --zIndex-popover: 40;
-  --zIndex-overlay: 50;
-  --zIndex-fileActionMenu: 60;
-  --zIndex-drawer: 60;
-  --zIndex-modal: 70;
-  --zindex-alert: 80;
+.DialogCloseButton--cxKPO {
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
 }
-.c-overlay--31iWd {
-  z-index: 50;
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background: var(--overlay);
-  visibility: visible;
-  transition: opacity 0.3s, visibility 0s ease-out;
+@media (max-width: 48rem) {
+  .DialogCloseButton--cxKPO {
+    top: 0.25rem;
+    right: 0.25rem;
+  }
 }
 
 @-moz-keyframes spin--2YilK {
@@ -14352,17 +14720,86 @@ html {
 .u-overlay {
   color: var(--overlay) !important;
 }
+.u-zircon {
+  color: var(--zircon) !important;
+}
+.u-frenchPass {
+  color: var(--frenchPass) !important;
+}
 .u-dodgerBlue {
   color: var(--dodgerBlue) !important;
 }
-.u-lightishPurple {
-  color: var(--lightishPurple) !important;
+.u-scienceBlue {
+  color: var(--scienceBlue) !important;
+}
+.u-puertoRico {
+  color: var(--puertoRico) !important;
+}
+.u-grannyApple {
+  color: var(--grannyApple) !important;
+}
+.u-emerald {
+  color: var(--emerald) !important;
+}
+.u-malachite {
+  color: var(--malachite) !important;
+}
+.u-seafoamGreen {
+  color: var(--seafoamGreen) !important;
+}
+.u-brightSun {
+  color: var(--brightSun) !important;
+}
+.u-texasRose {
+  color: var(--texasRose) !important;
+}
+.u-chablis {
+  color: var(--chablis) !important;
+}
+.u-yourPink {
+  color: var(--yourPink) !important;
+}
+.u-fuchsia {
+  color: var(--fuchsia) !important;
+}
+.u-pomegranate {
+  color: var(--pomegranate) !important;
 }
 .u-monza {
   color: var(--monza) !important;
 }
-.u-pomegranate {
-  color: var(--pomegranate) !important;
+.u-portage {
+  color: var(--portage) !important;
+}
+.u-azure {
+  color: var(--azure) !important;
+}
+.u-melon {
+  color: var(--melon) !important;
+}
+.u-blazeOrange {
+  color: var(--blazeOrange) !important;
+}
+.u-mango {
+  color: var(--mango) !important;
+}
+.u-pumpkinOrange {
+  color: var(--pumpkinOrange) !important;
+}
+.u-lavender {
+  color: var(--lavender) !important;
+}
+.u-darkPeriwinkle {
+  color: var(--darkPeriwinkle) !important;
+}
+.u-purpley {
+  color: var(--purpley) !important;
+}
+.u-lightishPurple {
+  color: var(--lightishPurple) !important;
+}
+.u-barney {
+  color: var(--barney) !important;
 }
 .u-weirdGreen {
   color: var(--weirdGreen) !important;
@@ -14730,7 +15167,7 @@ html {
   top: 0.5rem;
   right: 0;
   cursor: pointer;
-  text-transform: unset;
+  text-transform: uppercase;
 }
 .o-side-fullwidth--7WcCI {
   max-width: 100%;
@@ -15020,17 +15457,86 @@ html {
 .u-overlay {
   color: var(--overlay) !important;
 }
+.u-zircon {
+  color: var(--zircon) !important;
+}
+.u-frenchPass {
+  color: var(--frenchPass) !important;
+}
 .u-dodgerBlue {
   color: var(--dodgerBlue) !important;
 }
-.u-lightishPurple {
-  color: var(--lightishPurple) !important;
+.u-scienceBlue {
+  color: var(--scienceBlue) !important;
+}
+.u-puertoRico {
+  color: var(--puertoRico) !important;
+}
+.u-grannyApple {
+  color: var(--grannyApple) !important;
+}
+.u-emerald {
+  color: var(--emerald) !important;
+}
+.u-malachite {
+  color: var(--malachite) !important;
+}
+.u-seafoamGreen {
+  color: var(--seafoamGreen) !important;
+}
+.u-brightSun {
+  color: var(--brightSun) !important;
+}
+.u-texasRose {
+  color: var(--texasRose) !important;
+}
+.u-chablis {
+  color: var(--chablis) !important;
+}
+.u-yourPink {
+  color: var(--yourPink) !important;
+}
+.u-fuchsia {
+  color: var(--fuchsia) !important;
+}
+.u-pomegranate {
+  color: var(--pomegranate) !important;
 }
 .u-monza {
   color: var(--monza) !important;
 }
-.u-pomegranate {
-  color: var(--pomegranate) !important;
+.u-portage {
+  color: var(--portage) !important;
+}
+.u-azure {
+  color: var(--azure) !important;
+}
+.u-melon {
+  color: var(--melon) !important;
+}
+.u-blazeOrange {
+  color: var(--blazeOrange) !important;
+}
+.u-mango {
+  color: var(--mango) !important;
+}
+.u-pumpkinOrange {
+  color: var(--pumpkinOrange) !important;
+}
+.u-lavender {
+  color: var(--lavender) !important;
+}
+.u-darkPeriwinkle {
+  color: var(--darkPeriwinkle) !important;
+}
+.u-purpley {
+  color: var(--purpley) !important;
+}
+.u-lightishPurple {
+  color: var(--lightishPurple) !important;
+}
+.u-barney {
+  color: var(--barney) !important;
 }
 .u-weirdGreen {
   color: var(--weirdGreen) !important;
@@ -15650,17 +16156,86 @@ html {
 .u-overlay {
   color: var(--overlay) !important;
 }
+.u-zircon {
+  color: var(--zircon) !important;
+}
+.u-frenchPass {
+  color: var(--frenchPass) !important;
+}
 .u-dodgerBlue {
   color: var(--dodgerBlue) !important;
 }
-.u-lightishPurple {
-  color: var(--lightishPurple) !important;
+.u-scienceBlue {
+  color: var(--scienceBlue) !important;
+}
+.u-puertoRico {
+  color: var(--puertoRico) !important;
+}
+.u-grannyApple {
+  color: var(--grannyApple) !important;
+}
+.u-emerald {
+  color: var(--emerald) !important;
+}
+.u-malachite {
+  color: var(--malachite) !important;
+}
+.u-seafoamGreen {
+  color: var(--seafoamGreen) !important;
+}
+.u-brightSun {
+  color: var(--brightSun) !important;
+}
+.u-texasRose {
+  color: var(--texasRose) !important;
+}
+.u-chablis {
+  color: var(--chablis) !important;
+}
+.u-yourPink {
+  color: var(--yourPink) !important;
+}
+.u-fuchsia {
+  color: var(--fuchsia) !important;
+}
+.u-pomegranate {
+  color: var(--pomegranate) !important;
 }
 .u-monza {
   color: var(--monza) !important;
 }
-.u-pomegranate {
-  color: var(--pomegranate) !important;
+.u-portage {
+  color: var(--portage) !important;
+}
+.u-azure {
+  color: var(--azure) !important;
+}
+.u-melon {
+  color: var(--melon) !important;
+}
+.u-blazeOrange {
+  color: var(--blazeOrange) !important;
+}
+.u-mango {
+  color: var(--mango) !important;
+}
+.u-pumpkinOrange {
+  color: var(--pumpkinOrange) !important;
+}
+.u-lavender {
+  color: var(--lavender) !important;
+}
+.u-darkPeriwinkle {
+  color: var(--darkPeriwinkle) !important;
+}
+.u-purpley {
+  color: var(--purpley) !important;
+}
+.u-lightishPurple {
+  color: var(--lightishPurple) !important;
+}
+.u-barney {
+  color: var(--barney) !important;
 }
 .u-weirdGreen {
   color: var(--weirdGreen) !important;
@@ -16322,17 +16897,86 @@ html {
 .u-overlay {
   color: var(--overlay) !important;
 }
+.u-zircon {
+  color: var(--zircon) !important;
+}
+.u-frenchPass {
+  color: var(--frenchPass) !important;
+}
 .u-dodgerBlue {
   color: var(--dodgerBlue) !important;
 }
-.u-lightishPurple {
-  color: var(--lightishPurple) !important;
+.u-scienceBlue {
+  color: var(--scienceBlue) !important;
+}
+.u-puertoRico {
+  color: var(--puertoRico) !important;
+}
+.u-grannyApple {
+  color: var(--grannyApple) !important;
+}
+.u-emerald {
+  color: var(--emerald) !important;
+}
+.u-malachite {
+  color: var(--malachite) !important;
+}
+.u-seafoamGreen {
+  color: var(--seafoamGreen) !important;
+}
+.u-brightSun {
+  color: var(--brightSun) !important;
+}
+.u-texasRose {
+  color: var(--texasRose) !important;
+}
+.u-chablis {
+  color: var(--chablis) !important;
+}
+.u-yourPink {
+  color: var(--yourPink) !important;
+}
+.u-fuchsia {
+  color: var(--fuchsia) !important;
+}
+.u-pomegranate {
+  color: var(--pomegranate) !important;
 }
 .u-monza {
   color: var(--monza) !important;
 }
-.u-pomegranate {
-  color: var(--pomegranate) !important;
+.u-portage {
+  color: var(--portage) !important;
+}
+.u-azure {
+  color: var(--azure) !important;
+}
+.u-melon {
+  color: var(--melon) !important;
+}
+.u-blazeOrange {
+  color: var(--blazeOrange) !important;
+}
+.u-mango {
+  color: var(--mango) !important;
+}
+.u-pumpkinOrange {
+  color: var(--pumpkinOrange) !important;
+}
+.u-lavender {
+  color: var(--lavender) !important;
+}
+.u-darkPeriwinkle {
+  color: var(--darkPeriwinkle) !important;
+}
+.u-purpley {
+  color: var(--purpley) !important;
+}
+.u-lightishPurple {
+  color: var(--lightishPurple) !important;
+}
+.u-barney {
+  color: var(--barney) !important;
 }
 .u-weirdGreen {
   color: var(--weirdGreen) !important;
@@ -16688,6 +17332,7 @@ html {
     Stylus: charcoalGrey -  #32363F, CSS: var(--charcoalGrey)
     Stylus: black        -  #000000, CSS: var(--black)
 
+    Weight: -1
 
     Styleguide Settings.colors.grey
     */
@@ -16703,34 +17348,56 @@ html {
     Blue
 
     Stylus: zircon       -  #F5FAFF, CSS: var(--zircon)
+    Stylus: hawkesBlue   -  #EEF5FE, CSS: var(--hawkesBlue)
+    Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
+    Stylus: azure        -  #1FA8F1, CSS: var(--azure)
     Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
     Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
+    Stylus: puertoRico   -  #0DCBCF, CSS: var(--puertoRico)
 
     Styleguide Settings.colors.blue
     */
   --zircon: #f5faff;
+  --hawkesBlue: #eef5fe;
+  --frenchPass: #c2dcff;
+  --azure: #1fa8f1;
   --dodgerBlue: #297ef2;
   --scienceBlue: #0b61d6;
+  --puertoRico: #0dcbcf;
 /*
     Green
 
+    Stylus: grannyApple  - #DEF7E7, CSS: var(--grannyApple)
     Stylus: weirdGreen   - #40DE8E, CSS: var(--weirdGreen)
     Stylus: emerald      - #35CE68, CSS: var(--emerald)
     Stylus: malachite    - #08b442, CSS: var(--malachite)
+    Stylus: seafoamGreen - #3DA67E, CSS: var(--seafoamGreen)
 
     Styleguide Settings.colors.green
     */
+  --grannyApple: #def7e7;
   --weirdGreen: #40de8e;
   --emerald: #35ce68;
   --malachite: #08b442;
+  --seafoamGreen: #3da67e;
 /*
     Orange
 
+    Stylus: brightSun     - #FFC644, CSS: var(--brightSun)
+    Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
     Stylus: mango         - #FF962F, CSS: var(--mango)
+    Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
+    Stylus: blazeOrange   - #FC6D00, CSS: var(--blazeOrange)
+    Stylus: melon         - #FD7461, CSS: var(--melon)
 
     Styleguide Settings.colors.orange
     */
+  --brightSun: #ffc644;
+  --texasRose: #ffae5f;
   --mango: #ff962f;
+  --pumpkinOrange: #ff7f1b;
+  --blazeOrange: #fc6d00;
+  --melon: #fd7461;
 /*
     Red
 
@@ -16747,9 +17414,31 @@ html {
   --fuchsia: #fc4c83;
   --pomegranate: #f52d2d;
   --monza: #dd0505;
-}
-html,
-.CozyTheme--normal--3RDVP {
+/*
+    Purple
+
+    Stylus: lavender       - #C2ADF4, CSS: var(--lavender)
+    Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
+    Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
+    Stylus: portage        - #9169F2, CSS: var(--portage)
+    Stylus: lightishPurple - #B449E7, CSS: var(--lightishPurple)
+    Stylus: barney         - #922BC2, CSS: var(--barney)
+
+    Styleguide Settings.colors.purple
+    */
+  --lavender: #c2adf4;
+  --darkPeriwinkle: #6984ce;
+  --purpley: #7f6bee;
+  --portage: #9169f2;
+  --lightishPurple: #b449e7;
+  --barney: #922bc2;
+/*
+        Theme
+
+        Colors theme used in the user interface. You can directly use the var name assiociated with its hexadecimal.
+
+        Styleguide Settings.theme
+    */
 /*
     Primary
 
@@ -16762,77 +17451,24 @@ html,
 
     Styleguide Settings.theme.primary
     */
+}
+html,
+.CozyTheme--normal--3RDVP {
   --primaryColor: #297ef2;
   --primaryColorDark: #0b61d6;
   --primaryColorLight: #5c9df5;
   --primaryColorLighter: #4b93f7;
   --primaryColorLightest: #9fc4fb;
-/*
-    Secondary
-
-    Stylus: secondaryColor   - #fd7461, CSS: var(--secondaryColor)
-    Stylus: secondaryColorDark   - #E3503B, CSS: var(--secondaryColorDark)
-    Stylus: secondaryColorLight   - #ffdeda, CSS: var(--secondaryColorLight)
-    Stylus: secondaryColorLighter   - #fd7461, CSS: var(--secondaryColorLighter)
-    Stylus: secondaryColorLightest   - #FECDC6, CSS: var(--secondaryColorLightest)
-
-    Styleguide Settings.theme.secondary
-    */
   --secondaryColor: #fd7461;
   --secondaryColorDark: #e3503b;
   --secondaryColorLight: #ffdeda;
   --secondaryColorLighter: #fd7461;
   --secondaryColorLightest: #fecdc6;
-/*
-    Background colors
-
-    Stylus: primaryBackgroundLight -  #F5FAFF, CSS: var(--primaryBackgroundLight)
-    Stylus: paperBackgroundColor -  #FFF, CSS: var(--paperBackgroundColor)
-    Stylus: defaultBackgroundColor -  #F5F6F7, CSS: var(--defaultBackgroundColor)
-
-    Styleguide Settings.theme.background
-    */
-  --primaryBackgroundLight: #f5faff;
-  --paperBackgroundColor: #fff;
-  --defaultBackgroundColor: #f5f6f7;
-/*
-    Text colors
-
-    Stylus: primaryTextColor -  #32363F, CSS: var(--primaryTextColor)
-    Stylus: secondaryTextColor - #95999D, CSS: var(--secondaryTextColor)
-    Stylus: primaryContrastTextColor -  #FFF, CSS: var(--primaryContrastTextColor)
-    Stylus: primaryContrastTextColor -  #FFF, CSS(--secondaryContrastTextColor)
-
-    Styleguide Settings.theme.text
-    */
-  --primaryTextColor: #32363f;
-  --secondaryTextColor: #95999d;
+  --primaryBackgroundLight: var(--zircon);
+  --primaryTextColor: var(--charcoalGrey);
+  --secondaryTextColor: var(--coolGrey);
   --primaryContrastTextColor: #fff;
   --secondaryContrastTextColor: #fff;
-/*
-    Components colors
-
-    Stylus: dividerColor -  #D6D8Da, CSS: var(--dividerColor)
-
-    Styleguide Settings.theme.components
-    */
-  --dividerColor: #d6d8da;
-/*
-    Intention colors
-
-    Stylus: validColor -  #35CE68, CSS: var(--validColor)
-    Stylus: warnColor -  #FF962F, CSS: var(--warnColor)
-    Stylus: dangerColor -  #F52D2D, CSS: var(--dangerColor)
-
-    Styleguide Settings.theme.intention
-    */
-  --validColor: #35ce68;
-  --warnColor: #ff962f;
-  --dangerColor: #f52d2d;
-/*
-    The CSS variables below are historic and we should strive not to
-    use them. Prefer to use directly semantic colors above.
-    */
   --spinnerColor: var(--primaryColor);
   --linkColor: var(--primaryColor);
   --linkTextDecoration: none;
@@ -16849,12 +17485,18 @@ html,
   --secondaryButtonSecondaryColor: var(--silver);
   --secondaryButtonActiveColor: var(--silver);
   --secondaryButtonContrastColor: var(--black);
+  --paperBackgroundColor: #fff;
+  --defaultBackgroundColor: var(--paleGrey);
+  --dividerColor: var(--silver);
   --dividerColor2: var(--coolGrey);
   --iconColor: currentColor;
   --textIconColor: var(--charcoalGrey);
   --actionMenuIconColor: var(--slateGrey);
   --errorColor: #f52d2d;
   --errorBackground: #fff2f2;
+  --validColor: #35ce68;
+  --warnColor: #ff962f;
+  --dangerColor: #f52d2d;
   --neutralBackground: var(--paleGrey);
   --buttonTextTransform: uppercase;
   --buttonBorderRadius: 0.125rem;
@@ -17237,17 +17879,86 @@ html,
 .u-overlay {
   color: var(--overlay) !important;
 }
+.u-zircon {
+  color: var(--zircon) !important;
+}
+.u-frenchPass {
+  color: var(--frenchPass) !important;
+}
 .u-dodgerBlue {
   color: var(--dodgerBlue) !important;
 }
-.u-lightishPurple {
-  color: var(--lightishPurple) !important;
+.u-scienceBlue {
+  color: var(--scienceBlue) !important;
+}
+.u-puertoRico {
+  color: var(--puertoRico) !important;
+}
+.u-grannyApple {
+  color: var(--grannyApple) !important;
+}
+.u-emerald {
+  color: var(--emerald) !important;
+}
+.u-malachite {
+  color: var(--malachite) !important;
+}
+.u-seafoamGreen {
+  color: var(--seafoamGreen) !important;
+}
+.u-brightSun {
+  color: var(--brightSun) !important;
+}
+.u-texasRose {
+  color: var(--texasRose) !important;
+}
+.u-chablis {
+  color: var(--chablis) !important;
+}
+.u-yourPink {
+  color: var(--yourPink) !important;
+}
+.u-fuchsia {
+  color: var(--fuchsia) !important;
+}
+.u-pomegranate {
+  color: var(--pomegranate) !important;
 }
 .u-monza {
   color: var(--monza) !important;
 }
-.u-pomegranate {
-  color: var(--pomegranate) !important;
+.u-portage {
+  color: var(--portage) !important;
+}
+.u-azure {
+  color: var(--azure) !important;
+}
+.u-melon {
+  color: var(--melon) !important;
+}
+.u-blazeOrange {
+  color: var(--blazeOrange) !important;
+}
+.u-mango {
+  color: var(--mango) !important;
+}
+.u-pumpkinOrange {
+  color: var(--pumpkinOrange) !important;
+}
+.u-lavender {
+  color: var(--lavender) !important;
+}
+.u-darkPeriwinkle {
+  color: var(--darkPeriwinkle) !important;
+}
+.u-purpley {
+  color: var(--purpley) !important;
+}
+.u-lightishPurple {
+  color: var(--lightishPurple) !important;
+}
+.u-barney {
+  color: var(--barney) !important;
 }
 .u-weirdGreen {
   color: var(--weirdGreen) !important;
@@ -17637,18 +18348,6 @@ html,
 @media (max-width: 48rem) {
 }
 
-.DialogCloseButton--cxKPO {
-  position: absolute;
-  top: 0.75rem;
-  right: 0.75rem;
-}
-@media (max-width: 48rem) {
-  .DialogCloseButton--cxKPO {
-    top: 0.25rem;
-    right: 0.25rem;
-  }
-}
-
 @-moz-keyframes spin--ETyou {
   from {
     transform: rotate(0deg);
@@ -17929,17 +18628,86 @@ html,
 .u-overlay {
   color: var(--overlay) !important;
 }
+.u-zircon {
+  color: var(--zircon) !important;
+}
+.u-frenchPass {
+  color: var(--frenchPass) !important;
+}
 .u-dodgerBlue {
   color: var(--dodgerBlue) !important;
 }
-.u-lightishPurple {
-  color: var(--lightishPurple) !important;
+.u-scienceBlue {
+  color: var(--scienceBlue) !important;
+}
+.u-puertoRico {
+  color: var(--puertoRico) !important;
+}
+.u-grannyApple {
+  color: var(--grannyApple) !important;
+}
+.u-emerald {
+  color: var(--emerald) !important;
+}
+.u-malachite {
+  color: var(--malachite) !important;
+}
+.u-seafoamGreen {
+  color: var(--seafoamGreen) !important;
+}
+.u-brightSun {
+  color: var(--brightSun) !important;
+}
+.u-texasRose {
+  color: var(--texasRose) !important;
+}
+.u-chablis {
+  color: var(--chablis) !important;
+}
+.u-yourPink {
+  color: var(--yourPink) !important;
+}
+.u-fuchsia {
+  color: var(--fuchsia) !important;
+}
+.u-pomegranate {
+  color: var(--pomegranate) !important;
 }
 .u-monza {
   color: var(--monza) !important;
 }
-.u-pomegranate {
-  color: var(--pomegranate) !important;
+.u-portage {
+  color: var(--portage) !important;
+}
+.u-azure {
+  color: var(--azure) !important;
+}
+.u-melon {
+  color: var(--melon) !important;
+}
+.u-blazeOrange {
+  color: var(--blazeOrange) !important;
+}
+.u-mango {
+  color: var(--mango) !important;
+}
+.u-pumpkinOrange {
+  color: var(--pumpkinOrange) !important;
+}
+.u-lavender {
+  color: var(--lavender) !important;
+}
+.u-darkPeriwinkle {
+  color: var(--darkPeriwinkle) !important;
+}
+.u-purpley {
+  color: var(--purpley) !important;
+}
+.u-lightishPurple {
+  color: var(--lightishPurple) !important;
+}
+.u-barney {
+  color: var(--barney) !important;
 }
 .u-weirdGreen {
   color: var(--weirdGreen) !important;
@@ -18353,11 +19121,6 @@ html,
   .ContactsListModal__addContactContainer--2W-dE > * {
     flex: 1;
   }
-}
-
-.EmptyMessage--2T8TF {
-  padding: 0 1rem;
-  text-align: center;
 }
 
 html {
@@ -18797,17 +19560,86 @@ html {
 .u-overlay {
   color: var(--overlay) !important;
 }
+.u-zircon {
+  color: var(--zircon) !important;
+}
+.u-frenchPass {
+  color: var(--frenchPass) !important;
+}
 .u-dodgerBlue {
   color: var(--dodgerBlue) !important;
 }
-.u-lightishPurple {
-  color: var(--lightishPurple) !important;
+.u-scienceBlue {
+  color: var(--scienceBlue) !important;
+}
+.u-puertoRico {
+  color: var(--puertoRico) !important;
+}
+.u-grannyApple {
+  color: var(--grannyApple) !important;
+}
+.u-emerald {
+  color: var(--emerald) !important;
+}
+.u-malachite {
+  color: var(--malachite) !important;
+}
+.u-seafoamGreen {
+  color: var(--seafoamGreen) !important;
+}
+.u-brightSun {
+  color: var(--brightSun) !important;
+}
+.u-texasRose {
+  color: var(--texasRose) !important;
+}
+.u-chablis {
+  color: var(--chablis) !important;
+}
+.u-yourPink {
+  color: var(--yourPink) !important;
+}
+.u-fuchsia {
+  color: var(--fuchsia) !important;
+}
+.u-pomegranate {
+  color: var(--pomegranate) !important;
 }
 .u-monza {
   color: var(--monza) !important;
 }
-.u-pomegranate {
-  color: var(--pomegranate) !important;
+.u-portage {
+  color: var(--portage) !important;
+}
+.u-azure {
+  color: var(--azure) !important;
+}
+.u-melon {
+  color: var(--melon) !important;
+}
+.u-blazeOrange {
+  color: var(--blazeOrange) !important;
+}
+.u-mango {
+  color: var(--mango) !important;
+}
+.u-pumpkinOrange {
+  color: var(--pumpkinOrange) !important;
+}
+.u-lavender {
+  color: var(--lavender) !important;
+}
+.u-darkPeriwinkle {
+  color: var(--darkPeriwinkle) !important;
+}
+.u-purpley {
+  color: var(--purpley) !important;
+}
+.u-lightishPurple {
+  color: var(--lightishPurple) !important;
+}
+.u-barney {
+  color: var(--barney) !important;
 }
 .u-weirdGreen {
   color: var(--weirdGreen) !important;
@@ -19223,6 +20055,50 @@ html {
   font-weight: bold;
 }
 
+.Row--3QHF1 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  border-bottom: 1px solid var(--silver);
+}
+.Row--3QHF1:hover {
+  background-color: var(--paleGrey);
+  cursor: pointer;
+}
+.Row--3QHF1:last-child {
+  border-bottom: 0;
+}
+.Row__selected--3LoOa {
+  font-weight: bold;
+}
+.Row__caption--137a0 {
+  font-weight: normal;
+}
+.Modal__title--2bWBK {
+  border-bottom: 1px solid var(--silver);
+  margin-bottom: 0;
+  padding-top: 1rem;
+}
+.Modal__title--2bWBK h2 {
+  font-size: 1.25rem;
+}
+.Modal__content--1s5QK {
+  padding: 0;
+}
+.Modal__back--qxUn_ {
+  cursor: pointer;
+  margin-right: 1.25rem;
+  margin-left: -0.25rem;
+  font-size: 1.5rem;
+}
+.Radio--3tqCH {
+  margin-bottom: 0;
+  min-height: 1rem;
+  width: 1rem;
+}
+.Divider--2dRZM {
+  margin-top: 0.5rem;
+}
+
 @-moz-keyframes spin--2iWsM {
   from {
     transform: rotate(0deg);
@@ -19503,17 +20379,86 @@ html {
 .u-overlay {
   color: var(--overlay) !important;
 }
+.u-zircon {
+  color: var(--zircon) !important;
+}
+.u-frenchPass {
+  color: var(--frenchPass) !important;
+}
 .u-dodgerBlue {
   color: var(--dodgerBlue) !important;
 }
-.u-lightishPurple {
-  color: var(--lightishPurple) !important;
+.u-scienceBlue {
+  color: var(--scienceBlue) !important;
+}
+.u-puertoRico {
+  color: var(--puertoRico) !important;
+}
+.u-grannyApple {
+  color: var(--grannyApple) !important;
+}
+.u-emerald {
+  color: var(--emerald) !important;
+}
+.u-malachite {
+  color: var(--malachite) !important;
+}
+.u-seafoamGreen {
+  color: var(--seafoamGreen) !important;
+}
+.u-brightSun {
+  color: var(--brightSun) !important;
+}
+.u-texasRose {
+  color: var(--texasRose) !important;
+}
+.u-chablis {
+  color: var(--chablis) !important;
+}
+.u-yourPink {
+  color: var(--yourPink) !important;
+}
+.u-fuchsia {
+  color: var(--fuchsia) !important;
+}
+.u-pomegranate {
+  color: var(--pomegranate) !important;
 }
 .u-monza {
   color: var(--monza) !important;
 }
-.u-pomegranate {
-  color: var(--pomegranate) !important;
+.u-portage {
+  color: var(--portage) !important;
+}
+.u-azure {
+  color: var(--azure) !important;
+}
+.u-melon {
+  color: var(--melon) !important;
+}
+.u-blazeOrange {
+  color: var(--blazeOrange) !important;
+}
+.u-mango {
+  color: var(--mango) !important;
+}
+.u-pumpkinOrange {
+  color: var(--pumpkinOrange) !important;
+}
+.u-lavender {
+  color: var(--lavender) !important;
+}
+.u-darkPeriwinkle {
+  color: var(--darkPeriwinkle) !important;
+}
+.u-purpley {
+  color: var(--purpley) !important;
+}
+.u-lightishPurple {
+  color: var(--lightishPurple) !important;
+}
+.u-barney {
+  color: var(--barney) !important;
 }
 .u-weirdGreen {
   color: var(--weirdGreen) !important;
@@ -19940,51 +20885,6 @@ html {
 @media (max-width: 48rem) {
 }
 
-.Row--3QHF1 {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-  border-bottom: 1px solid var(--silver);
-}
-.Row--3QHF1:hover {
-  background-color: var(--paleGrey);
-  cursor: pointer;
-}
-.Row--3QHF1:last-child {
-  border-bottom: 0;
-}
-.Row__selected--3LoOa {
-  font-weight: bold;
-}
-.Row__caption--137a0 {
-  font-weight: normal;
-}
-.Modal__title--2bWBK {
-  border-bottom: 1px solid var(--silver);
-  margin-bottom: 0;
-  padding-top: 1rem;
-}
-.Modal__title--2bWBK h2 {
-  font-size: 1.25rem;
-}
-.Modal__content--1s5QK {
-  padding: 0;
-}
-.Modal__back--qxUn_ {
-  cursor: pointer;
-  margin-right: 1.25rem;
-  margin-left: -0.25rem;
-  font-size: 1.5rem;
-}
-.Radio--3tqCH {
-  margin-bottom: 0;
-  min-height: 1rem;
-  width: 1rem;
-}
-.Divider--2dRZM {
-  border-bottom: 1px solid var(--silver);
-  height: 0.5rem;
-}
-
 .media--cSJMp {
   display: flex;
   align-items: center;
@@ -20002,18 +20902,6 @@ html {
 .img--3SHpG {
   line-height: 0;
   flex: 0 0 auto;
-}
-
-.CompositeRow--3KCwt {
-  min-height: 3rem;
-  padding: 1rem;
-}
-.CompositeRow__dense--3EPKf {
-  padding-top: 0;
-  padding-bottom: 0;
-}
-.CompositeRow__body--3nEEv > * + * {
-  margin-top: 2px;
 }
 
 .Hero--14z7_ {
@@ -20422,17 +21310,86 @@ body {
 .u-overlay {
   color: var(--overlay) !important;
 }
+.u-zircon {
+  color: var(--zircon) !important;
+}
+.u-frenchPass {
+  color: var(--frenchPass) !important;
+}
 .u-dodgerBlue {
   color: var(--dodgerBlue) !important;
 }
-.u-lightishPurple {
-  color: var(--lightishPurple) !important;
+.u-scienceBlue {
+  color: var(--scienceBlue) !important;
+}
+.u-puertoRico {
+  color: var(--puertoRico) !important;
+}
+.u-grannyApple {
+  color: var(--grannyApple) !important;
+}
+.u-emerald {
+  color: var(--emerald) !important;
+}
+.u-malachite {
+  color: var(--malachite) !important;
+}
+.u-seafoamGreen {
+  color: var(--seafoamGreen) !important;
+}
+.u-brightSun {
+  color: var(--brightSun) !important;
+}
+.u-texasRose {
+  color: var(--texasRose) !important;
+}
+.u-chablis {
+  color: var(--chablis) !important;
+}
+.u-yourPink {
+  color: var(--yourPink) !important;
+}
+.u-fuchsia {
+  color: var(--fuchsia) !important;
+}
+.u-pomegranate {
+  color: var(--pomegranate) !important;
 }
 .u-monza {
   color: var(--monza) !important;
 }
-.u-pomegranate {
-  color: var(--pomegranate) !important;
+.u-portage {
+  color: var(--portage) !important;
+}
+.u-azure {
+  color: var(--azure) !important;
+}
+.u-melon {
+  color: var(--melon) !important;
+}
+.u-blazeOrange {
+  color: var(--blazeOrange) !important;
+}
+.u-mango {
+  color: var(--mango) !important;
+}
+.u-pumpkinOrange {
+  color: var(--pumpkinOrange) !important;
+}
+.u-lavender {
+  color: var(--lavender) !important;
+}
+.u-darkPeriwinkle {
+  color: var(--darkPeriwinkle) !important;
+}
+.u-purpley {
+  color: var(--purpley) !important;
+}
+.u-lightishPurple {
+  color: var(--lightishPurple) !important;
+}
+.u-barney {
+  color: var(--barney) !important;
 }
 .u-weirdGreen {
   color: var(--weirdGreen) !important;
@@ -20955,6 +21912,7 @@ html {
     Stylus: charcoalGrey -  #32363F, CSS: var(--charcoalGrey)
     Stylus: black        -  #000000, CSS: var(--black)
 
+    Weight: -1
 
     Styleguide Settings.colors.grey
     */
@@ -20970,34 +21928,56 @@ html {
     Blue
 
     Stylus: zircon       -  #F5FAFF, CSS: var(--zircon)
+    Stylus: hawkesBlue   -  #EEF5FE, CSS: var(--hawkesBlue)
+    Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
+    Stylus: azure        -  #1FA8F1, CSS: var(--azure)
     Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
     Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
+    Stylus: puertoRico   -  #0DCBCF, CSS: var(--puertoRico)
 
     Styleguide Settings.colors.blue
     */
   --zircon: #f5faff;
+  --hawkesBlue: #eef5fe;
+  --frenchPass: #c2dcff;
+  --azure: #1fa8f1;
   --dodgerBlue: #297ef2;
   --scienceBlue: #0b61d6;
+  --puertoRico: #0dcbcf;
 /*
     Green
 
+    Stylus: grannyApple  - #DEF7E7, CSS: var(--grannyApple)
     Stylus: weirdGreen   - #40DE8E, CSS: var(--weirdGreen)
     Stylus: emerald      - #35CE68, CSS: var(--emerald)
     Stylus: malachite    - #08b442, CSS: var(--malachite)
+    Stylus: seafoamGreen - #3DA67E, CSS: var(--seafoamGreen)
 
     Styleguide Settings.colors.green
     */
+  --grannyApple: #def7e7;
   --weirdGreen: #40de8e;
   --emerald: #35ce68;
   --malachite: #08b442;
+  --seafoamGreen: #3da67e;
 /*
     Orange
 
+    Stylus: brightSun     - #FFC644, CSS: var(--brightSun)
+    Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
     Stylus: mango         - #FF962F, CSS: var(--mango)
+    Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
+    Stylus: blazeOrange   - #FC6D00, CSS: var(--blazeOrange)
+    Stylus: melon         - #FD7461, CSS: var(--melon)
 
     Styleguide Settings.colors.orange
     */
+  --brightSun: #ffc644;
+  --texasRose: #ffae5f;
   --mango: #ff962f;
+  --pumpkinOrange: #ff7f1b;
+  --blazeOrange: #fc6d00;
+  --melon: #fd7461;
 /*
     Red
 
@@ -21014,9 +21994,31 @@ html {
   --fuchsia: #fc4c83;
   --pomegranate: #f52d2d;
   --monza: #dd0505;
-}
-html,
-.CozyTheme--normal--1G-Us {
+/*
+    Purple
+
+    Stylus: lavender       - #C2ADF4, CSS: var(--lavender)
+    Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
+    Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
+    Stylus: portage        - #9169F2, CSS: var(--portage)
+    Stylus: lightishPurple - #B449E7, CSS: var(--lightishPurple)
+    Stylus: barney         - #922BC2, CSS: var(--barney)
+
+    Styleguide Settings.colors.purple
+    */
+  --lavender: #c2adf4;
+  --darkPeriwinkle: #6984ce;
+  --purpley: #7f6bee;
+  --portage: #9169f2;
+  --lightishPurple: #b449e7;
+  --barney: #922bc2;
+/*
+        Theme
+
+        Colors theme used in the user interface. You can directly use the var name assiociated with its hexadecimal.
+
+        Styleguide Settings.theme
+    */
 /*
     Primary
 
@@ -21029,77 +22031,24 @@ html,
 
     Styleguide Settings.theme.primary
     */
+}
+html,
+.CozyTheme--normal--1G-Us {
   --primaryColor: #297ef2;
   --primaryColorDark: #0b61d6;
   --primaryColorLight: #5c9df5;
   --primaryColorLighter: #4b93f7;
   --primaryColorLightest: #9fc4fb;
-/*
-    Secondary
-
-    Stylus: secondaryColor   - #fd7461, CSS: var(--secondaryColor)
-    Stylus: secondaryColorDark   - #E3503B, CSS: var(--secondaryColorDark)
-    Stylus: secondaryColorLight   - #ffdeda, CSS: var(--secondaryColorLight)
-    Stylus: secondaryColorLighter   - #fd7461, CSS: var(--secondaryColorLighter)
-    Stylus: secondaryColorLightest   - #FECDC6, CSS: var(--secondaryColorLightest)
-
-    Styleguide Settings.theme.secondary
-    */
   --secondaryColor: #fd7461;
   --secondaryColorDark: #e3503b;
   --secondaryColorLight: #ffdeda;
   --secondaryColorLighter: #fd7461;
   --secondaryColorLightest: #fecdc6;
-/*
-    Background colors
-
-    Stylus: primaryBackgroundLight -  #F5FAFF, CSS: var(--primaryBackgroundLight)
-    Stylus: paperBackgroundColor -  #FFF, CSS: var(--paperBackgroundColor)
-    Stylus: defaultBackgroundColor -  #F5F6F7, CSS: var(--defaultBackgroundColor)
-
-    Styleguide Settings.theme.background
-    */
-  --primaryBackgroundLight: #f5faff;
-  --paperBackgroundColor: #fff;
-  --defaultBackgroundColor: #f5f6f7;
-/*
-    Text colors
-
-    Stylus: primaryTextColor -  #32363F, CSS: var(--primaryTextColor)
-    Stylus: secondaryTextColor - #95999D, CSS: var(--secondaryTextColor)
-    Stylus: primaryContrastTextColor -  #FFF, CSS: var(--primaryContrastTextColor)
-    Stylus: primaryContrastTextColor -  #FFF, CSS(--secondaryContrastTextColor)
-
-    Styleguide Settings.theme.text
-    */
-  --primaryTextColor: #32363f;
-  --secondaryTextColor: #95999d;
+  --primaryBackgroundLight: var(--zircon);
+  --primaryTextColor: var(--charcoalGrey);
+  --secondaryTextColor: var(--coolGrey);
   --primaryContrastTextColor: #fff;
   --secondaryContrastTextColor: #fff;
-/*
-    Components colors
-
-    Stylus: dividerColor -  #D6D8Da, CSS: var(--dividerColor)
-
-    Styleguide Settings.theme.components
-    */
-  --dividerColor: #d6d8da;
-/*
-    Intention colors
-
-    Stylus: validColor -  #35CE68, CSS: var(--validColor)
-    Stylus: warnColor -  #FF962F, CSS: var(--warnColor)
-    Stylus: dangerColor -  #F52D2D, CSS: var(--dangerColor)
-
-    Styleguide Settings.theme.intention
-    */
-  --validColor: #35ce68;
-  --warnColor: #ff962f;
-  --dangerColor: #f52d2d;
-/*
-    The CSS variables below are historic and we should strive not to
-    use them. Prefer to use directly semantic colors above.
-    */
   --spinnerColor: var(--primaryColor);
   --linkColor: var(--primaryColor);
   --linkTextDecoration: none;
@@ -21116,12 +22065,18 @@ html,
   --secondaryButtonSecondaryColor: var(--silver);
   --secondaryButtonActiveColor: var(--silver);
   --secondaryButtonContrastColor: var(--black);
+  --paperBackgroundColor: #fff;
+  --defaultBackgroundColor: var(--paleGrey);
+  --dividerColor: var(--silver);
   --dividerColor2: var(--coolGrey);
   --iconColor: currentColor;
   --textIconColor: var(--charcoalGrey);
   --actionMenuIconColor: var(--slateGrey);
   --errorColor: #f52d2d;
   --errorBackground: #fff2f2;
+  --validColor: #35ce68;
+  --warnColor: #ff962f;
+  --dangerColor: #f52d2d;
   --neutralBackground: var(--paleGrey);
   --buttonTextTransform: uppercase;
   --buttonBorderRadius: 0.125rem;
@@ -21354,6 +22309,7 @@ html {
     Stylus: charcoalGrey -  #32363F, CSS: var(--charcoalGrey)
     Stylus: black        -  #000000, CSS: var(--black)
 
+    Weight: -1
 
     Styleguide Settings.colors.grey
     */
@@ -21369,34 +22325,56 @@ html {
     Blue
 
     Stylus: zircon       -  #F5FAFF, CSS: var(--zircon)
+    Stylus: hawkesBlue   -  #EEF5FE, CSS: var(--hawkesBlue)
+    Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
+    Stylus: azure        -  #1FA8F1, CSS: var(--azure)
     Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
     Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
+    Stylus: puertoRico   -  #0DCBCF, CSS: var(--puertoRico)
 
     Styleguide Settings.colors.blue
     */
   --zircon: #f5faff;
+  --hawkesBlue: #eef5fe;
+  --frenchPass: #c2dcff;
+  --azure: #1fa8f1;
   --dodgerBlue: #297ef2;
   --scienceBlue: #0b61d6;
+  --puertoRico: #0dcbcf;
 /*
     Green
 
+    Stylus: grannyApple  - #DEF7E7, CSS: var(--grannyApple)
     Stylus: weirdGreen   - #40DE8E, CSS: var(--weirdGreen)
     Stylus: emerald      - #35CE68, CSS: var(--emerald)
     Stylus: malachite    - #08b442, CSS: var(--malachite)
+    Stylus: seafoamGreen - #3DA67E, CSS: var(--seafoamGreen)
 
     Styleguide Settings.colors.green
     */
+  --grannyApple: #def7e7;
   --weirdGreen: #40de8e;
   --emerald: #35ce68;
   --malachite: #08b442;
+  --seafoamGreen: #3da67e;
 /*
     Orange
 
+    Stylus: brightSun     - #FFC644, CSS: var(--brightSun)
+    Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
     Stylus: mango         - #FF962F, CSS: var(--mango)
+    Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
+    Stylus: blazeOrange   - #FC6D00, CSS: var(--blazeOrange)
+    Stylus: melon         - #FD7461, CSS: var(--melon)
 
     Styleguide Settings.colors.orange
     */
+  --brightSun: #ffc644;
+  --texasRose: #ffae5f;
   --mango: #ff962f;
+  --pumpkinOrange: #ff7f1b;
+  --blazeOrange: #fc6d00;
+  --melon: #fd7461;
 /*
     Red
 
@@ -21413,9 +22391,31 @@ html {
   --fuchsia: #fc4c83;
   --pomegranate: #f52d2d;
   --monza: #dd0505;
-}
-html,
-.CozyTheme--normal--GUFJ5 {
+/*
+    Purple
+
+    Stylus: lavender       - #C2ADF4, CSS: var(--lavender)
+    Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
+    Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
+    Stylus: portage        - #9169F2, CSS: var(--portage)
+    Stylus: lightishPurple - #B449E7, CSS: var(--lightishPurple)
+    Stylus: barney         - #922BC2, CSS: var(--barney)
+
+    Styleguide Settings.colors.purple
+    */
+  --lavender: #c2adf4;
+  --darkPeriwinkle: #6984ce;
+  --purpley: #7f6bee;
+  --portage: #9169f2;
+  --lightishPurple: #b449e7;
+  --barney: #922bc2;
+/*
+        Theme
+
+        Colors theme used in the user interface. You can directly use the var name assiociated with its hexadecimal.
+
+        Styleguide Settings.theme
+    */
 /*
     Primary
 
@@ -21428,77 +22428,24 @@ html,
 
     Styleguide Settings.theme.primary
     */
+}
+html,
+.CozyTheme--normal--GUFJ5 {
   --primaryColor: #297ef2;
   --primaryColorDark: #0b61d6;
   --primaryColorLight: #5c9df5;
   --primaryColorLighter: #4b93f7;
   --primaryColorLightest: #9fc4fb;
-/*
-    Secondary
-
-    Stylus: secondaryColor   - #fd7461, CSS: var(--secondaryColor)
-    Stylus: secondaryColorDark   - #E3503B, CSS: var(--secondaryColorDark)
-    Stylus: secondaryColorLight   - #ffdeda, CSS: var(--secondaryColorLight)
-    Stylus: secondaryColorLighter   - #fd7461, CSS: var(--secondaryColorLighter)
-    Stylus: secondaryColorLightest   - #FECDC6, CSS: var(--secondaryColorLightest)
-
-    Styleguide Settings.theme.secondary
-    */
   --secondaryColor: #fd7461;
   --secondaryColorDark: #e3503b;
   --secondaryColorLight: #ffdeda;
   --secondaryColorLighter: #fd7461;
   --secondaryColorLightest: #fecdc6;
-/*
-    Background colors
-
-    Stylus: primaryBackgroundLight -  #F5FAFF, CSS: var(--primaryBackgroundLight)
-    Stylus: paperBackgroundColor -  #FFF, CSS: var(--paperBackgroundColor)
-    Stylus: defaultBackgroundColor -  #F5F6F7, CSS: var(--defaultBackgroundColor)
-
-    Styleguide Settings.theme.background
-    */
-  --primaryBackgroundLight: #f5faff;
-  --paperBackgroundColor: #fff;
-  --defaultBackgroundColor: #f5f6f7;
-/*
-    Text colors
-
-    Stylus: primaryTextColor -  #32363F, CSS: var(--primaryTextColor)
-    Stylus: secondaryTextColor - #95999D, CSS: var(--secondaryTextColor)
-    Stylus: primaryContrastTextColor -  #FFF, CSS: var(--primaryContrastTextColor)
-    Stylus: primaryContrastTextColor -  #FFF, CSS(--secondaryContrastTextColor)
-
-    Styleguide Settings.theme.text
-    */
-  --primaryTextColor: #32363f;
-  --secondaryTextColor: #95999d;
+  --primaryBackgroundLight: var(--zircon);
+  --primaryTextColor: var(--charcoalGrey);
+  --secondaryTextColor: var(--coolGrey);
   --primaryContrastTextColor: #fff;
   --secondaryContrastTextColor: #fff;
-/*
-    Components colors
-
-    Stylus: dividerColor -  #D6D8Da, CSS: var(--dividerColor)
-
-    Styleguide Settings.theme.components
-    */
-  --dividerColor: #d6d8da;
-/*
-    Intention colors
-
-    Stylus: validColor -  #35CE68, CSS: var(--validColor)
-    Stylus: warnColor -  #FF962F, CSS: var(--warnColor)
-    Stylus: dangerColor -  #F52D2D, CSS: var(--dangerColor)
-
-    Styleguide Settings.theme.intention
-    */
-  --validColor: #35ce68;
-  --warnColor: #ff962f;
-  --dangerColor: #f52d2d;
-/*
-    The CSS variables below are historic and we should strive not to
-    use them. Prefer to use directly semantic colors above.
-    */
   --spinnerColor: var(--primaryColor);
   --linkColor: var(--primaryColor);
   --linkTextDecoration: none;
@@ -21515,12 +22462,18 @@ html,
   --secondaryButtonSecondaryColor: var(--silver);
   --secondaryButtonActiveColor: var(--silver);
   --secondaryButtonContrastColor: var(--black);
+  --paperBackgroundColor: #fff;
+  --defaultBackgroundColor: var(--paleGrey);
+  --dividerColor: var(--silver);
   --dividerColor2: var(--coolGrey);
   --iconColor: currentColor;
   --textIconColor: var(--charcoalGrey);
   --actionMenuIconColor: var(--slateGrey);
   --errorColor: #f52d2d;
   --errorBackground: #fff2f2;
+  --validColor: #35ce68;
+  --warnColor: #ff962f;
+  --dangerColor: #f52d2d;
   --neutralBackground: var(--paleGrey);
   --buttonTextTransform: uppercase;
   --buttonBorderRadius: 0.125rem;
@@ -21814,17 +22767,86 @@ html,
 .u-overlay {
   color: var(--overlay) !important;
 }
+.u-zircon {
+  color: var(--zircon) !important;
+}
+.u-frenchPass {
+  color: var(--frenchPass) !important;
+}
 .u-dodgerBlue {
   color: var(--dodgerBlue) !important;
 }
-.u-lightishPurple {
-  color: var(--lightishPurple) !important;
+.u-scienceBlue {
+  color: var(--scienceBlue) !important;
+}
+.u-puertoRico {
+  color: var(--puertoRico) !important;
+}
+.u-grannyApple {
+  color: var(--grannyApple) !important;
+}
+.u-emerald {
+  color: var(--emerald) !important;
+}
+.u-malachite {
+  color: var(--malachite) !important;
+}
+.u-seafoamGreen {
+  color: var(--seafoamGreen) !important;
+}
+.u-brightSun {
+  color: var(--brightSun) !important;
+}
+.u-texasRose {
+  color: var(--texasRose) !important;
+}
+.u-chablis {
+  color: var(--chablis) !important;
+}
+.u-yourPink {
+  color: var(--yourPink) !important;
+}
+.u-fuchsia {
+  color: var(--fuchsia) !important;
+}
+.u-pomegranate {
+  color: var(--pomegranate) !important;
 }
 .u-monza {
   color: var(--monza) !important;
 }
-.u-pomegranate {
-  color: var(--pomegranate) !important;
+.u-portage {
+  color: var(--portage) !important;
+}
+.u-azure {
+  color: var(--azure) !important;
+}
+.u-melon {
+  color: var(--melon) !important;
+}
+.u-blazeOrange {
+  color: var(--blazeOrange) !important;
+}
+.u-mango {
+  color: var(--mango) !important;
+}
+.u-pumpkinOrange {
+  color: var(--pumpkinOrange) !important;
+}
+.u-lavender {
+  color: var(--lavender) !important;
+}
+.u-darkPeriwinkle {
+  color: var(--darkPeriwinkle) !important;
+}
+.u-purpley {
+  color: var(--purpley) !important;
+}
+.u-lightishPurple {
+  color: var(--lightishPurple) !important;
+}
+.u-barney {
+  color: var(--barney) !important;
 }
 .u-weirdGreen {
   color: var(--weirdGreen) !important;
@@ -22217,253 +23239,6 @@ html {
   }
 }
 
-html {
-/*
-    Grey
-
-    Stylus: white        -  #FFFFFF, CSS: var(--white)
-    Stylus: paleGrey     -  #F5F6F7, CSS: var(--paleGrey)
-    Stylus: silver       -  #D6D8Da, CSS: var(--silver)
-    Stylus: coolGrey     -  #95999D, CSS: var(--coolGrey)
-    Stylus: slateGrey    -  #5D6165, CSS: var(--slateGrey)
-    Stylus: charcoalGrey -  #32363F, CSS: var(--charcoalGrey)
-    Stylus: black        -  #000000, CSS: var(--black)
-
-
-    Styleguide Settings.colors.grey
-    */
-  --white: #fff;
-  --paleGrey: #f5f6f7;
-  --silver: #d6d8da;
-  --coolGrey: #95999d;
-  --slateGrey: #5d6165;
-  --charcoalGrey: #32363f;
-  --black: #000;
-  --overlay: rgba(50,54,63,0.5);
-/*
-    Blue
-
-    Stylus: zircon       -  #F5FAFF, CSS: var(--zircon)
-    Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
-    Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
-
-    Styleguide Settings.colors.blue
-    */
-  --zircon: #f5faff;
-  --dodgerBlue: #297ef2;
-  --scienceBlue: #0b61d6;
-/*
-    Green
-
-    Stylus: weirdGreen   - #40DE8E, CSS: var(--weirdGreen)
-    Stylus: emerald      - #35CE68, CSS: var(--emerald)
-    Stylus: malachite    - #08b442, CSS: var(--malachite)
-
-    Styleguide Settings.colors.green
-    */
-  --weirdGreen: #40de8e;
-  --emerald: #35ce68;
-  --malachite: #08b442;
-/*
-    Orange
-
-    Stylus: mango         - #FF962F, CSS: var(--mango)
-
-    Styleguide Settings.colors.orange
-    */
-  --mango: #ff962f;
-/*
-    Red
-
-    Stylus: chablis      - #FFF2F2, CSS: var(--chablis)
-    Stylus: yourPink     - #FDCBCB, CSS: var(--yourPink)
-    Stylus: fuchsia      - #FC4C83, CSS: var(--fuchsia)
-    Stylus: pomegranate  - #F52D2D, CSS: var(--pomegranate)
-    Stylus: monza        - #DD0505, CSS: var(--monza)
-
-    Styleguide Settings.colors.red
-    */
-  --chablis: #fff2f2;
-  --yourPink: #fdcbcb;
-  --fuchsia: #fc4c83;
-  --pomegranate: #f52d2d;
-  --monza: #dd0505;
-}
-html,
-.CozyTheme--normal--2_Ftf {
-/*
-    Primary
-
-    Stylus: primaryColor             - #297EF2, CSS: var(--primaryColor)
-    Stylus: primaryColorDark         - #0B61D6, CSS: var(--primaryColorDark)
-    Stylus: primaryColorLight        - #5C9DF5, CSS: var(--primaryColorLight)
-    Stylus: primaryColorLighter      - #4B93F7, CSS: var(--primaryColorLighter)
-    Stylus: primaryColorLightest     - #9FC4FB, CSS: var(--primaryColorLightest)
-    Stylus: primaryContrastTextColor - #FFFFFF, CSS: var(--primaryContrastTextColor)
-
-    Styleguide Settings.theme.primary
-    */
-  --primaryColor: #297ef2;
-  --primaryColorDark: #0b61d6;
-  --primaryColorLight: #5c9df5;
-  --primaryColorLighter: #4b93f7;
-  --primaryColorLightest: #9fc4fb;
-/*
-    Secondary
-
-    Stylus: secondaryColor   - #fd7461, CSS: var(--secondaryColor)
-    Stylus: secondaryColorDark   - #E3503B, CSS: var(--secondaryColorDark)
-    Stylus: secondaryColorLight   - #ffdeda, CSS: var(--secondaryColorLight)
-    Stylus: secondaryColorLighter   - #fd7461, CSS: var(--secondaryColorLighter)
-    Stylus: secondaryColorLightest   - #FECDC6, CSS: var(--secondaryColorLightest)
-
-    Styleguide Settings.theme.secondary
-    */
-  --secondaryColor: #fd7461;
-  --secondaryColorDark: #e3503b;
-  --secondaryColorLight: #ffdeda;
-  --secondaryColorLighter: #fd7461;
-  --secondaryColorLightest: #fecdc6;
-/*
-    Background colors
-
-    Stylus: primaryBackgroundLight -  #F5FAFF, CSS: var(--primaryBackgroundLight)
-    Stylus: paperBackgroundColor -  #FFF, CSS: var(--paperBackgroundColor)
-    Stylus: defaultBackgroundColor -  #F5F6F7, CSS: var(--defaultBackgroundColor)
-
-    Styleguide Settings.theme.background
-    */
-  --primaryBackgroundLight: #f5faff;
-  --paperBackgroundColor: #fff;
-  --defaultBackgroundColor: #f5f6f7;
-/*
-    Text colors
-
-    Stylus: primaryTextColor -  #32363F, CSS: var(--primaryTextColor)
-    Stylus: secondaryTextColor - #95999D, CSS: var(--secondaryTextColor)
-    Stylus: primaryContrastTextColor -  #FFF, CSS: var(--primaryContrastTextColor)
-    Stylus: primaryContrastTextColor -  #FFF, CSS(--secondaryContrastTextColor)
-
-    Styleguide Settings.theme.text
-    */
-  --primaryTextColor: #32363f;
-  --secondaryTextColor: #95999d;
-  --primaryContrastTextColor: #fff;
-  --secondaryContrastTextColor: #fff;
-/*
-    Components colors
-
-    Stylus: dividerColor -  #D6D8Da, CSS: var(--dividerColor)
-
-    Styleguide Settings.theme.components
-    */
-  --dividerColor: #d6d8da;
-/*
-    Intention colors
-
-    Stylus: validColor -  #35CE68, CSS: var(--validColor)
-    Stylus: warnColor -  #FF962F, CSS: var(--warnColor)
-    Stylus: dangerColor -  #F52D2D, CSS: var(--dangerColor)
-
-    Styleguide Settings.theme.intention
-    */
-  --validColor: #35ce68;
-  --warnColor: #ff962f;
-  --dangerColor: #f52d2d;
-/*
-    The CSS variables below are historic and we should strive not to
-    use them. Prefer to use directly semantic colors above.
-    */
-  --spinnerColor: var(--primaryColor);
-  --linkColor: var(--primaryColor);
-  --linkTextDecoration: none;
-  --linkColorActive: var(--primaryColorDark);
-  --invertedTabsActiveTextColor: var(--primaryContrastTextColor);
-  --invertedTabsInactiveTextColor: var(--primaryContrastTextColor);
-  --invertedTabsIndicatorColor: var(--primaryContrastTextColor);
-  --invertedTabsBackgroundColor: var(--primaryColor);
-  --regularButtonPrimaryColor: var(--primaryColor);
-  --regularButtonSecondaryColor: var(--primaryColor);
-  --regularButtonActiveColor: var(--primaryColorDark);
-  --regularButtonConstrastColor: var(--primaryContrastTextColor);
-  --secondaryButtonPrimaryColor: #fff;
-  --secondaryButtonSecondaryColor: var(--silver);
-  --secondaryButtonActiveColor: var(--silver);
-  --secondaryButtonContrastColor: var(--black);
-  --dividerColor2: var(--coolGrey);
-  --iconColor: currentColor;
-  --textIconColor: var(--charcoalGrey);
-  --actionMenuIconColor: var(--slateGrey);
-  --errorColor: #f52d2d;
-  --errorBackground: #fff2f2;
-  --neutralBackground: var(--paleGrey);
-  --buttonTextTransform: uppercase;
-  --buttonBorderRadius: 0.125rem;
-  --navTextColor: var(--slateGrey);
-  --navTextActiveColor: var(--slateGrey);
-  --navTextHoverColor: var(--charcoalGrey);
-  --alertErrorColor: #fff;
-  --alertErrorBackgroundColor: var(--errorColor);
-  --alertSuccessColor: #fff;
-  --alertSuccessBackgroundColor: var(--validColor);
-  --alertInfoColor: #fff;
-  --alertInfoBackgroundColor: var(--slateGrey);
-}
-.c-accordion--1VRom {
-  padding: 0;
-}
-.c-accordion-item--1gCyn {
-  border-bottom: 0.063rem solid var(--dividerColor);
-  font-size: 1rem;
-}
-.c-accordion-title--7jntH {
-  display: flex;
-  align-items: center;
-  line-height: 2;
-  color: var(--slateGrey);
-  cursor: pointer;
-  outline: 0;
-  padding: 0.5rem 0;
-}
-.c-accordion-title--7jntH:hover,
-.c-accordion-title--7jntH:focus {
-  color: var(--charcoalGrey);
-}
-.c-accordion-title--7jntH:hover svg,
-.c-accordion-title--7jntH:focus svg {
-  fill: var(--slateGrey);
-}
-.c-accordion-title--7jntH svg {
-  margin-right: 0.25rem;
-  transform: rotate(0);
-  transition: transform 300ms ease;
-  fill: var(--coolGrey);
-}
-.c-accordion-title--7jntH.is-active--1LQKA {
-  color: var(--charcoalGrey);
-}
-.c-accordion-title--7jntH.is-active--1LQKA svg {
-  transform: rotate(90deg);
-  fill: var(--coolGrey);
-}
-.c-accordion-body--2twhs {
-  height: auto;
-  max-height: 0;
-  overflow: hidden;
-  line-height: 1.3;
-  color: var(--charcoalGrey);
-  transition: max-height 300ms ease-out;
-}
-.c-accordion-body--2twhs:after {
-  content: '';
-  display: block;
-  height: 0.5rem;
-}
-.c-accordion-body--2twhs.is-active--1LQKA {
-  max-height: 600px;
-  transition: max-height 300ms ease-in;
-}
-
 .c-apptitle--eqV9l {
   display: inline-flex;
   align-items: center;
@@ -22589,6 +23364,33 @@ html {
   right: 0;
   width: 100%;
   margin: 0;
+}
+
+html {
+  --zIndex-below: -1;
+  --zIndex-app: 0;
+  --zIndex-low: 1;
+  --zIndex-alertMobile: 10;
+  --zIndex-nav: 20;
+  --zIndex-bar: 21;
+  --zIndex-selection: 30;
+  --zIndex-popover: 40;
+  --zIndex-overlay: 50;
+  --zIndex-fileActionMenu: 60;
+  --zIndex-drawer: 60;
+  --zIndex-modal: 70;
+  --zindex-alert: 80;
+}
+.c-overlay--31iWd {
+  z-index: 50;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: var(--overlay);
+  visibility: visible;
+  transition: opacity 0.3s, visibility 0s ease-out;
 }
 
 html {
@@ -22940,17 +23742,86 @@ body {
 .u-overlay {
   color: var(--overlay) !important;
 }
+.u-zircon {
+  color: var(--zircon) !important;
+}
+.u-frenchPass {
+  color: var(--frenchPass) !important;
+}
 .u-dodgerBlue {
   color: var(--dodgerBlue) !important;
 }
-.u-lightishPurple {
-  color: var(--lightishPurple) !important;
+.u-scienceBlue {
+  color: var(--scienceBlue) !important;
+}
+.u-puertoRico {
+  color: var(--puertoRico) !important;
+}
+.u-grannyApple {
+  color: var(--grannyApple) !important;
+}
+.u-emerald {
+  color: var(--emerald) !important;
+}
+.u-malachite {
+  color: var(--malachite) !important;
+}
+.u-seafoamGreen {
+  color: var(--seafoamGreen) !important;
+}
+.u-brightSun {
+  color: var(--brightSun) !important;
+}
+.u-texasRose {
+  color: var(--texasRose) !important;
+}
+.u-chablis {
+  color: var(--chablis) !important;
+}
+.u-yourPink {
+  color: var(--yourPink) !important;
+}
+.u-fuchsia {
+  color: var(--fuchsia) !important;
+}
+.u-pomegranate {
+  color: var(--pomegranate) !important;
 }
 .u-monza {
   color: var(--monza) !important;
 }
-.u-pomegranate {
-  color: var(--pomegranate) !important;
+.u-portage {
+  color: var(--portage) !important;
+}
+.u-azure {
+  color: var(--azure) !important;
+}
+.u-melon {
+  color: var(--melon) !important;
+}
+.u-blazeOrange {
+  color: var(--blazeOrange) !important;
+}
+.u-mango {
+  color: var(--mango) !important;
+}
+.u-pumpkinOrange {
+  color: var(--pumpkinOrange) !important;
+}
+.u-lavender {
+  color: var(--lavender) !important;
+}
+.u-darkPeriwinkle {
+  color: var(--darkPeriwinkle) !important;
+}
+.u-purpley {
+  color: var(--purpley) !important;
+}
+.u-lightishPurple {
+  color: var(--lightishPurple) !important;
+}
+.u-barney {
+  color: var(--barney) !important;
 }
 .u-weirdGreen {
   color: var(--weirdGreen) !important;
@@ -23406,6 +24277,16 @@ body {
     margin: 0.313rem 1.5rem 0;
   }
 }
+.c-empty-container--1LpH9 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1 0 auto;
+  align-self: center;
+  padding: 1rem 0;
+  text-align: center;
+  max-width: 100%;
+}
 
 .Figure-currency--195-B {
   color: var(--secondaryTextColor);
@@ -23490,6 +24371,7 @@ html {
     Stylus: charcoalGrey -  #32363F, CSS: var(--charcoalGrey)
     Stylus: black        -  #000000, CSS: var(--black)
 
+    Weight: -1
 
     Styleguide Settings.colors.grey
     */
@@ -23505,34 +24387,56 @@ html {
     Blue
 
     Stylus: zircon       -  #F5FAFF, CSS: var(--zircon)
+    Stylus: hawkesBlue   -  #EEF5FE, CSS: var(--hawkesBlue)
+    Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
+    Stylus: azure        -  #1FA8F1, CSS: var(--azure)
     Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
     Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
+    Stylus: puertoRico   -  #0DCBCF, CSS: var(--puertoRico)
 
     Styleguide Settings.colors.blue
     */
   --zircon: #f5faff;
+  --hawkesBlue: #eef5fe;
+  --frenchPass: #c2dcff;
+  --azure: #1fa8f1;
   --dodgerBlue: #297ef2;
   --scienceBlue: #0b61d6;
+  --puertoRico: #0dcbcf;
 /*
     Green
 
+    Stylus: grannyApple  - #DEF7E7, CSS: var(--grannyApple)
     Stylus: weirdGreen   - #40DE8E, CSS: var(--weirdGreen)
     Stylus: emerald      - #35CE68, CSS: var(--emerald)
     Stylus: malachite    - #08b442, CSS: var(--malachite)
+    Stylus: seafoamGreen - #3DA67E, CSS: var(--seafoamGreen)
 
     Styleguide Settings.colors.green
     */
+  --grannyApple: #def7e7;
   --weirdGreen: #40de8e;
   --emerald: #35ce68;
   --malachite: #08b442;
+  --seafoamGreen: #3da67e;
 /*
     Orange
 
+    Stylus: brightSun     - #FFC644, CSS: var(--brightSun)
+    Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
     Stylus: mango         - #FF962F, CSS: var(--mango)
+    Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
+    Stylus: blazeOrange   - #FC6D00, CSS: var(--blazeOrange)
+    Stylus: melon         - #FD7461, CSS: var(--melon)
 
     Styleguide Settings.colors.orange
     */
+  --brightSun: #ffc644;
+  --texasRose: #ffae5f;
   --mango: #ff962f;
+  --pumpkinOrange: #ff7f1b;
+  --blazeOrange: #fc6d00;
+  --melon: #fd7461;
 /*
     Red
 
@@ -23549,9 +24453,31 @@ html {
   --fuchsia: #fc4c83;
   --pomegranate: #f52d2d;
   --monza: #dd0505;
-}
-html,
-.CozyTheme--normal--3TP8j {
+/*
+    Purple
+
+    Stylus: lavender       - #C2ADF4, CSS: var(--lavender)
+    Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
+    Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
+    Stylus: portage        - #9169F2, CSS: var(--portage)
+    Stylus: lightishPurple - #B449E7, CSS: var(--lightishPurple)
+    Stylus: barney         - #922BC2, CSS: var(--barney)
+
+    Styleguide Settings.colors.purple
+    */
+  --lavender: #c2adf4;
+  --darkPeriwinkle: #6984ce;
+  --purpley: #7f6bee;
+  --portage: #9169f2;
+  --lightishPurple: #b449e7;
+  --barney: #922bc2;
+/*
+        Theme
+
+        Colors theme used in the user interface. You can directly use the var name assiociated with its hexadecimal.
+
+        Styleguide Settings.theme
+    */
 /*
     Primary
 
@@ -23564,77 +24490,24 @@ html,
 
     Styleguide Settings.theme.primary
     */
+}
+html,
+.CozyTheme--normal--3TP8j {
   --primaryColor: #297ef2;
   --primaryColorDark: #0b61d6;
   --primaryColorLight: #5c9df5;
   --primaryColorLighter: #4b93f7;
   --primaryColorLightest: #9fc4fb;
-/*
-    Secondary
-
-    Stylus: secondaryColor   - #fd7461, CSS: var(--secondaryColor)
-    Stylus: secondaryColorDark   - #E3503B, CSS: var(--secondaryColorDark)
-    Stylus: secondaryColorLight   - #ffdeda, CSS: var(--secondaryColorLight)
-    Stylus: secondaryColorLighter   - #fd7461, CSS: var(--secondaryColorLighter)
-    Stylus: secondaryColorLightest   - #FECDC6, CSS: var(--secondaryColorLightest)
-
-    Styleguide Settings.theme.secondary
-    */
   --secondaryColor: #fd7461;
   --secondaryColorDark: #e3503b;
   --secondaryColorLight: #ffdeda;
   --secondaryColorLighter: #fd7461;
   --secondaryColorLightest: #fecdc6;
-/*
-    Background colors
-
-    Stylus: primaryBackgroundLight -  #F5FAFF, CSS: var(--primaryBackgroundLight)
-    Stylus: paperBackgroundColor -  #FFF, CSS: var(--paperBackgroundColor)
-    Stylus: defaultBackgroundColor -  #F5F6F7, CSS: var(--defaultBackgroundColor)
-
-    Styleguide Settings.theme.background
-    */
-  --primaryBackgroundLight: #f5faff;
-  --paperBackgroundColor: #fff;
-  --defaultBackgroundColor: #f5f6f7;
-/*
-    Text colors
-
-    Stylus: primaryTextColor -  #32363F, CSS: var(--primaryTextColor)
-    Stylus: secondaryTextColor - #95999D, CSS: var(--secondaryTextColor)
-    Stylus: primaryContrastTextColor -  #FFF, CSS: var(--primaryContrastTextColor)
-    Stylus: primaryContrastTextColor -  #FFF, CSS(--secondaryContrastTextColor)
-
-    Styleguide Settings.theme.text
-    */
-  --primaryTextColor: #32363f;
-  --secondaryTextColor: #95999d;
+  --primaryBackgroundLight: var(--zircon);
+  --primaryTextColor: var(--charcoalGrey);
+  --secondaryTextColor: var(--coolGrey);
   --primaryContrastTextColor: #fff;
   --secondaryContrastTextColor: #fff;
-/*
-    Components colors
-
-    Stylus: dividerColor -  #D6D8Da, CSS: var(--dividerColor)
-
-    Styleguide Settings.theme.components
-    */
-  --dividerColor: #d6d8da;
-/*
-    Intention colors
-
-    Stylus: validColor -  #35CE68, CSS: var(--validColor)
-    Stylus: warnColor -  #FF962F, CSS: var(--warnColor)
-    Stylus: dangerColor -  #F52D2D, CSS: var(--dangerColor)
-
-    Styleguide Settings.theme.intention
-    */
-  --validColor: #35ce68;
-  --warnColor: #ff962f;
-  --dangerColor: #f52d2d;
-/*
-    The CSS variables below are historic and we should strive not to
-    use them. Prefer to use directly semantic colors above.
-    */
   --spinnerColor: var(--primaryColor);
   --linkColor: var(--primaryColor);
   --linkTextDecoration: none;
@@ -23651,12 +24524,18 @@ html,
   --secondaryButtonSecondaryColor: var(--silver);
   --secondaryButtonActiveColor: var(--silver);
   --secondaryButtonContrastColor: var(--black);
+  --paperBackgroundColor: #fff;
+  --defaultBackgroundColor: var(--paleGrey);
+  --dividerColor: var(--silver);
   --dividerColor2: var(--coolGrey);
   --iconColor: currentColor;
   --textIconColor: var(--charcoalGrey);
   --actionMenuIconColor: var(--slateGrey);
   --errorColor: #f52d2d;
   --errorBackground: #fff2f2;
+  --validColor: #35ce68;
+  --warnColor: #ff962f;
+  --dangerColor: #f52d2d;
   --neutralBackground: var(--paleGrey);
   --buttonTextTransform: uppercase;
   --buttonBorderRadius: 0.125rem;
@@ -23711,6 +24590,7 @@ html {
     Stylus: charcoalGrey -  #32363F, CSS: var(--charcoalGrey)
     Stylus: black        -  #000000, CSS: var(--black)
 
+    Weight: -1
 
     Styleguide Settings.colors.grey
     */
@@ -23726,34 +24606,56 @@ html {
     Blue
 
     Stylus: zircon       -  #F5FAFF, CSS: var(--zircon)
+    Stylus: hawkesBlue   -  #EEF5FE, CSS: var(--hawkesBlue)
+    Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
+    Stylus: azure        -  #1FA8F1, CSS: var(--azure)
     Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
     Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
+    Stylus: puertoRico   -  #0DCBCF, CSS: var(--puertoRico)
 
     Styleguide Settings.colors.blue
     */
   --zircon: #f5faff;
+  --hawkesBlue: #eef5fe;
+  --frenchPass: #c2dcff;
+  --azure: #1fa8f1;
   --dodgerBlue: #297ef2;
   --scienceBlue: #0b61d6;
+  --puertoRico: #0dcbcf;
 /*
     Green
 
+    Stylus: grannyApple  - #DEF7E7, CSS: var(--grannyApple)
     Stylus: weirdGreen   - #40DE8E, CSS: var(--weirdGreen)
     Stylus: emerald      - #35CE68, CSS: var(--emerald)
     Stylus: malachite    - #08b442, CSS: var(--malachite)
+    Stylus: seafoamGreen - #3DA67E, CSS: var(--seafoamGreen)
 
     Styleguide Settings.colors.green
     */
+  --grannyApple: #def7e7;
   --weirdGreen: #40de8e;
   --emerald: #35ce68;
   --malachite: #08b442;
+  --seafoamGreen: #3da67e;
 /*
     Orange
 
+    Stylus: brightSun     - #FFC644, CSS: var(--brightSun)
+    Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
     Stylus: mango         - #FF962F, CSS: var(--mango)
+    Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
+    Stylus: blazeOrange   - #FC6D00, CSS: var(--blazeOrange)
+    Stylus: melon         - #FD7461, CSS: var(--melon)
 
     Styleguide Settings.colors.orange
     */
+  --brightSun: #ffc644;
+  --texasRose: #ffae5f;
   --mango: #ff962f;
+  --pumpkinOrange: #ff7f1b;
+  --blazeOrange: #fc6d00;
+  --melon: #fd7461;
 /*
     Red
 
@@ -23770,9 +24672,31 @@ html {
   --fuchsia: #fc4c83;
   --pomegranate: #f52d2d;
   --monza: #dd0505;
-}
-html,
-.CozyTheme--normal--12Bhv {
+/*
+    Purple
+
+    Stylus: lavender       - #C2ADF4, CSS: var(--lavender)
+    Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
+    Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
+    Stylus: portage        - #9169F2, CSS: var(--portage)
+    Stylus: lightishPurple - #B449E7, CSS: var(--lightishPurple)
+    Stylus: barney         - #922BC2, CSS: var(--barney)
+
+    Styleguide Settings.colors.purple
+    */
+  --lavender: #c2adf4;
+  --darkPeriwinkle: #6984ce;
+  --purpley: #7f6bee;
+  --portage: #9169f2;
+  --lightishPurple: #b449e7;
+  --barney: #922bc2;
+/*
+        Theme
+
+        Colors theme used in the user interface. You can directly use the var name assiociated with its hexadecimal.
+
+        Styleguide Settings.theme
+    */
 /*
     Primary
 
@@ -23785,77 +24709,24 @@ html,
 
     Styleguide Settings.theme.primary
     */
+}
+html,
+.CozyTheme--normal--12Bhv {
   --primaryColor: #297ef2;
   --primaryColorDark: #0b61d6;
   --primaryColorLight: #5c9df5;
   --primaryColorLighter: #4b93f7;
   --primaryColorLightest: #9fc4fb;
-/*
-    Secondary
-
-    Stylus: secondaryColor   - #fd7461, CSS: var(--secondaryColor)
-    Stylus: secondaryColorDark   - #E3503B, CSS: var(--secondaryColorDark)
-    Stylus: secondaryColorLight   - #ffdeda, CSS: var(--secondaryColorLight)
-    Stylus: secondaryColorLighter   - #fd7461, CSS: var(--secondaryColorLighter)
-    Stylus: secondaryColorLightest   - #FECDC6, CSS: var(--secondaryColorLightest)
-
-    Styleguide Settings.theme.secondary
-    */
   --secondaryColor: #fd7461;
   --secondaryColorDark: #e3503b;
   --secondaryColorLight: #ffdeda;
   --secondaryColorLighter: #fd7461;
   --secondaryColorLightest: #fecdc6;
-/*
-    Background colors
-
-    Stylus: primaryBackgroundLight -  #F5FAFF, CSS: var(--primaryBackgroundLight)
-    Stylus: paperBackgroundColor -  #FFF, CSS: var(--paperBackgroundColor)
-    Stylus: defaultBackgroundColor -  #F5F6F7, CSS: var(--defaultBackgroundColor)
-
-    Styleguide Settings.theme.background
-    */
-  --primaryBackgroundLight: #f5faff;
-  --paperBackgroundColor: #fff;
-  --defaultBackgroundColor: #f5f6f7;
-/*
-    Text colors
-
-    Stylus: primaryTextColor -  #32363F, CSS: var(--primaryTextColor)
-    Stylus: secondaryTextColor - #95999D, CSS: var(--secondaryTextColor)
-    Stylus: primaryContrastTextColor -  #FFF, CSS: var(--primaryContrastTextColor)
-    Stylus: primaryContrastTextColor -  #FFF, CSS(--secondaryContrastTextColor)
-
-    Styleguide Settings.theme.text
-    */
-  --primaryTextColor: #32363f;
-  --secondaryTextColor: #95999d;
+  --primaryBackgroundLight: var(--zircon);
+  --primaryTextColor: var(--charcoalGrey);
+  --secondaryTextColor: var(--coolGrey);
   --primaryContrastTextColor: #fff;
   --secondaryContrastTextColor: #fff;
-/*
-    Components colors
-
-    Stylus: dividerColor -  #D6D8Da, CSS: var(--dividerColor)
-
-    Styleguide Settings.theme.components
-    */
-  --dividerColor: #d6d8da;
-/*
-    Intention colors
-
-    Stylus: validColor -  #35CE68, CSS: var(--validColor)
-    Stylus: warnColor -  #FF962F, CSS: var(--warnColor)
-    Stylus: dangerColor -  #F52D2D, CSS: var(--dangerColor)
-
-    Styleguide Settings.theme.intention
-    */
-  --validColor: #35ce68;
-  --warnColor: #ff962f;
-  --dangerColor: #f52d2d;
-/*
-    The CSS variables below are historic and we should strive not to
-    use them. Prefer to use directly semantic colors above.
-    */
   --spinnerColor: var(--primaryColor);
   --linkColor: var(--primaryColor);
   --linkTextDecoration: none;
@@ -23872,12 +24743,18 @@ html,
   --secondaryButtonSecondaryColor: var(--silver);
   --secondaryButtonActiveColor: var(--silver);
   --secondaryButtonContrastColor: var(--black);
+  --paperBackgroundColor: #fff;
+  --defaultBackgroundColor: var(--paleGrey);
+  --dividerColor: var(--silver);
   --dividerColor2: var(--coolGrey);
   --iconColor: currentColor;
   --textIconColor: var(--charcoalGrey);
   --actionMenuIconColor: var(--slateGrey);
   --errorColor: #f52d2d;
   --errorBackground: #fff2f2;
+  --validColor: #35ce68;
+  --warnColor: #ff962f;
+  --dangerColor: #f52d2d;
   --neutralBackground: var(--paleGrey);
   --buttonTextTransform: uppercase;
   --buttonBorderRadius: 0.125rem;
@@ -23928,6 +24805,7 @@ html {
     Stylus: charcoalGrey -  #32363F, CSS: var(--charcoalGrey)
     Stylus: black        -  #000000, CSS: var(--black)
 
+    Weight: -1
 
     Styleguide Settings.colors.grey
     */
@@ -23943,34 +24821,56 @@ html {
     Blue
 
     Stylus: zircon       -  #F5FAFF, CSS: var(--zircon)
+    Stylus: hawkesBlue   -  #EEF5FE, CSS: var(--hawkesBlue)
+    Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
+    Stylus: azure        -  #1FA8F1, CSS: var(--azure)
     Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
     Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
+    Stylus: puertoRico   -  #0DCBCF, CSS: var(--puertoRico)
 
     Styleguide Settings.colors.blue
     */
   --zircon: #f5faff;
+  --hawkesBlue: #eef5fe;
+  --frenchPass: #c2dcff;
+  --azure: #1fa8f1;
   --dodgerBlue: #297ef2;
   --scienceBlue: #0b61d6;
+  --puertoRico: #0dcbcf;
 /*
     Green
 
+    Stylus: grannyApple  - #DEF7E7, CSS: var(--grannyApple)
     Stylus: weirdGreen   - #40DE8E, CSS: var(--weirdGreen)
     Stylus: emerald      - #35CE68, CSS: var(--emerald)
     Stylus: malachite    - #08b442, CSS: var(--malachite)
+    Stylus: seafoamGreen - #3DA67E, CSS: var(--seafoamGreen)
 
     Styleguide Settings.colors.green
     */
+  --grannyApple: #def7e7;
   --weirdGreen: #40de8e;
   --emerald: #35ce68;
   --malachite: #08b442;
+  --seafoamGreen: #3da67e;
 /*
     Orange
 
+    Stylus: brightSun     - #FFC644, CSS: var(--brightSun)
+    Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
     Stylus: mango         - #FF962F, CSS: var(--mango)
+    Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
+    Stylus: blazeOrange   - #FC6D00, CSS: var(--blazeOrange)
+    Stylus: melon         - #FD7461, CSS: var(--melon)
 
     Styleguide Settings.colors.orange
     */
+  --brightSun: #ffc644;
+  --texasRose: #ffae5f;
   --mango: #ff962f;
+  --pumpkinOrange: #ff7f1b;
+  --blazeOrange: #fc6d00;
+  --melon: #fd7461;
 /*
     Red
 
@@ -23987,9 +24887,31 @@ html {
   --fuchsia: #fc4c83;
   --pomegranate: #f52d2d;
   --monza: #dd0505;
-}
-html,
-.CozyTheme--normal--3OxOO {
+/*
+    Purple
+
+    Stylus: lavender       - #C2ADF4, CSS: var(--lavender)
+    Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
+    Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
+    Stylus: portage        - #9169F2, CSS: var(--portage)
+    Stylus: lightishPurple - #B449E7, CSS: var(--lightishPurple)
+    Stylus: barney         - #922BC2, CSS: var(--barney)
+
+    Styleguide Settings.colors.purple
+    */
+  --lavender: #c2adf4;
+  --darkPeriwinkle: #6984ce;
+  --purpley: #7f6bee;
+  --portage: #9169f2;
+  --lightishPurple: #b449e7;
+  --barney: #922bc2;
+/*
+        Theme
+
+        Colors theme used in the user interface. You can directly use the var name assiociated with its hexadecimal.
+
+        Styleguide Settings.theme
+    */
 /*
     Primary
 
@@ -24002,77 +24924,24 @@ html,
 
     Styleguide Settings.theme.primary
     */
+}
+html,
+.CozyTheme--normal--3OxOO {
   --primaryColor: #297ef2;
   --primaryColorDark: #0b61d6;
   --primaryColorLight: #5c9df5;
   --primaryColorLighter: #4b93f7;
   --primaryColorLightest: #9fc4fb;
-/*
-    Secondary
-
-    Stylus: secondaryColor   - #fd7461, CSS: var(--secondaryColor)
-    Stylus: secondaryColorDark   - #E3503B, CSS: var(--secondaryColorDark)
-    Stylus: secondaryColorLight   - #ffdeda, CSS: var(--secondaryColorLight)
-    Stylus: secondaryColorLighter   - #fd7461, CSS: var(--secondaryColorLighter)
-    Stylus: secondaryColorLightest   - #FECDC6, CSS: var(--secondaryColorLightest)
-
-    Styleguide Settings.theme.secondary
-    */
   --secondaryColor: #fd7461;
   --secondaryColorDark: #e3503b;
   --secondaryColorLight: #ffdeda;
   --secondaryColorLighter: #fd7461;
   --secondaryColorLightest: #fecdc6;
-/*
-    Background colors
-
-    Stylus: primaryBackgroundLight -  #F5FAFF, CSS: var(--primaryBackgroundLight)
-    Stylus: paperBackgroundColor -  #FFF, CSS: var(--paperBackgroundColor)
-    Stylus: defaultBackgroundColor -  #F5F6F7, CSS: var(--defaultBackgroundColor)
-
-    Styleguide Settings.theme.background
-    */
-  --primaryBackgroundLight: #f5faff;
-  --paperBackgroundColor: #fff;
-  --defaultBackgroundColor: #f5f6f7;
-/*
-    Text colors
-
-    Stylus: primaryTextColor -  #32363F, CSS: var(--primaryTextColor)
-    Stylus: secondaryTextColor - #95999D, CSS: var(--secondaryTextColor)
-    Stylus: primaryContrastTextColor -  #FFF, CSS: var(--primaryContrastTextColor)
-    Stylus: primaryContrastTextColor -  #FFF, CSS(--secondaryContrastTextColor)
-
-    Styleguide Settings.theme.text
-    */
-  --primaryTextColor: #32363f;
-  --secondaryTextColor: #95999d;
+  --primaryBackgroundLight: var(--zircon);
+  --primaryTextColor: var(--charcoalGrey);
+  --secondaryTextColor: var(--coolGrey);
   --primaryContrastTextColor: #fff;
   --secondaryContrastTextColor: #fff;
-/*
-    Components colors
-
-    Stylus: dividerColor -  #D6D8Da, CSS: var(--dividerColor)
-
-    Styleguide Settings.theme.components
-    */
-  --dividerColor: #d6d8da;
-/*
-    Intention colors
-
-    Stylus: validColor -  #35CE68, CSS: var(--validColor)
-    Stylus: warnColor -  #FF962F, CSS: var(--warnColor)
-    Stylus: dangerColor -  #F52D2D, CSS: var(--dangerColor)
-
-    Styleguide Settings.theme.intention
-    */
-  --validColor: #35ce68;
-  --warnColor: #ff962f;
-  --dangerColor: #f52d2d;
-/*
-    The CSS variables below are historic and we should strive not to
-    use them. Prefer to use directly semantic colors above.
-    */
   --spinnerColor: var(--primaryColor);
   --linkColor: var(--primaryColor);
   --linkTextDecoration: none;
@@ -24089,12 +24958,18 @@ html,
   --secondaryButtonSecondaryColor: var(--silver);
   --secondaryButtonActiveColor: var(--silver);
   --secondaryButtonContrastColor: var(--black);
+  --paperBackgroundColor: #fff;
+  --defaultBackgroundColor: var(--paleGrey);
+  --dividerColor: var(--silver);
   --dividerColor2: var(--coolGrey);
   --iconColor: currentColor;
   --textIconColor: var(--charcoalGrey);
   --actionMenuIconColor: var(--slateGrey);
   --errorColor: #f52d2d;
   --errorBackground: #fff2f2;
+  --validColor: #35ce68;
+  --warnColor: #ff962f;
+  --dangerColor: #f52d2d;
   --neutralBackground: var(--paleGrey);
   --buttonTextTransform: uppercase;
   --buttonBorderRadius: 0.125rem;
@@ -24403,17 +25278,86 @@ html {
 .u-overlay {
   color: var(--overlay) !important;
 }
+.u-zircon {
+  color: var(--zircon) !important;
+}
+.u-frenchPass {
+  color: var(--frenchPass) !important;
+}
 .u-dodgerBlue {
   color: var(--dodgerBlue) !important;
 }
-.u-lightishPurple {
-  color: var(--lightishPurple) !important;
+.u-scienceBlue {
+  color: var(--scienceBlue) !important;
+}
+.u-puertoRico {
+  color: var(--puertoRico) !important;
+}
+.u-grannyApple {
+  color: var(--grannyApple) !important;
+}
+.u-emerald {
+  color: var(--emerald) !important;
+}
+.u-malachite {
+  color: var(--malachite) !important;
+}
+.u-seafoamGreen {
+  color: var(--seafoamGreen) !important;
+}
+.u-brightSun {
+  color: var(--brightSun) !important;
+}
+.u-texasRose {
+  color: var(--texasRose) !important;
+}
+.u-chablis {
+  color: var(--chablis) !important;
+}
+.u-yourPink {
+  color: var(--yourPink) !important;
+}
+.u-fuchsia {
+  color: var(--fuchsia) !important;
+}
+.u-pomegranate {
+  color: var(--pomegranate) !important;
 }
 .u-monza {
   color: var(--monza) !important;
 }
-.u-pomegranate {
-  color: var(--pomegranate) !important;
+.u-portage {
+  color: var(--portage) !important;
+}
+.u-azure {
+  color: var(--azure) !important;
+}
+.u-melon {
+  color: var(--melon) !important;
+}
+.u-blazeOrange {
+  color: var(--blazeOrange) !important;
+}
+.u-mango {
+  color: var(--mango) !important;
+}
+.u-pumpkinOrange {
+  color: var(--pumpkinOrange) !important;
+}
+.u-lavender {
+  color: var(--lavender) !important;
+}
+.u-darkPeriwinkle {
+  color: var(--darkPeriwinkle) !important;
+}
+.u-purpley {
+  color: var(--purpley) !important;
+}
+.u-lightishPurple {
+  color: var(--lightishPurple) !important;
+}
+.u-barney {
+  color: var(--barney) !important;
 }
 .u-weirdGreen {
   color: var(--weirdGreen) !important;
@@ -25337,17 +26281,86 @@ body {
 .u-overlay {
   color: var(--overlay) !important;
 }
+.u-zircon {
+  color: var(--zircon) !important;
+}
+.u-frenchPass {
+  color: var(--frenchPass) !important;
+}
 .u-dodgerBlue {
   color: var(--dodgerBlue) !important;
 }
-.u-lightishPurple {
-  color: var(--lightishPurple) !important;
+.u-scienceBlue {
+  color: var(--scienceBlue) !important;
+}
+.u-puertoRico {
+  color: var(--puertoRico) !important;
+}
+.u-grannyApple {
+  color: var(--grannyApple) !important;
+}
+.u-emerald {
+  color: var(--emerald) !important;
+}
+.u-malachite {
+  color: var(--malachite) !important;
+}
+.u-seafoamGreen {
+  color: var(--seafoamGreen) !important;
+}
+.u-brightSun {
+  color: var(--brightSun) !important;
+}
+.u-texasRose {
+  color: var(--texasRose) !important;
+}
+.u-chablis {
+  color: var(--chablis) !important;
+}
+.u-yourPink {
+  color: var(--yourPink) !important;
+}
+.u-fuchsia {
+  color: var(--fuchsia) !important;
+}
+.u-pomegranate {
+  color: var(--pomegranate) !important;
 }
 .u-monza {
   color: var(--monza) !important;
 }
-.u-pomegranate {
-  color: var(--pomegranate) !important;
+.u-portage {
+  color: var(--portage) !important;
+}
+.u-azure {
+  color: var(--azure) !important;
+}
+.u-melon {
+  color: var(--melon) !important;
+}
+.u-blazeOrange {
+  color: var(--blazeOrange) !important;
+}
+.u-mango {
+  color: var(--mango) !important;
+}
+.u-pumpkinOrange {
+  color: var(--pumpkinOrange) !important;
+}
+.u-lavender {
+  color: var(--lavender) !important;
+}
+.u-darkPeriwinkle {
+  color: var(--darkPeriwinkle) !important;
+}
+.u-purpley {
+  color: var(--purpley) !important;
+}
+.u-lightishPurple {
+  color: var(--lightishPurple) !important;
+}
+.u-barney {
+  color: var(--barney) !important;
 }
 .u-weirdGreen {
   color: var(--weirdGreen) !important;
@@ -26200,24 +27213,6 @@ iframe {
   font-size: 1.5em;
 }
 
-.intentModal--1aYIb {
-  height: 90vh;
-}
-@media (max-width: 48rem) {
-  .intentModal--1aYIb {
-    height: 100%;
-    width: 100%;
-  }
-}
-.intentModal--1aYIb > div {
-  height: 100%;
-  max-width: unset !important;
-}
-.intentModal--1aYIb .intentModal__cross--1Hfuz {
-  top: 0.25rem;
-  right: 0.5rem;
-}
-
 .OrderedList--17A_o {
   list-style: none;
   counter-reset: cozy-ui-ordered-list;
@@ -26325,10 +27320,9 @@ html {
   align-items: center;
   color: var(--primaryTextColor);
 }
-.Breadcrumb__previousButton--Jcvx7 {
+.Breadcrumb__previousButton--Jcvx7.Breadcrumb__previousButton--Jcvx7 {
   margin-left: -0.75rem;
   margin-right: 0.25rem;
-  cursor: pointer;
 }
 .Breadcrumb__items--2ozfJ {
   flex-grow: 1;
@@ -26605,6 +27599,7 @@ html {
     Stylus: charcoalGrey -  #32363F, CSS: var(--charcoalGrey)
     Stylus: black        -  #000000, CSS: var(--black)
 
+    Weight: -1
 
     Styleguide Settings.colors.grey
     */
@@ -26620,34 +27615,56 @@ html {
     Blue
 
     Stylus: zircon       -  #F5FAFF, CSS: var(--zircon)
+    Stylus: hawkesBlue   -  #EEF5FE, CSS: var(--hawkesBlue)
+    Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
+    Stylus: azure        -  #1FA8F1, CSS: var(--azure)
     Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
     Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
+    Stylus: puertoRico   -  #0DCBCF, CSS: var(--puertoRico)
 
     Styleguide Settings.colors.blue
     */
   --zircon: #f5faff;
+  --hawkesBlue: #eef5fe;
+  --frenchPass: #c2dcff;
+  --azure: #1fa8f1;
   --dodgerBlue: #297ef2;
   --scienceBlue: #0b61d6;
+  --puertoRico: #0dcbcf;
 /*
     Green
 
+    Stylus: grannyApple  - #DEF7E7, CSS: var(--grannyApple)
     Stylus: weirdGreen   - #40DE8E, CSS: var(--weirdGreen)
     Stylus: emerald      - #35CE68, CSS: var(--emerald)
     Stylus: malachite    - #08b442, CSS: var(--malachite)
+    Stylus: seafoamGreen - #3DA67E, CSS: var(--seafoamGreen)
 
     Styleguide Settings.colors.green
     */
+  --grannyApple: #def7e7;
   --weirdGreen: #40de8e;
   --emerald: #35ce68;
   --malachite: #08b442;
+  --seafoamGreen: #3da67e;
 /*
     Orange
 
+    Stylus: brightSun     - #FFC644, CSS: var(--brightSun)
+    Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
     Stylus: mango         - #FF962F, CSS: var(--mango)
+    Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
+    Stylus: blazeOrange   - #FC6D00, CSS: var(--blazeOrange)
+    Stylus: melon         - #FD7461, CSS: var(--melon)
 
     Styleguide Settings.colors.orange
     */
+  --brightSun: #ffc644;
+  --texasRose: #ffae5f;
   --mango: #ff962f;
+  --pumpkinOrange: #ff7f1b;
+  --blazeOrange: #fc6d00;
+  --melon: #fd7461;
 /*
     Red
 
@@ -26664,9 +27681,31 @@ html {
   --fuchsia: #fc4c83;
   --pomegranate: #f52d2d;
   --monza: #dd0505;
-}
-html,
-.CozyTheme--normal--I_6Ur {
+/*
+    Purple
+
+    Stylus: lavender       - #C2ADF4, CSS: var(--lavender)
+    Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
+    Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
+    Stylus: portage        - #9169F2, CSS: var(--portage)
+    Stylus: lightishPurple - #B449E7, CSS: var(--lightishPurple)
+    Stylus: barney         - #922BC2, CSS: var(--barney)
+
+    Styleguide Settings.colors.purple
+    */
+  --lavender: #c2adf4;
+  --darkPeriwinkle: #6984ce;
+  --purpley: #7f6bee;
+  --portage: #9169f2;
+  --lightishPurple: #b449e7;
+  --barney: #922bc2;
+/*
+        Theme
+
+        Colors theme used in the user interface. You can directly use the var name assiociated with its hexadecimal.
+
+        Styleguide Settings.theme
+    */
 /*
     Primary
 
@@ -26679,77 +27718,24 @@ html,
 
     Styleguide Settings.theme.primary
     */
+}
+html,
+.CozyTheme--normal--I_6Ur {
   --primaryColor: #297ef2;
   --primaryColorDark: #0b61d6;
   --primaryColorLight: #5c9df5;
   --primaryColorLighter: #4b93f7;
   --primaryColorLightest: #9fc4fb;
-/*
-    Secondary
-
-    Stylus: secondaryColor   - #fd7461, CSS: var(--secondaryColor)
-    Stylus: secondaryColorDark   - #E3503B, CSS: var(--secondaryColorDark)
-    Stylus: secondaryColorLight   - #ffdeda, CSS: var(--secondaryColorLight)
-    Stylus: secondaryColorLighter   - #fd7461, CSS: var(--secondaryColorLighter)
-    Stylus: secondaryColorLightest   - #FECDC6, CSS: var(--secondaryColorLightest)
-
-    Styleguide Settings.theme.secondary
-    */
   --secondaryColor: #fd7461;
   --secondaryColorDark: #e3503b;
   --secondaryColorLight: #ffdeda;
   --secondaryColorLighter: #fd7461;
   --secondaryColorLightest: #fecdc6;
-/*
-    Background colors
-
-    Stylus: primaryBackgroundLight -  #F5FAFF, CSS: var(--primaryBackgroundLight)
-    Stylus: paperBackgroundColor -  #FFF, CSS: var(--paperBackgroundColor)
-    Stylus: defaultBackgroundColor -  #F5F6F7, CSS: var(--defaultBackgroundColor)
-
-    Styleguide Settings.theme.background
-    */
-  --primaryBackgroundLight: #f5faff;
-  --paperBackgroundColor: #fff;
-  --defaultBackgroundColor: #f5f6f7;
-/*
-    Text colors
-
-    Stylus: primaryTextColor -  #32363F, CSS: var(--primaryTextColor)
-    Stylus: secondaryTextColor - #95999D, CSS: var(--secondaryTextColor)
-    Stylus: primaryContrastTextColor -  #FFF, CSS: var(--primaryContrastTextColor)
-    Stylus: primaryContrastTextColor -  #FFF, CSS(--secondaryContrastTextColor)
-
-    Styleguide Settings.theme.text
-    */
-  --primaryTextColor: #32363f;
-  --secondaryTextColor: #95999d;
+  --primaryBackgroundLight: var(--zircon);
+  --primaryTextColor: var(--charcoalGrey);
+  --secondaryTextColor: var(--coolGrey);
   --primaryContrastTextColor: #fff;
   --secondaryContrastTextColor: #fff;
-/*
-    Components colors
-
-    Stylus: dividerColor -  #D6D8Da, CSS: var(--dividerColor)
-
-    Styleguide Settings.theme.components
-    */
-  --dividerColor: #d6d8da;
-/*
-    Intention colors
-
-    Stylus: validColor -  #35CE68, CSS: var(--validColor)
-    Stylus: warnColor -  #FF962F, CSS: var(--warnColor)
-    Stylus: dangerColor -  #F52D2D, CSS: var(--dangerColor)
-
-    Styleguide Settings.theme.intention
-    */
-  --validColor: #35ce68;
-  --warnColor: #ff962f;
-  --dangerColor: #f52d2d;
-/*
-    The CSS variables below are historic and we should strive not to
-    use them. Prefer to use directly semantic colors above.
-    */
   --spinnerColor: var(--primaryColor);
   --linkColor: var(--primaryColor);
   --linkTextDecoration: none;
@@ -26766,12 +27752,18 @@ html,
   --secondaryButtonSecondaryColor: var(--silver);
   --secondaryButtonActiveColor: var(--silver);
   --secondaryButtonContrastColor: var(--black);
+  --paperBackgroundColor: #fff;
+  --defaultBackgroundColor: var(--paleGrey);
+  --dividerColor: var(--silver);
   --dividerColor2: var(--coolGrey);
   --iconColor: currentColor;
   --textIconColor: var(--charcoalGrey);
   --actionMenuIconColor: var(--slateGrey);
   --errorColor: #f52d2d;
   --errorBackground: #fff2f2;
+  --validColor: #35ce68;
+  --warnColor: #ff962f;
+  --dangerColor: #f52d2d;
   --neutralBackground: var(--paleGrey);
   --buttonTextTransform: uppercase;
   --buttonBorderRadius: 0.125rem;
@@ -27072,17 +28064,86 @@ html,
 .u-overlay {
   color: var(--overlay) !important;
 }
+.u-zircon {
+  color: var(--zircon) !important;
+}
+.u-frenchPass {
+  color: var(--frenchPass) !important;
+}
 .u-dodgerBlue {
   color: var(--dodgerBlue) !important;
 }
-.u-lightishPurple {
-  color: var(--lightishPurple) !important;
+.u-scienceBlue {
+  color: var(--scienceBlue) !important;
+}
+.u-puertoRico {
+  color: var(--puertoRico) !important;
+}
+.u-grannyApple {
+  color: var(--grannyApple) !important;
+}
+.u-emerald {
+  color: var(--emerald) !important;
+}
+.u-malachite {
+  color: var(--malachite) !important;
+}
+.u-seafoamGreen {
+  color: var(--seafoamGreen) !important;
+}
+.u-brightSun {
+  color: var(--brightSun) !important;
+}
+.u-texasRose {
+  color: var(--texasRose) !important;
+}
+.u-chablis {
+  color: var(--chablis) !important;
+}
+.u-yourPink {
+  color: var(--yourPink) !important;
+}
+.u-fuchsia {
+  color: var(--fuchsia) !important;
+}
+.u-pomegranate {
+  color: var(--pomegranate) !important;
 }
 .u-monza {
   color: var(--monza) !important;
 }
-.u-pomegranate {
-  color: var(--pomegranate) !important;
+.u-portage {
+  color: var(--portage) !important;
+}
+.u-azure {
+  color: var(--azure) !important;
+}
+.u-melon {
+  color: var(--melon) !important;
+}
+.u-blazeOrange {
+  color: var(--blazeOrange) !important;
+}
+.u-mango {
+  color: var(--mango) !important;
+}
+.u-pumpkinOrange {
+  color: var(--pumpkinOrange) !important;
+}
+.u-lavender {
+  color: var(--lavender) !important;
+}
+.u-darkPeriwinkle {
+  color: var(--darkPeriwinkle) !important;
+}
+.u-purpley {
+  color: var(--purpley) !important;
+}
+.u-lightishPurple {
+  color: var(--lightishPurple) !important;
+}
+.u-barney {
+  color: var(--barney) !important;
 }
 .u-weirdGreen {
   color: var(--weirdGreen) !important;
@@ -27527,6 +28588,7 @@ html {
     Stylus: charcoalGrey -  #32363F, CSS: var(--charcoalGrey)
     Stylus: black        -  #000000, CSS: var(--black)
 
+    Weight: -1
 
     Styleguide Settings.colors.grey
     */
@@ -27542,34 +28604,56 @@ html {
     Blue
 
     Stylus: zircon       -  #F5FAFF, CSS: var(--zircon)
+    Stylus: hawkesBlue   -  #EEF5FE, CSS: var(--hawkesBlue)
+    Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
+    Stylus: azure        -  #1FA8F1, CSS: var(--azure)
     Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
     Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
+    Stylus: puertoRico   -  #0DCBCF, CSS: var(--puertoRico)
 
     Styleguide Settings.colors.blue
     */
   --zircon: #f5faff;
+  --hawkesBlue: #eef5fe;
+  --frenchPass: #c2dcff;
+  --azure: #1fa8f1;
   --dodgerBlue: #297ef2;
   --scienceBlue: #0b61d6;
+  --puertoRico: #0dcbcf;
 /*
     Green
 
+    Stylus: grannyApple  - #DEF7E7, CSS: var(--grannyApple)
     Stylus: weirdGreen   - #40DE8E, CSS: var(--weirdGreen)
     Stylus: emerald      - #35CE68, CSS: var(--emerald)
     Stylus: malachite    - #08b442, CSS: var(--malachite)
+    Stylus: seafoamGreen - #3DA67E, CSS: var(--seafoamGreen)
 
     Styleguide Settings.colors.green
     */
+  --grannyApple: #def7e7;
   --weirdGreen: #40de8e;
   --emerald: #35ce68;
   --malachite: #08b442;
+  --seafoamGreen: #3da67e;
 /*
     Orange
 
+    Stylus: brightSun     - #FFC644, CSS: var(--brightSun)
+    Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
     Stylus: mango         - #FF962F, CSS: var(--mango)
+    Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
+    Stylus: blazeOrange   - #FC6D00, CSS: var(--blazeOrange)
+    Stylus: melon         - #FD7461, CSS: var(--melon)
 
     Styleguide Settings.colors.orange
     */
+  --brightSun: #ffc644;
+  --texasRose: #ffae5f;
   --mango: #ff962f;
+  --pumpkinOrange: #ff7f1b;
+  --blazeOrange: #fc6d00;
+  --melon: #fd7461;
 /*
     Red
 
@@ -27586,9 +28670,31 @@ html {
   --fuchsia: #fc4c83;
   --pomegranate: #f52d2d;
   --monza: #dd0505;
-}
-html,
-.CozyTheme--normal--382qj {
+/*
+    Purple
+
+    Stylus: lavender       - #C2ADF4, CSS: var(--lavender)
+    Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
+    Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
+    Stylus: portage        - #9169F2, CSS: var(--portage)
+    Stylus: lightishPurple - #B449E7, CSS: var(--lightishPurple)
+    Stylus: barney         - #922BC2, CSS: var(--barney)
+
+    Styleguide Settings.colors.purple
+    */
+  --lavender: #c2adf4;
+  --darkPeriwinkle: #6984ce;
+  --purpley: #7f6bee;
+  --portage: #9169f2;
+  --lightishPurple: #b449e7;
+  --barney: #922bc2;
+/*
+        Theme
+
+        Colors theme used in the user interface. You can directly use the var name assiociated with its hexadecimal.
+
+        Styleguide Settings.theme
+    */
 /*
     Primary
 
@@ -27601,77 +28707,24 @@ html,
 
     Styleguide Settings.theme.primary
     */
+}
+html,
+.CozyTheme--normal--382qj {
   --primaryColor: #297ef2;
   --primaryColorDark: #0b61d6;
   --primaryColorLight: #5c9df5;
   --primaryColorLighter: #4b93f7;
   --primaryColorLightest: #9fc4fb;
-/*
-    Secondary
-
-    Stylus: secondaryColor   - #fd7461, CSS: var(--secondaryColor)
-    Stylus: secondaryColorDark   - #E3503B, CSS: var(--secondaryColorDark)
-    Stylus: secondaryColorLight   - #ffdeda, CSS: var(--secondaryColorLight)
-    Stylus: secondaryColorLighter   - #fd7461, CSS: var(--secondaryColorLighter)
-    Stylus: secondaryColorLightest   - #FECDC6, CSS: var(--secondaryColorLightest)
-
-    Styleguide Settings.theme.secondary
-    */
   --secondaryColor: #fd7461;
   --secondaryColorDark: #e3503b;
   --secondaryColorLight: #ffdeda;
   --secondaryColorLighter: #fd7461;
   --secondaryColorLightest: #fecdc6;
-/*
-    Background colors
-
-    Stylus: primaryBackgroundLight -  #F5FAFF, CSS: var(--primaryBackgroundLight)
-    Stylus: paperBackgroundColor -  #FFF, CSS: var(--paperBackgroundColor)
-    Stylus: defaultBackgroundColor -  #F5F6F7, CSS: var(--defaultBackgroundColor)
-
-    Styleguide Settings.theme.background
-    */
-  --primaryBackgroundLight: #f5faff;
-  --paperBackgroundColor: #fff;
-  --defaultBackgroundColor: #f5f6f7;
-/*
-    Text colors
-
-    Stylus: primaryTextColor -  #32363F, CSS: var(--primaryTextColor)
-    Stylus: secondaryTextColor - #95999D, CSS: var(--secondaryTextColor)
-    Stylus: primaryContrastTextColor -  #FFF, CSS: var(--primaryContrastTextColor)
-    Stylus: primaryContrastTextColor -  #FFF, CSS(--secondaryContrastTextColor)
-
-    Styleguide Settings.theme.text
-    */
-  --primaryTextColor: #32363f;
-  --secondaryTextColor: #95999d;
+  --primaryBackgroundLight: var(--zircon);
+  --primaryTextColor: var(--charcoalGrey);
+  --secondaryTextColor: var(--coolGrey);
   --primaryContrastTextColor: #fff;
   --secondaryContrastTextColor: #fff;
-/*
-    Components colors
-
-    Stylus: dividerColor -  #D6D8Da, CSS: var(--dividerColor)
-
-    Styleguide Settings.theme.components
-    */
-  --dividerColor: #d6d8da;
-/*
-    Intention colors
-
-    Stylus: validColor -  #35CE68, CSS: var(--validColor)
-    Stylus: warnColor -  #FF962F, CSS: var(--warnColor)
-    Stylus: dangerColor -  #F52D2D, CSS: var(--dangerColor)
-
-    Styleguide Settings.theme.intention
-    */
-  --validColor: #35ce68;
-  --warnColor: #ff962f;
-  --dangerColor: #f52d2d;
-/*
-    The CSS variables below are historic and we should strive not to
-    use them. Prefer to use directly semantic colors above.
-    */
   --spinnerColor: var(--primaryColor);
   --linkColor: var(--primaryColor);
   --linkTextDecoration: none;
@@ -27688,12 +28741,18 @@ html,
   --secondaryButtonSecondaryColor: var(--silver);
   --secondaryButtonActiveColor: var(--silver);
   --secondaryButtonContrastColor: var(--black);
+  --paperBackgroundColor: #fff;
+  --defaultBackgroundColor: var(--paleGrey);
+  --dividerColor: var(--silver);
   --dividerColor2: var(--coolGrey);
   --iconColor: currentColor;
   --textIconColor: var(--charcoalGrey);
   --actionMenuIconColor: var(--slateGrey);
   --errorColor: #f52d2d;
   --errorBackground: #fff2f2;
+  --validColor: #35ce68;
+  --warnColor: #ff962f;
+  --dangerColor: #f52d2d;
   --neutralBackground: var(--paleGrey);
   --buttonTextTransform: uppercase;
   --buttonBorderRadius: 0.125rem;
@@ -27961,16 +29020,18 @@ html {
   justify-content: flex-start;
   align-items: center;
 }
-.viewer-toolbar--mobilebrowser--VH9jK {
-  background-color: var(--charcoalGrey);
-  opacity: 0.9;
-}
 .viewer-toolbar--hidden--13ibV {
   opacity: 0;
 }
 @media (max-width: 63.938rem) {
   .viewer-toolbar--27_8W {
     height: 3rem;
+  }
+}
+@media (max-width: 48rem) {
+  .viewer-toolbar--27_8W {
+    background: var(--white);
+    border-bottom: 1px solid var(--silver);
   }
 }
 .viewer-wrapper--2GIXH {
@@ -27980,13 +29041,15 @@ html {
   top: 0;
   bottom: 0;
   z-index: 50;
-  background: var(--charcoalGrey);
   overflow: hidden;
+  background: var(--charcoalGrey);
   color: var(--white);
 }
-.viewer-wrapper--light--1syW7 {
-  background: var(--white);
-  color: var(--black);
+@media (max-width: 48rem) {
+  .viewer-wrapper--2GIXH {
+    color: var(--charcoalGrey);
+    background: var(--white);
+  }
 }
 .viewer-imageviewer--TR2gU,
 .viewer-noviewer--3heA6,
@@ -30343,6 +31406,7 @@ html {
     Stylus: charcoalGrey -  #32363F, CSS: var(--charcoalGrey)
     Stylus: black        -  #000000, CSS: var(--black)
 
+    Weight: -1
 
     Styleguide Settings.colors.grey
     */
@@ -30358,34 +31422,56 @@ html {
     Blue
 
     Stylus: zircon       -  #F5FAFF, CSS: var(--zircon)
+    Stylus: hawkesBlue   -  #EEF5FE, CSS: var(--hawkesBlue)
+    Stylus: frenchPass   -  #C2DCFF, CSS: var(--frenchPass)
+    Stylus: azure        -  #1FA8F1, CSS: var(--azure)
     Stylus: dodgerBlue   -  #297EF2, CSS: var(--dodgerBlue)
     Stylus: scienceBlue  -  #0B61D6, CSS: var(--scienceBlue)
+    Stylus: puertoRico   -  #0DCBCF, CSS: var(--puertoRico)
 
     Styleguide Settings.colors.blue
     */
   --zircon: #f5faff;
+  --hawkesBlue: #eef5fe;
+  --frenchPass: #c2dcff;
+  --azure: #1fa8f1;
   --dodgerBlue: #297ef2;
   --scienceBlue: #0b61d6;
+  --puertoRico: #0dcbcf;
 /*
     Green
 
+    Stylus: grannyApple  - #DEF7E7, CSS: var(--grannyApple)
     Stylus: weirdGreen   - #40DE8E, CSS: var(--weirdGreen)
     Stylus: emerald      - #35CE68, CSS: var(--emerald)
     Stylus: malachite    - #08b442, CSS: var(--malachite)
+    Stylus: seafoamGreen - #3DA67E, CSS: var(--seafoamGreen)
 
     Styleguide Settings.colors.green
     */
+  --grannyApple: #def7e7;
   --weirdGreen: #40de8e;
   --emerald: #35ce68;
   --malachite: #08b442;
+  --seafoamGreen: #3da67e;
 /*
     Orange
 
+    Stylus: brightSun     - #FFC644, CSS: var(--brightSun)
+    Stylus: texasRose     - #FFAE5F, CSS: var(--texasRose)
     Stylus: mango         - #FF962F, CSS: var(--mango)
+    Stylus: pumpkinOrange - #FF7F1B, CSS: var(--pumpkinOrange)
+    Stylus: blazeOrange   - #FC6D00, CSS: var(--blazeOrange)
+    Stylus: melon         - #FD7461, CSS: var(--melon)
 
     Styleguide Settings.colors.orange
     */
+  --brightSun: #ffc644;
+  --texasRose: #ffae5f;
   --mango: #ff962f;
+  --pumpkinOrange: #ff7f1b;
+  --blazeOrange: #fc6d00;
+  --melon: #fd7461;
 /*
     Red
 
@@ -30402,9 +31488,31 @@ html {
   --fuchsia: #fc4c83;
   --pomegranate: #f52d2d;
   --monza: #dd0505;
-}
-html,
-.CozyTheme--normal--x9CNZ {
+/*
+    Purple
+
+    Stylus: lavender       - #C2ADF4, CSS: var(--lavender)
+    Stylus: darkPeriwinkle - #6984CE, CSS: var(--darkPeriwinkle)
+    Stylus: purpley        - #7F6BEE, CSS: var(--purpley)
+    Stylus: portage        - #9169F2, CSS: var(--portage)
+    Stylus: lightishPurple - #B449E7, CSS: var(--lightishPurple)
+    Stylus: barney         - #922BC2, CSS: var(--barney)
+
+    Styleguide Settings.colors.purple
+    */
+  --lavender: #c2adf4;
+  --darkPeriwinkle: #6984ce;
+  --purpley: #7f6bee;
+  --portage: #9169f2;
+  --lightishPurple: #b449e7;
+  --barney: #922bc2;
+/*
+        Theme
+
+        Colors theme used in the user interface. You can directly use the var name assiociated with its hexadecimal.
+
+        Styleguide Settings.theme
+    */
 /*
     Primary
 
@@ -30417,77 +31525,24 @@ html,
 
     Styleguide Settings.theme.primary
     */
+}
+html,
+.CozyTheme--normal--x9CNZ {
   --primaryColor: #297ef2;
   --primaryColorDark: #0b61d6;
   --primaryColorLight: #5c9df5;
   --primaryColorLighter: #4b93f7;
   --primaryColorLightest: #9fc4fb;
-/*
-    Secondary
-
-    Stylus: secondaryColor   - #fd7461, CSS: var(--secondaryColor)
-    Stylus: secondaryColorDark   - #E3503B, CSS: var(--secondaryColorDark)
-    Stylus: secondaryColorLight   - #ffdeda, CSS: var(--secondaryColorLight)
-    Stylus: secondaryColorLighter   - #fd7461, CSS: var(--secondaryColorLighter)
-    Stylus: secondaryColorLightest   - #FECDC6, CSS: var(--secondaryColorLightest)
-
-    Styleguide Settings.theme.secondary
-    */
   --secondaryColor: #fd7461;
   --secondaryColorDark: #e3503b;
   --secondaryColorLight: #ffdeda;
   --secondaryColorLighter: #fd7461;
   --secondaryColorLightest: #fecdc6;
-/*
-    Background colors
-
-    Stylus: primaryBackgroundLight -  #F5FAFF, CSS: var(--primaryBackgroundLight)
-    Stylus: paperBackgroundColor -  #FFF, CSS: var(--paperBackgroundColor)
-    Stylus: defaultBackgroundColor -  #F5F6F7, CSS: var(--defaultBackgroundColor)
-
-    Styleguide Settings.theme.background
-    */
-  --primaryBackgroundLight: #f5faff;
-  --paperBackgroundColor: #fff;
-  --defaultBackgroundColor: #f5f6f7;
-/*
-    Text colors
-
-    Stylus: primaryTextColor -  #32363F, CSS: var(--primaryTextColor)
-    Stylus: secondaryTextColor - #95999D, CSS: var(--secondaryTextColor)
-    Stylus: primaryContrastTextColor -  #FFF, CSS: var(--primaryContrastTextColor)
-    Stylus: primaryContrastTextColor -  #FFF, CSS(--secondaryContrastTextColor)
-
-    Styleguide Settings.theme.text
-    */
-  --primaryTextColor: #32363f;
-  --secondaryTextColor: #95999d;
+  --primaryBackgroundLight: var(--zircon);
+  --primaryTextColor: var(--charcoalGrey);
+  --secondaryTextColor: var(--coolGrey);
   --primaryContrastTextColor: #fff;
   --secondaryContrastTextColor: #fff;
-/*
-    Components colors
-
-    Stylus: dividerColor -  #D6D8Da, CSS: var(--dividerColor)
-
-    Styleguide Settings.theme.components
-    */
-  --dividerColor: #d6d8da;
-/*
-    Intention colors
-
-    Stylus: validColor -  #35CE68, CSS: var(--validColor)
-    Stylus: warnColor -  #FF962F, CSS: var(--warnColor)
-    Stylus: dangerColor -  #F52D2D, CSS: var(--dangerColor)
-
-    Styleguide Settings.theme.intention
-    */
-  --validColor: #35ce68;
-  --warnColor: #ff962f;
-  --dangerColor: #f52d2d;
-/*
-    The CSS variables below are historic and we should strive not to
-    use them. Prefer to use directly semantic colors above.
-    */
   --spinnerColor: var(--primaryColor);
   --linkColor: var(--primaryColor);
   --linkTextDecoration: none;
@@ -30504,12 +31559,18 @@ html,
   --secondaryButtonSecondaryColor: var(--silver);
   --secondaryButtonActiveColor: var(--silver);
   --secondaryButtonContrastColor: var(--black);
+  --paperBackgroundColor: #fff;
+  --defaultBackgroundColor: var(--paleGrey);
+  --dividerColor: var(--silver);
   --dividerColor2: var(--coolGrey);
   --iconColor: currentColor;
   --textIconColor: var(--charcoalGrey);
   --actionMenuIconColor: var(--slateGrey);
   --errorColor: #f52d2d;
   --errorBackground: #fff2f2;
+  --validColor: #35ce68;
+  --warnColor: #ff962f;
+  --dangerColor: #f52d2d;
   --neutralBackground: var(--paleGrey);
   --buttonTextTransform: uppercase;
   --buttonBorderRadius: 0.125rem;
@@ -33053,5 +34114,35 @@ html {
   .Panel-side--327EK {
     flex-basis: auto;
   }
+}
+
+.CompositeRow--3KCwt {
+  min-height: 3rem;
+  padding: 1rem;
+}
+.CompositeRow__dense--3EPKf {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.CompositeRow__body--3nEEv > * + * {
+  margin-top: 2px;
+}
+
+.intentModal--1aYIb {
+  height: 90vh;
+}
+@media (max-width: 48rem) {
+  .intentModal--1aYIb {
+    height: 100%;
+    width: 100%;
+  }
+}
+.intentModal--1aYIb > div {
+  height: 100%;
+  max-width: unset !important;
+}
+.intentModal--1aYIb .intentModal__cross--1Hfuz {
+  top: 0.25rem;
+  right: 0.5rem;
 }
 
